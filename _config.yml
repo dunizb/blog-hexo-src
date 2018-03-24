@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Dunizb
-subtitle: 这世间唯有梦想和好姑娘不可辜负！
-description: Dunizb的博客,读你,全栈,Web前端,Vue.js,Node.js,读书笔记,Bootstrap,
+title: Dunizb(张兵)的博客
+subtitle: 这世间唯有梦想和好姑娘不可辜负
+description: Web前端，Web技术博客，HTML5，CSS3，Vue.js，Hexo，Node.js，博客，GitHub，Bootstrap
 author: Dunizb
-language:
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://dunizb.com
+url: https://dunizb.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,11 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: git@github.com:dunizb/dunizb.github.io.git
+  repo: git@git.coding.net:dunizb/blog.git
   branch: master

@@ -2,9 +2,9 @@
 title: BigDecimal互转Integer
 date: 2013-10-26 20:57:51
 categories:
+- 服务端开发
 - Java
 tags:
-- java
 - javase
 - 备忘
 ---
@@ -15,7 +15,7 @@ tags:
 Integer a=new Integer(int value); 
 Integer a=new Integer(String value);
 ```
-
+<!-- more -->
 **转换：**
 1. 定义中就可以将int型和String型的转换为Integer型  
 2. String类型转换为Integer型

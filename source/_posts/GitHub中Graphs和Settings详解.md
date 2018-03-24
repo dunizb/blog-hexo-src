@@ -1,0 +1,63 @@
+---
+title: GitHub中Graphs和Settings详解
+date: 2016-04-14 23:32:00
+categories:
+- 工具使用
+tags:
+- github
+description: "在GitHub中可以通过4种图标查看该仓库的相关统计信息。利用图标直观地汇总信息，可以让用户把握当前仓库的各种趋势。下面我们来了解一下每个图标所包含的信息。"
+---
+
+一、Graphs
+=====================
+在GitHub中可以通过4种图标查看该仓库的相关统计信息。利用图标直观地汇总信息，可以让用户把握当前仓库的各种趋势。下面我们来了解一下每个图标所包含的信息。
+1. Contributore
+-------------------------------
+![Contributore](http://upload-images.jianshu.io/upload_images/68937-513bdf608f290479.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+在Contributore的4种图表中，我们可以看到每个用户在相应日期中发送提交、添加代码、删除代码的大致数量，从这里我们可以看到到该仓库的代码主要由哪些人编写。而且，还可以通过图标分析处该软件大幅修改阶段和稳定维护阶段的相应时期。
+
+2. commits
+----------------------
+![commits](http://upload-images.jianshu.io/upload_images/68937-68e848112959fb93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+Commits Activity中显示了一年内（52周）每周收到的提交的大致数量。通过左箭头和右箭头移动，还可以查看每天的提交数量，下面的曲线相应的跟着变动。判断某个仓库是否在积极的更新时，这部分是一个重要的指标。
+
+3. Code Frequency（频率）
+--------------------------------
+![Code Frequency](http://upload-images.jianshu.io/upload_images/68937-37cf30be965eb4d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+Code Frequency中显示了该仓库中代码行数的增加量和删除量。图中基线以上绿色线条表示增加的代码数量，基线以下红色线条表示删除的代码数量。一款优秀的软件并不会一味的增加代码，在经过重构之后，代码量往往会降低，通过这张图可以直观的把握相应信息。
+
+4. Punch card（穿孔卡片）
+------------------------------------
+![Punch card（穿孔卡片）](http://upload-images.jianshu.io/upload_images/68937-1ab8feaa97d3c061.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+从Punch card的图中可以直观地掌握一周内每天何时收到的提交最多，黑色圆圈越大鞭尸提交越频繁。仓库的关键人物通常会出现在提交频率最高的时间段，因此，用户发送的Pull Request最有可能在这段时间内被处理。大致了解时间规律，将有助于大家把握好发送Pull Request以及等待回复的时间点。另外，该软件的开发集中在早上还是晚上，从这张表中也可以一目了然，从上图中可以看出（红线），老外们都是在上午11点开始一天密集的工作，密集的提交代码，早上8、9、10点基本上是在路上和吃早餐看新闻的时间.....。
+
+5. Network（分支网络）
+------------------------------------------
+![Network（分支网络）](http://upload-images.jianshu.io/upload_images/68937-2282050cdbf31100.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+以图表形式显示包括克隆仓库在内的所有分支的提交。从图上可以直观的看出每个人做了多少工作。将鼠标移到图中的点上，可以查看相应的参考内容。
+
+6.Members（成员）
+------------------------------------
+![Members（成员）](http://upload-images.jianshu.io/upload_images/68937-335af85ea63fb142.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+这个树型列表展示的拥有该仓库权限的、Fork并提交过代码的用户。层级关系表示的是组织下的成员。
+
+二、Settings
+============================
+在这里可以对仓库进行任何设置。用户必须有更改权限的设置才能看到这个页面。
+![Settings](http://upload-images.jianshu.io/upload_images/68937-0fea8149c1d69312.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+1. Settings
+----------------------------------
+在这里可以修改仓库名称，设置显示仓库URL时默认显示的分支。这个默认分支同时也是可以创建Pull Request时的默认值，如果各位的主分支不是master分支，建议更改这一设置。
+
+2.Features
+---------------------------------
+这里可以更改Wiki和Issue的相关设置。如果想关闭某些功能，只要取消勾选相应复选框即可，该功能就会从菜单中移除，无法使用。
+3. Merge Button
+---------------------------------
+这里可以设置合并代码按钮的合并方式，第一个选项是是否允许合并后再提交，默认是允许的；第二个选项是指是否允许压缩、压碎提交
+4.GitHub Pages
+-----------------------------------
+GitHub有一个名为GitHub Pages的仓库，用户可以利用该仓库中资料创建WEB页面，用来发布仓库中软件的相关信息如果已经创建过Pages，则会显示相应的URL。点击Automatic Page Generator即可以自动创建GitHub Pages。
+5. Danger Zone
+--------------------------------
+这里是一些需要格外留意的设置，在这里用户可以将仓库改为私有或是变更仓库的所有者，甚至删除仓库本身。这些设置有可能影响到其他人，在变更时一定要谨慎。

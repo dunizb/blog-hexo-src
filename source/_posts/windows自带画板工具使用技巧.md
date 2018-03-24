@@ -1,0 +1,68 @@
+---
+title: windows自带画板工具使用技巧
+date: 2016-05-13 13:02:00
+categories:
+- 工具使用
+tags:
+- Windows
+---
+
+windows自带画板工具是一个非常不错的简单的画图和处理图片的工具，虽然功能不是很多，但是对我来说应付日常简单的需求还是够了。因为我不会PS等专业软件，有时候需要处理下图片只能去用windows自带的画图工具了，也一直用习惯了，发现很多功能的使用很多人并不清楚，很多人舍近求远的装第三方软件，比如PS、截图工具等，虽然他们的功能够强大够专业，但是对于不需要特殊的需求，有时候windows自带画板工具也就足够了。
+<!-- more -->
+下面我分享一下我的使用经验吧。
+
+截图的使用
+==============================
+对于使用屏幕截图想必大家第一时间肯定想到QQ了，QQ的截图确实很方便，只要登录了QQ就可以使用。但是明显的缺点就是如果在无网络环境下，QQ截图就没法使用了，这就是windows自带的截图工具登场的时候了！windows自带截图工具名称叫“SnipingTool”。
+
+### 1.在开始菜单中启动windows自带截图工具
+![](http://upload-images.jianshu.io/upload_images/68937-8dedabda191d025c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+打开后工具长这样：
+![](http://upload-images.jianshu.io/upload_images/68937-b6fea12bb0ebabfc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+点击新建或者Ctrl+N就可以进行截图了，截图完成后自动粘贴到了工具中，可以立即进行简单的编辑
+![](http://upload-images.jianshu.io/upload_images/68937-385ee3c2fdd9b6dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+### 2.使用键盘截图（Prt Sc SysRq）
+
+我们的键盘上都有一个屏幕截取键，叫“PrtSc SysRq”，根据电脑品牌不同，名称略有差异，一般在电脑（以笔记本电脑为例）键盘的右上角第三个位置，也就是在“delete”键和“Insert Num LK”键旁边。在任意界面按下它就截下了当前的电脑屏幕，只是没有任何提示而已，此时，只要打开windows自带的画板工具进行粘贴即可，就可以看到屏幕截图了。
+![](http://upload-images.jianshu.io/upload_images/68937-1190d9f47c69405b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+画板工具的使用
+=========================
+启动画板工具我一般直接在运行窗口输入“mspaint”即可打开。本来想在开始菜单找一下，但是我的系统是windows10的，居然一下找不到，但是我记得windows7系统上在开始菜单中是可以找到的，是作为windows附件存在的，菜单名称就叫附件。
+![](http://upload-images.jianshu.io/upload_images/68937-71f9f95fa8ac05d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+### 1.打开图片方式
+
+在要编辑的图片上点击右键菜单-编辑，即自动启动了windows自带画板工具打开了。或者在画板工具中点击粘贴，选择粘贴来源。
+![](http://upload-images.jianshu.io/upload_images/68937-386ffc3ee9be10f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+### 2.修改图片中的文字
+**a) 删除选中区域、抠图**
+点击工具栏的选择工具，下拉可以选择形状，以矩形为例，点击后即可在页面中任意选取一块区域，可以对选中的区域进行移动，删除等
+![](http://upload-images.jianshu.io/upload_images/68937-c90f3727f4129f9b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+选中后按下键盘delete即可删除图上的windows字样。选取后点击鼠标右键，里面可以进行剪切、复制、删除等操作。
+
+**b) 开启网格辅助线**
+查看菜单-勾选网格线
+![](http://upload-images.jianshu.io/upload_images/68937-0f6a0426a67bc28d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+**c )去掉图片原本的文字换上新文字**
+一下面的图片为例，我们去掉图片中的店字
+![](http://upload-images.jianshu.io/upload_images/68937-8e304b34a33095bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+首先用选取工具选中店字，然后删掉它，此时会出现一个白块，然后我们点击工具栏中的滴管，在店字的周围色块中吸取一个颜色，然后点击油漆桶，在白块中填充吸取的颜色，此时店字的白块就被和谐的填充了红色。
+
+### 3.Ctrl键技巧：复制选中的区域图片
+
+当我们选择工具选择一块区域时，按下Ctrl键，再拖动鼠标，就可以复制前面选择的区域。比如上图中选择的店字，当我按住Ctrl键再拖动鼠标时，就可以复制一份了。
+![](http://upload-images.jianshu.io/upload_images/68937-643ffcb1ccc7a1c3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+### 4.Shift键技巧：和谐延长或缩短图像
+
+我们在画板上画一个方框如下  
+![](http://upload-images.jianshu.io/upload_images/68937-c5659495170605c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+然后我们选择一块方框，按住Shift键，拖动鼠标往右移动，就可以延迟方框的长度，往做移动就可以缩短方框的长度，只要你水平拖动手不抖动，那么我们可以无缝的延迟方框。如果你很难做到手不抖动，那么我们 可以直接使用键盘方向键像右像素级移动
+
+当然了，还有很多用法，这里只是抛砖引玉，大家可以多去尝试。
