@@ -112,5 +112,14 @@ isEmptyObject({
 ```
 这个方法是jQuery的isEmptyObject()方法的实现方式。
 
+方法四：  
+使用ES6语法`Object.keys(obj)`，返回一个数组，只需要判断数组长度是否大于0即可。
+```js
+function isEmptyObject(obj){
+  if(Object.keys(obj).length > 0) return true;
+  return false;
+```
+推荐使用方法四。
+
 ***
 ![文章首发于我的微信公众号，关注可获得每次最新推送](http://upload-images.jianshu.io/upload_images/68937-44511e8f33ac2b9b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
