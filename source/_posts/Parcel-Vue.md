@@ -20,7 +20,9 @@ Parcel有个中文网站：[https://parceljs.org/](https://parceljs.org/)，非�
 我以这两天做的一[个人相册](https://photo.dunizb.com)应用为例子，这是一个Parcel结合Vue.js+VueRouter实现的一个简单应用，主要功能是展示相册列表，让后点击某个相册进入照片瀑布流布局页面，展示该相册下的所有照片。**全部源码戳[这里](https://github.com/dunizb/parceljs-vue-photo)**
 
 对着官网文档搭建环境到跑起来，硬是花了我几个小时消化，试错，搜索等。下面是相册应用的整体目录：
-![](https://dunizb.b0.upaiyun.com/article/201805/parcel/parcel_0.png)
+
+<img src="https://dunizb.b0.upaiyun.com/article/201805/parcel/parcel_0.png" width="300px">
+
 这个目录结构大家做过`Vue.js`项目的应该很清楚吧，就把一一介绍是什么了。
 
 ## 开始
@@ -133,7 +135,7 @@ export default [
 到这里环境搭建就算完成了，写好vue页面后，就可以执行`npm run dev`了，Parcel会自动读取脚本里的配置进行打包，然后会在根目录生成一个`dist`文件夹，里面的代码就是打包后的文件了，并且自动做了压缩操作。
 
 并且Parcel的输出也是很美观
-![](https://dunizb.b0.upaiyun.com/article/201805/parcel/parcel_1.png)
+![](https://dunizb.b0.upaiyun.com/article/201805/parcel/parcel_1.jpg)
 ![](https://dunizb.b0.upaiyun.com/article/201805/parcel/parcel_2.png)
 
 ## 后记
