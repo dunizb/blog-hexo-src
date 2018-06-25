@@ -3,6 +3,7 @@ title: Vue.js动态组件解析
 date: 2017-06-19 22:44:28
 categories:
 - 前端开发
+- 前端框架
 tags:
 - Vue.js
 - 学习笔记
