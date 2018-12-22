@@ -15,6 +15,5 @@
   "repository": {
     "url": "git+https://github.com/yscoder/hexo-theme-indigo.git",
     "type": "git"
-  },
-  "dependencies": {}
+  }
 }
