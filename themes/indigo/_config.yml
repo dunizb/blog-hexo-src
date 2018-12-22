@@ -9,24 +9,26 @@
 #    target: _blank    是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: 主页
-    url: /
-  archives:
-    url: /archives
-  tags:
-    url: /tags
-  th-list:
-    text: Categories
-    url: /categories
+    text: 首页
+    url: https://www.dunizb.com/
+  shopping-bag:
+    text: 小铺
+    url: https://store.dunizb.com/
+    target: _blank
+  camera-retro:
+    text: 相册
+    url: https://photo.dunizb.com/
+    target: _blank
+  code:
+    text: 小码
+    url: https://demo.dunizb.com/
+    target: _blank
+  user:
+    text: 关于我
+    url: /about
   github:
-    url: https://github.com/yscoder
+    url: https://github.com/dunizb
     target: _blank
-  weibo:
-    url: http://www.weibo.com/ysweb
-    target: _blank
-  link:
-    text: 测试
-    url: /custom
 
 # 你的头像url
 avatar: /img/avatar.jpg
@@ -38,7 +40,7 @@ brand: /img/brand.jpg
 favicon: /favicon.ico
 
 # email
-email: 634206017@qq.com
+email: zb@dunizb.vip
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#3F51B5'
@@ -79,13 +81,13 @@ toc:
   list_number: true  # 是否显示数字排序
 
 # 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
-postMessage: 这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
+postMessage: 本文链接：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>。还可以给我打赏，鼓励我写出更多的干货文章。
 
 # 站长统计，如要开启，输入CNZZ站点id，如 cnzz: 1255152447
 cnzz: false
 
 # 百度统计，如要开启，改为你的 key
-baidu_tongji: false
+baidu_tongji: e590e40c3f16ace3499cab81c3fa3051
 
 # 腾讯分析，如要开启，输入站点id
 tajs: false
@@ -118,10 +120,10 @@ gitment: false
 
 # Valine Comment system. https://valine.js.org
 valine:
-  enable: false # 如果你想使用valine，请将值设置为 true
-  appId:  # your leancloud appId
-  appKey:  # your leancloud appKey
-  notify: false # Mail notify
+  enable: true # 如果你想使用valine，请将值设置为 true
+  appId:  OObzICxguaEmKygmhE2mUp5G-gzGzoHsz # your leancloud appId
+  appKey:  bBzvsvDvqSr8jOmX6AcoKVhQ # your leancloud appKey
+  notify: true # Mail notify
   verify: false # Verify code
   avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   placeholder: Just go go # Comment Box placeholder
@@ -137,13 +139,13 @@ hyper_id: false
 # 让搜索引擎重定向你的不同域名、不同子域、同域不同目录的站点到你期望的路径
 # https://support.google.com/webmasters/answer/139066
 # 假设配置为 canonical: http://imys.net，那么从搜索引擎中 www.imys.net 进入会重定向到 imys.net
-canonical: false
+canonical: true
 
 # 版权起始年份
-since_year: 2015
+since_year: 2019
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
-about: 用户页面中作者相关的描述性文字，如不需要设为 false
+about: Web前端开发工程师
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
