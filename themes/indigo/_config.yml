@@ -11,17 +11,24 @@ menu:
   home:
     text: 首页
     url: https://www.dunizb.com/
+  archive:
+    text: 文章
+    url: /archives
   shopping-bag:
     text: 小铺
-    url: https://store.dunizb.com/
+    url: //store.dunizb.com/
     target: _blank
   camera-retro:
     text: 相册
-    url: https://photo.dunizb.com/
+    url: //photo.dunizb.com/
     target: _blank
   code:
     text: 小码
-    url: https://demo.dunizb.com/
+    url: //demo.dunizb.com/
+    target: _blank
+  hand-point-right:
+    text: Segmentfault
+    url: https://segmentfault.com/u/dunizb
     target: _blank
   user:
     text: 关于我
@@ -31,7 +38,7 @@ menu:
     target: _blank
 
 # 你的头像url
-avatar: /img/avatar.jpg
+avatar: /img/avatar.gif
 # avatar link
 avatar_link: /
 # 头像背景图
@@ -65,7 +72,7 @@ share: true
 
 # 是否开启打赏，关闭 reward: false
 reward:
-  title: 谢谢大爷~
+  title: 感谢您的支持
   wechat: /img/wechat.jpg     #微信，关闭设为 false
   alipay: /img/alipay.jpg     #支付宝，关闭设为 false
 
