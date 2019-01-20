@@ -4,7 +4,7 @@ date: 2018-12-01 15:03:17
 categories:
 - 前端开发
 tags:
-- Vue
+- Vue.js
 description: "Vue.js 图标选择组件实践，不是什么高深文章，随便看看吧"
 ---
 ![Vue.js 图标选择组件实践](https://ws1.sinaimg.cn/large/683aa04fly1fxr956wpnbg20z50j94e3.gif)
