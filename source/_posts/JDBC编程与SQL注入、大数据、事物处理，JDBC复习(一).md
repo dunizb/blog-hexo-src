@@ -406,7 +406,7 @@ public static void main(String[] args) throws Exception {
 ### 9.1 CLOB（Text）
 
 我们新建一个测试表：clob_text:
-![](http://img1.ph.126.net/IHo8eEw6bYxGakhajqSXyA==/6608903810306050402.png)
+![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7zn249zj30ki05iglx.jpg)
 
 那么怎么插入一条带Clob数据呢？其实就是IO操作。。。
 
@@ -635,7 +635,7 @@ connection.setTransactionIsolation(Connection.TRANSACTION_READ_COMMITTED);
 ```
 
 V:可能出现，X:不会出现  
-![](http://img0.ph.126.net/UPhnDJtmQsIi_CshZ7WDTQ==/6608186928725852934.png)
+![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d7zolv7yj30h105eq2v.jpg)
 
 
 

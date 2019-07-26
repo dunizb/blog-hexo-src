@@ -98,7 +98,7 @@ Server不再只是一个单独的机器，它可以是在同一个机器上装�
 - 登陆，允许存储历史信息
 
 每一个发送到服务器的请求，都会被服务器处理并且返回一个消息，也就是response。在client与server之间，还有许许多多的被称为proxies的实体，他们的作用与表现各不相同，比如有些是网关，还有些是caches等。
-![Client-server-chain](https://mdn.mozillademos.org/files/13679/Client-server-chain.png)
+![Client-server-chain](http://ww1.sinaimg.cn/large/006tNc79ly1g5d89mybl5j30mr03dq30.jpg)
 
 实际上，在一个浏览器和处理请求的服务器之间，还有计算机、路由器、调制解调器等等许多实体。由于Web的层次设计，那些在网络层和传输层都不可见了。HTTP是在最上层应用层中的，虽然下面的层次对分析网络问题非常重要，但是对HTTP的描述来说，这些大多数都是不相关的。
 

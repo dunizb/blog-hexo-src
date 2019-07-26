@@ -36,22 +36,22 @@ description: "在CSS中，line-height 属性设置两段段文本之间的距离
 ```
 
 这样，span标签中的文字就相对于div垂直方向居中了，想要文本水平居中设置text-align：center即可。
-![1.png](http://upload-images.jianshu.io/upload_images/68937-a07e7b8f4ad6ac46.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![1.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8an2j2uj308x0620ia.jpg)
 那么，它怎么就垂直居中了？为了弄清楚它，下面我们先来看几个概念。
 
 1. 行框
 -------------------------
 在浏览器中，会将给每一段文本生成一个**行框**，行框的高度就是行高。行框由上间距、文本高度、下间距组成，上间距的距离与下间距的距离是相等的。
-![2.png](http://upload-images.jianshu.io/upload_images/68937-a287041aba8e8217.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![2.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8aoc6ikj30ey08wa9v.jpg)
 默认情况下一行文本的行高分为：上间距，文本的高度，下间距，并且上间距是等于下间距的，所以文字默认在这一行中是垂直居中的。
 
 2. 文本中的几条线
 --------------------------------
-![3.png](http://upload-images.jianshu.io/upload_images/68937-31f6657bf046e8a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![3.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8aqu3yij30hv09bq3o.jpg)
 几条线与行高的关系图解：
-![4.png](http://upload-images.jianshu.io/upload_images/68937-c6cf627c0fb2f809.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![4.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8bn6ay8j30ni08cq3y.jpg)
 文本的行高也可以看成是基线到基线的距离。
-![5.png](http://upload-images.jianshu.io/upload_images/68937-99eddf2299822240.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![5.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d8c5w2d7j30kw0by75m.jpg)
 如果一段文本的高度为16px，如果给他设置line-height的高度为200，那么相当于，文本的上下间距的高度增加了，但是文本本身的高度依然是16是不变的，并且一直默认在行框中垂直居中，而上间距和下间距平分了200px的高度并且减去文本本身的高度。所以，容器被这一行文本占满，而本身文字在自己的一行中是垂直居中的，所以看起来就像是在容器中垂直居中。
 
 3. Chrome浏览器的默认值
@@ -101,7 +101,7 @@ description: "在CSS中，line-height 属性设置两段段文本之间的距离
 ```
 
 在不给.father设置行高的情况下，.children的文字行高默认为18
-![.children的文字行高默认为18](http://upload-images.jianshu.io/upload_images/68937-4332babc588af34c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![.children的文字行高默认为18](http://ww4.sinaimg.cn/large/006tNc79ly1g5d8c6nvngj30h306w3yy.jpg)
 接着我们给div设置一个行高等于20px
 ```css
 .father {
@@ -110,7 +110,7 @@ description: "在CSS中，line-height 属性设置两段段文本之间的距离
 ```
 
 我们再来看看.children标签的的变化，.children标签的文字行高变成20px了
-![.children标签的文字行高变成20px了](http://upload-images.jianshu.io/upload_images/68937-f0b6c800786190db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![.children标签的文字行高变成20px了](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8c7n5c3j30gs06maaj.jpg)
 而且，不管我们给行高设置什么单位（px、%、em、不带单位）都可以被继承。
 
 6. 行高计算的基数
@@ -123,7 +123,7 @@ div {
 ```
 
 效果如下  
-![8.png](http://upload-images.jianshu.io/upload_images/68937-d67694bb8ccd7396.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![8.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d8c8lix7j30av064mxi.jpg)
 此时我们在给div设置一个font-size等于20px：
 ```css
 div {
@@ -133,4 +133,4 @@ div {
 ```
 
 那么文字行高将会变成30px，20px*1.5=30px;
-![9.png](http://upload-images.jianshu.io/upload_images/68937-fbf1797892333859.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![9.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8c9kyr0j30cv06fgm1.jpg)

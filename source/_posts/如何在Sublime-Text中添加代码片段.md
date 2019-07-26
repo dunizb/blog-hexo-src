@@ -66,6 +66,6 @@ ${2}表示代码插入后，按Tab键，光标会根据顺序跳转到相应位�
 ```
 然后保存代码片段，保存到Sublime Text3\Data\Packages\User下面，取个名字
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/68937-dfcf978a7b66ff78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7vd41wcj30gu08uaaq.jpg)
 
 就这样，在HTML页面中输入hjs+tab，就可以自动补全这一系列代码了。

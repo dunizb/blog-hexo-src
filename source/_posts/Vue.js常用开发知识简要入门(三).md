@@ -175,4 +175,4 @@ Vue.js 的单文件组件中不一定要有 template 语言块，再者，即使
 本人出售《Vue.js权威指南》，二手价20元！点击下图购买
 
 **++++++++++[20元出售此书](http://dunizb.com/obook/)++++++++++**
-[![Vue.js权威指南](http://upload-images.jianshu.io/upload_images/68937-4b8b1cbd73a8fd1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](http://dunizb.com/obook/)
+[![Vue.js权威指南](http://ww1.sinaimg.cn/large/006tNc79ly1g5d84xfwwvj30g20jkdjd.jpg)](http://dunizb.com/obook/)

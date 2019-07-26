@@ -20,11 +20,11 @@ Issue除BUG管理之外还有许多其他用途。在软件开发者圈子中，
 简洁且表现力丰富的描述方法
 =================================
 GitHub的Issue及评论可以使用GFM（Github Flavored Markdown）语法进行描述，从而获得丰富的表现力。比如像下图1那样描述，然后点击Preview，就可以看到图2中那种标记后的效果。
-![1.png](http://upload-images.jianshu.io/upload_images/68937-489b58c766082176.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![1.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d89uezzhj30ll065wen.jpg)
 注意：“#”和后面的文字之间要有一个空格，否则无效
-![2.png](http://upload-images.jianshu.io/upload_images/68937-35951cf636484f56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![2.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d89uv766j30lx08kq3a.jpg)
 在文本框的下面可以找到GFM语法样式相关帮助的链接
-![3.png](http://upload-images.jianshu.io/upload_images/68937-a69606d88d9b0f24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![3.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d89vt28bj30ku02rjra.jpg)
 
 ### 1. 语法高亮
 假设我们像下面这样，先指定语言再描述代码。
@@ -35,23 +35,23 @@ var viewName = function(userName){
 ```
 
 以上JavaScript代码，这样一来，代码就会自动如图3所示被添加语法高亮，变得直观易读。
-![4.0.png](http://upload-images.jianshu.io/upload_images/68937-45eada00c19bca1f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![4.0.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d89x6dytj30jl05pjrd.jpg)
 
 ### 2.添加图片
 添加图片也十分简单，只需要将图片拖拽到文本框中便可以粘贴图片。
 
 ### 3.添加标签以便整理
 Issue可以通过添加标签（Label）来进行整理。添加标签后，Issue的标题后面就会显示标签（图4）。点击标签，还可以只显示该类标签的Issue，GitHub默认给我们设定了几个标签类型。
-![4.png](http://upload-images.jianshu.io/upload_images/68937-475f9810afe1f718.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![4.png](http://ww2.sinaimg.cn/large/006tNc79ly1g5d89y4x8rj30s30a03za.jpg)
 
 ### 4.添加里程碑以便管理
 处标签外，还可以通告添加里程碑来管理Issue。通过图5可以看出，项目距离下一个版本还有12个Issue需要实施，整体的14%已经实施完毕并Close。从这里的链接我们可以看出剩余的Issue。
 
-![5.png](http://upload-images.jianshu.io/upload_images/68937-c68505fbfea9b383.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![5.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d89z4qb6j30sj0bb0te.jpg)
 
 注意：在添加Issue时常会看到图5中这种贡献规范的链接。改仓库的根目录下添加CONTRIBUTING.md文件后该链接就会显示出来。
 
-![6.png](http://upload-images.jianshu.io/upload_images/68937-76af86365c58a6d6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![6.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8a02e97j30lw06kjrr.jpg)
 
 规范的内容一般包括报告时Issue的描述方法、Pull Request时的规则或要求、许可证的相关信息等。为了在开源项目开发中能与其他人和谐相处，请务必在贡献之前仔细阅读这些规则。
 
@@ -65,7 +65,7 @@ Issue可以通过添加标签（Label）来进行整理。添加标签后，Issu
 ```
 
 这样一来，这段文字就会呗标记成复选框列表的样式。这个复选框列表可以直接勾选或者取消，不必打开Issue的编辑页面重新编辑，十分方便。
-![7.png](http://upload-images.jianshu.io/upload_images/68937-8aa1c37326c66970.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![7.png](http://ww2.sinaimg.cn/large/006tNc79ly1g5d8a0yks7j30lr066glv.jpg)
 
 通过提交信息操作Issue
 ================================

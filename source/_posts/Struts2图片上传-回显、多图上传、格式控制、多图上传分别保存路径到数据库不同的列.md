@@ -11,7 +11,7 @@ description: "需求：1. 选中店铺后，选中上传LOGO或者页脚、或�
 ---
 
 页面如下：
-![](http://img1.ph.126.net/TVKU0tPhhtVlVvBH3D4mlw==/2249548013971633168.png)
+![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8085kmkj30hx054wee.jpg)
 
 需求：
 1. 选中店铺后，选中上传LOGO或者页脚、或者一次LOGO和页脚都上传
@@ -21,7 +21,7 @@ description: "需求：1. 选中店铺后，选中上传LOGO或者页脚、或�
 单张图上传、怎么判断上传的是LOGO还是页脚
 
 表如下：
-![](http://img1.ph.126.net/EbZYUj6vb_vtr18JVa1ZBQ==/6597968067658220923.png)
+![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d808q385j30ku01tt9o.jpg)
 
 upload.jsp
 ```java

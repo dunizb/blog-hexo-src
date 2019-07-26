@@ -31,28 +31,28 @@ Less类似于jQuery
 1. 下载安装后，打开设置，更换语言为简体中文，然后重启。
 2. 新建Less项目目录如下：
 
-![Less项目目录](http://upload-images.jianshu.io/upload_images/68937-3572e075e8a47002.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Less项目目录](http://ww2.sinaimg.cn/large/006tNc79ly1g5d878qleoj30m504a74c.jpg)
 
 3. 在style文件夹下新建main.less文件，推荐使用用Sublime Text，打开main.less
 4. 把Less目录拖到Koala中，点击右键设置输出目录：
 
-![设置输出目录](http://upload-images.jianshu.io/upload_images/68937-d4aab08fa84339b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![设置输出目录](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8797zs4j30op09xgoo.jpg)
 
 输出到style/main.css中：
 
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/68937-36e40d198400589f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](http://ww2.sinaimg.cn/large/006tNc79ly1g5d87mk04sj30ij0d0gm8.jpg)
 
 实际上是通Koala把main.less编译成css然后写入到mian.css文件中。
 5. 编译less
 点击文件展示功能选择，选择自动编译，然后点击执行编译按钮，如果成功会提示Success。
 
-![提示Success](http://upload-images.jianshu.io/upload_images/68937-9afcb494ff8b121d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![提示Success](http://ww2.sinaimg.cn/large/006tNc79ly1g5d87tfnswj30p00fggm9.jpg)
 
 输出方式的compress是压缩后的代码，我们开发、学习阶段可以使用默认的normal方式。
 5. 在HTML文件中引用css
 打开index.html，link引用
 
-![link引用](http://upload-images.jianshu.io/upload_images/68937-78b9974e2beafb00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![link引用](http://ww4.sinaimg.cn/large/006tNc79ly1g5d87u91fsj30jb06aaab.jpg)
 6. 测试
 我们在main.less中写less代码，保存后就自动编译到了main.css文件中。
 

@@ -22,7 +22,7 @@ description: "用户体验和用户界面设计的目的是什么？有哪些步
 需要指出的是，软件工程师往往以熟练掌握认知阻力大的工具而自豪（例如命令行操作、VI、Emacs等编辑器），这对于工程师的工作是有帮助的；但是大多数用户的心理是要躲避认知阻力。
 
 用户体验设计有哪些步骤呢？一个成熟和常用的方法是分阶段进行设计和探讨（下表由左至右不断迭代细化）。
-![QQ20170627-231009@2x.png](http://upload-images.jianshu.io/upload_images/68937-96d4fc4ee3e6e889.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![QQ20170627-231009@2x.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d8fp7v0oj30yg0hr7fx.jpg)
 
 ## 评价标准
 
@@ -35,7 +35,7 @@ description: "用户体验和用户界面设计的目的是什么？有哪些步
 
 **2.系统界面符合用户的现实惯例**
 与用户沟通，软件系统要使用用户语言而不是开发者语言，所用的概念要贴近生活实际，而不是用学术概念或开发者的概念。我们说的生活实际，最好是目标用户的实际生活体验。例如，在用户没有期待对话框的时候，软件从奇怪的角度弹出对话框，或者给用户提示“找不到对象”。
-![QQ20170625-142045@2x.png](http://upload-images.jianshu.io/upload_images/68937-99c1ca10f8175a14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![QQ20170625-142045@2x.png](http://ww2.sinaimg.cn/large/006tNc79ly1g5d8frwlz3j30qk0bwwfw.jpg)
 
 **3. 用户有控制权**
 操作失误可回退，要让用户可以退出软件（很多软件都没有退出菜单，这是导致用户反感的一大原因）。用户可以定制显示信息的多少，还可以定制常用的设置。

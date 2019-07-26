@@ -11,7 +11,7 @@ tags:
 
 > 本文将使用HTML5提供的VideoAPI做一个自定义的视频播放器，需要用到HTML5提供的video标签、以及HTML5提供的对JavascriptAPI的扩展。
 <!-- more -->
-![video.jpg](http://upload-images.jianshu.io/upload_images/68937-2499781ec1b7afb2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![video.jpg](http://ww3.sinaimg.cn/large/006tNc79ly1g5d89orce0j30ll0dj0sy.jpg)
 
 一、基础知识
 ---------------------------

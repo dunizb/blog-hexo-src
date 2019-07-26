@@ -61,11 +61,11 @@ public class AuthAspect {
 ```
 
 AOP配置图：
-![](http://img2.ph.126.net/tXjLIgdljiKUdMZAkqwBug==/36591746989229366.png)
+![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7vbn9l1j30fe0bqmyv.jpg)
 
 注意，我们需要增加如下几个包：aopalliance、AspectJ、cglib。
 运行上面的程序结果：
-![](http://img0.ph.126.net/CyG6prkEKjVoSAGFph2S3Q==/1053560837844825609.png)
+![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d7vclk0hj30fe076dii.jpg)
 
 **1、Spring支持的Advice**
 对于Advice而言，Spring一共支持5种Advice：

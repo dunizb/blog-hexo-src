@@ -9,7 +9,7 @@ tags:
 description: "《Vue.js权威指南》读书笔记之一"
 ---
 
-![Vue.js](http://upload-images.jianshu.io/upload_images/68937-9dc1cd5e606ff6fd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Vue.js](http://ww1.sinaimg.cn/large/006tNc79ly1g5d800a721j30p00b0q2x.jpg)
 此前的Vue.js系列文章：
 
  - [Vue.js常用开发知识简要入门（一）](http://dunizb.com/2016/12/18/Vue.js常用开发知识简要入门（一）)
@@ -108,4 +108,4 @@ var vm = new Vue({
 《Vue.js权威指南》读书笔记
 
 **++++++++++[本人出售《Vue.js权威指南》，二手价20元！](http://dunizb.com/obook/)++++++++++**
-[![Vue.js权威指南](http://upload-images.jianshu.io/upload_images/68937-4b8b1cbd73a8fd1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)](http://dunizb.com/obook/)
+[![Vue.js权威指南](http://ww2.sinaimg.cn/large/006tNc79ly1g5d806ctb3j30g20jkdjd.jpg)](http://dunizb.com/obook/)

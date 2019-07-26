@@ -10,7 +10,7 @@ tags:
 description: "好像是第一次写年度Review，年度Plan倒是写过，比如某年在空间写了年度阅读Plan，呵呵，青葱岁月，稚嫩，其实没做到，没有读懂这个世界，过着唯心主义生活，而，这个世界是唯物的。"
 ---
 
-![Review of 2015 年度回顾](http://upload-images.jianshu.io/upload_images/68937-8a804ecbd2b522ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Review of 2015 年度回顾](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7wv0oq1j30yg0nxnpd.jpg)
 
 突然，各个社交圈都在狂晒年度Review，或者Plan，所以我被激到了。
 

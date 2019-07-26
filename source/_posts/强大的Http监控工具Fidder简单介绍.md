@@ -23,7 +23,7 @@ Fiddler还支持丰富的插件，官方也停供大量的插件：
 http://www.telerik.com/fiddler/add-on
 
 ## 2、Fiddler工作原理
-![Fiddler工作原理](http://upload-images.jianshu.io/upload_images/68937-1f34ea39f933a9cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Fiddler工作原理](http://ww2.sinaimg.cn/large/006tNc79ly1g5d7wzjr0yj30gp06y0ty.jpg)
 
 两种代理模式：
 - 流模式（streaming）：更接近浏览器的真实情况
@@ -39,13 +39,13 @@ http://www.telerik.com/fiddler/add-on
 
 ## 4、工具条、状态栏常用功能
 工具条:
-![工具条](http://upload-images.jianshu.io/upload_images/68937-943a4c4d72c90ab7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![工具条](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7x1y9daj30yg0am108.jpg)
 
 状态栏:
-![状态栏](http://upload-images.jianshu.io/upload_images/68937-10dc95c17bb76c61.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![状态栏](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7x2yjkxj30rr05r3yt.jpg)
 
 ## 5、监控面板的使用
-![监控面板的使用](http://upload-images.jianshu.io/upload_images/68937-7ea08c3508a1acbc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![监控面板的使用](http://ww2.sinaimg.cn/large/006tNc79ly1g5d7x4h39mj30yg07mte7.jpg)
 
 ## 6、文件、文件夹代理和Host配置
-![Host配置](http://upload-images.jianshu.io/upload_images/68937-f604a869aa803692.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Host配置](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7x5rt21j30l40c3wg0.jpg)

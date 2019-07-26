@@ -122,4 +122,4 @@ function isEmptyObject(obj){
 推荐使用方法四。
 
 ***
-![文章首发于我的微信公众号，关注可获得每次最新推送](http://upload-images.jianshu.io/upload_images/68937-44511e8f33ac2b9b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![文章首发于我的微信公众号，关注可获得每次最新推送](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7zpfq6qj30bz0dtt9b.jpg)

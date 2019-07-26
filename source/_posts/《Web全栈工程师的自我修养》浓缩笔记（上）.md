@@ -11,7 +11,7 @@ tags:
 
 本书的作者余果，腾讯社交用户体验设计部高级UI工程师，前端开发组负责人，熟悉前端开发、iOS开发、PHP开发和Ruby开发等。这本书所讲的内容适合所程序员，不限于前端后端客户端，很多内容其实都是常识。第二遍阅读，特此整理此书精华内容笔记。
 <!-- more -->
-![timg (1).jpg](http://upload-images.jianshu.io/upload_images/68937-48d9e2503e18d59f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![timg (1).jpg](http://ww3.sinaimg.cn/large/006tNc79ly1g5d823rrr1j30jg0e474q.jpg)
 
 ## 一、什么是全栈工程师？
 

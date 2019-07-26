@@ -89,7 +89,7 @@ Bean销毁前也可以通过2种方式来管理Bean：
 
 在Java Web项目中，Spring容器默认就会以优雅的方式销毁。
 
-![](http://img2.ph.126.net/e4U_CudXzU8GZlsaiGceFA==/6619306289816177318.png)
+![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d7v5ouubj30j508ntad.jpg)
 
 ## 作用域不同步的Bean
 

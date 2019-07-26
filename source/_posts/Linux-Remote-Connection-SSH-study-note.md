@@ -7,7 +7,7 @@ tags:
 - Linux
 - SSH
 ---
-![](http://a1.jikexueyuan.com/home/201509/14/ab63/55f627e6b9bd3.jpg)
+![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d87xr5tvj30dc078ac9.jpg)
 
 ## 1.认识SSH和安装
 

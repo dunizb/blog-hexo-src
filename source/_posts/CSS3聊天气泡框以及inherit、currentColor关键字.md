@@ -8,7 +8,7 @@ tags:
 description: "尽管绝大多数人都知道inherit这个关键字，但是很多人可能自始自终都没实际用过它，包括我自己，从来没有，在查询CSS文档时，习惯性的忽略它，直到看到《CSS揭秘》这本书。"
 ---
 
-![聊天气泡框](http://upload-images.jianshu.io/upload_images/68937-8642008c12f3ddf0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![聊天气泡框](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8cah37qj30yg0ff0tz.jpg)
 效果如上图所示，主要用到CSS3的伪类`::after`、`::before`，以及圆角边框`border-radius`属性。对于下面的气泡框，可以有两种方式实现小三角：
 + 传统方式，利用CSS画小三角，利用到了透明背景和边框属性`transparent`的应用。
 + CSS3的`transform`属性的使用
@@ -119,14 +119,14 @@ CSS：
 }
 ```
 效果：
-![2.png](http://upload-images.jianshu.io/upload_images/68937-a04e98b56c9d710c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![2.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8cca50zj30fb06j3yl.jpg)
 此时文字的颜色是红色，而超链接默认是蓝色，并不会被改变，这是我们都知道的，那么我想让超链接也是跟父元素一样的红色呢？此时我们只需要给超链接inherit即可：
 
 ```css
 .article a { color: inherit; }
 ```
 效果：
-![3.png](http://upload-images.jianshu.io/upload_images/68937-e8fd4165783bd2ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![3.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8cd9fkbj30f7050jrg.jpg)
 这个inherit对于背景色相同非常有用，但是需要注意的是，想要子元素设置属性的inherit关键字生效，父元素必须设置过使用inherit为值的属性。
 
 ## CSS3的currentColor关键字
@@ -142,7 +142,7 @@ CSS：
 }
 ```
 默认情况下是这样的：
-![4.png](http://upload-images.jianshu.io/upload_images/68937-8e8dd2704af71755.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![4.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8cdpobej30f005wglp.jpg)
  此时，添加 `currentColor`
 ```css
 .article hr {
@@ -151,7 +151,7 @@ CSS：
 }
 ```
 效果：
-![5.png](http://upload-images.jianshu.io/upload_images/68937-d17333924adecaf5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![5.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8cemt6rj30gt05zmx9.jpg)
 当我在把文字颜色设为蓝色的时候，它们会保持跟文字颜色一致
 
 [更多CSS3边框特效，请查看该页面](http://dunizb.com/demo/view.html?url=./list/CSS3%E8%BE%B9%E6%A1%86%E6%95%88%E6%9E%9C%E5%A4%A7%E5%85%A8.html)

@@ -330,7 +330,7 @@ function Person(){}
 var p = new Person();
 ```
 原型链结构图为：
-![原型链结构图](http://img.mukewang.com/580365b70001795f06520439.jpg)
+![原型链结构图](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7vgc9lhj30i40c7gm6.jpg)
  
 使用原型需要注意两点：
 1. 原型继承链条不要太长，否则会出现效率问题。
