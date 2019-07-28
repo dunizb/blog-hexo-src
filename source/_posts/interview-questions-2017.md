@@ -164,7 +164,8 @@ Child3.prototype.constructor = Child3;
 
 ## 11.浏览器渲染原理
 首先来看一张图：
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8cjfep7j30hc081754.jpg)
+![](https://i.loli.net/2019/07/28/5d3d0e4dcec8859267.jpg)
+
 1. HTML被解析成DOM Tree，CSS被解析成CSS Rule Tree
 2. 把DOM Tree和CSS Rule Tree经过整合生成Render Tree（布局阶段）
 3. 元素按照算出来的规则，把元素放到它该出现的位置，通过显卡画到屏幕上
