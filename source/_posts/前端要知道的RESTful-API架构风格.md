@@ -43,7 +43,7 @@ REST给出了6种约束条件，通信两端在遵循这些约束后，就能提
 **按需代码**：这是一条可选的约束，支持客户端下载并执行一些代码（例如 Java AppletJavaScript或 Flash）进行功能扩展。
 
 
-## 常见笔试题:什么是 RESTful API RESTful API？
+## 常见笔试题:什么是 RESTful API，如何设计RESTful API？
 
 答案: RESTful API Web API。为了使得接口安全、易用、可维护以及可扩展，一般设计 RESTful API需要考虑以下几个方面:
 1. 通信用HTPS安全协议。
