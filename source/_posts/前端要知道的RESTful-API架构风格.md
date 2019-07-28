@@ -5,7 +5,7 @@ categories:
 - 前端开发
 description: "前端程序员在开发完页面后总是要对接口的，跟后端联调有时候还占用蛮大的时间的，那么你了解你和后端对的接口都是什么风格吗，你们公司接口设计的如何，你使用愉快吗？下面介绍一种API架构风格，也是目前主流的API设计风格，你或许一直在使用。"
 ---
-![RESTful API 示例](https://i.loli.net/2019/07/28/5d3d1a28d056647013.png)
+![RESTful API 示例](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/RESTful-API-Swaggar.png)
 
 > 前端程序员在开发完页面后总是要对接口的，跟后端联调有时候还占用蛮大的时间的，那么你了解你和后端对的接口都是什么风格吗，你们公司接口设计的如何，你使用愉快吗？下面介绍一种API架构风格，也是目前主流的API设计风格，你或许一直在使用。
 
@@ -117,7 +117,7 @@ RESTfu，api/file 只需要这一个接口：
 
 你的公司使用的是RESTful API吗？如果不是可以考虑辞职了，太落伍了！RESTful API 现在也要让位新宠 [GraphQL](https://graphql.cn/) 了，一种更高效、强大和灵活的数据提供方式。
 
-![GraphQL](https://i.loli.net/2019/07/28/5d3d1c263f5c491907.png)
+![GraphQL](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/GraphQL.png)
 
 *******
 推荐文章
