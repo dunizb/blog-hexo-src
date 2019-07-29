@@ -9,7 +9,7 @@ tags:
 - 实战
 description: "本文教你如何写一个移动端的 Checklist 组件，使用 vue 单文件形式开发，适合 Vue.js 新手。同时此文非常长，最好跟着文章步骤边看边写。本文说些什么，或者你能收获什么？。"
 ---
-![](http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/banner.jpg)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/banner.jpg)
 
 **建议在电脑上阅读此文，全部源代码在文章最后**
 
@@ -31,7 +31,7 @@ description: "本文教你如何写一个移动端的 Checklist 组件，使用 
 
 |weui      |Mint UI|
 |:---------|:---------|
-|![weui](http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/weui.gif)|![Mint-UI](http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/mint-ui.gif)|
+|![weui](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/weui.gif)|![Mint-UI](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/mint-ui.gif)|
 
 而这种组件的一个典型场景是移动端的购物车列表，打开你的京东、淘宝购物车看看，功能是不是很像呢？
 
@@ -39,7 +39,7 @@ description: "本文教你如何写一个移动端的 Checklist 组件，使用 
 
 |我们的      |京东购物车列表|
 |:---------|:---------|
-|![我们的](http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/checklist.gif)|<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/jdcart.png"/></div>|
+|![我们的](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/checklist.gif)|<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/jdcart.png"/></div>|
 
 ## 第零步：分析与准备
 ### 0.1 业务需求和功能分析
@@ -85,7 +85,7 @@ description: "本文教你如何写一个移动端的 Checklist 组件，使用 
 
 ### 0.3 初始化项目
 再来分析一下 DOM 结构该怎么划分，这样有利于编码时的大局观  
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/1.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/1.png"/></div>
 
 画的有点丑，手头没有什么好用的图片标注工具，用的 Mac 原生标注工具
 
@@ -164,10 +164,10 @@ checklist.vue
 </style>
 ```
 效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/2.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/2.png"/></div>
 
 ### 1.2 实现topbar
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/3.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/3.png"/></div>
 
 topbar有三个元素，如何选择布局方式呢？可以看出，取消、完成按钮是左右对齐，中间title是居中对齐的。我们可以选择传统的浮动布局，使用三个div，比如叫：  
 
@@ -207,7 +207,7 @@ CSS：
 }
 ```
 我们使用`justify-content: space-between`让他们水平两端对齐，然后`align-items: center`垂直居中对齐，再给个左右`padding`即可。效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/4.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/4.png"/></div>
 
 我在项目中用的是`display:inline-block`来布局，做的没现在的好，这种事后用文章的形式来复盘和输出能够让自己更清楚的认识怎么更好的去组织代码，这也是我坚持输出的原因。
 
@@ -240,12 +240,12 @@ CSS
 }
 ```
 效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/5.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/5.png"/></div>
 
 ## 第二步：实现list列表结构
 ### 2.1 实现基本骨架
 我们先来回顾以下第零部多DOM结构的分析：
-<div align="center"><img width="640" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/6.png"/></div>
+<div align="center"><img width="640" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/6.png"/></div>
 
 可以看到我们把DOM结构总体划分为左右结构，然后左边的又分为上下结构，左边的checkbox水平垂直居中
 
@@ -296,7 +296,7 @@ CSS：
 }
 ```
 效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/7.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/7.png"/></div>
 
 接下来就是完善了，以及右边的checkbox圆圈。**注意**，我们不能给`.line`设死高度，这个高度应该由内容撑开，因为我们要考虑没有地址信息的时候的展示。
 
@@ -355,7 +355,7 @@ CSS：
 }
 ```
 这里为了不依赖图片，我们把勾的图片编码成base64格式，同时我们先把背景去掉，效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/8.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/8.png"/></div>
 
 ### 2.3 地址信息前面的小图标
 这个小图标最好使用伪元素来实现
@@ -379,7 +379,7 @@ CSS：
     background-position: 0;
 }
 ```
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/9.1.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/9.1.png"/></div>
 
 ### 2.4 适配移动端1像素边框
 实现适配移动端1px边框，主要是根据设备的dpr来对边框进行缩放处理，CSS写法如下：
@@ -430,7 +430,7 @@ CSS：
 ```
 我们在每一行的`.line`元素上添加`border-1px`，效果如下：
 
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/9.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/9.png"/></div>
 
 更多移动端1像素边框问题可以参看[《移动端1像素边框问题》](http://www.qinshenxue.com/article/20151104151932.html)
 
@@ -453,7 +453,7 @@ CSS：
 }
 ```
 注意`overflow-scrolling: touch; `属性，设置该属性是为了适配在移动端下滚动不平滑的问题，现在的效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/list-overflow.gif"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/list-overflow.gif"/></div>
 
 ## 第三步：实现选择CheckBox的交互功能
 ### 3.1 实现原理与v-model
@@ -512,7 +512,7 @@ export default {
 }
 ```
 在操作提示栏里我们给当前选择了几个设置成了`checkboxValue`的长度，这样之后我们来试试，可以发现每次选择一个都会往数组中push一次，再次点击则会从数组中移除。效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/list-chexkbox.gif"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/list-chexkbox.gif"/></div>
 
 ### 3.2 加个选中样式
 现在是可以选中了，但是如何给选中的项加上选中的CSS呢，想来想去也是个麻烦事，不过得借助JS来实现了，不知道广大网友有没有牛逼方法。
@@ -540,7 +540,7 @@ methods: {
 }
 ```
 点击的时候获取Event事件对象，然后通过`previousElementSibling`找到上一个兄弟节点，给他绑定`.selected`class即可
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/list-chexkbox-seclected.gif"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/list-chexkbox-seclected.gif"/></div>
 
 ### 3.3 最多可选择几项
 #### 3.3.1 使用 props 传递数据
@@ -682,7 +682,7 @@ methods: {
 </script>
 ```
 现在的效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/checklist-show.gif"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/checklist-show.gif"/></div>
 
 ### 4.2 隐藏组件
 做好了显示那隐藏就很简单了，点击取消隐藏组件，动画会原路返回，只需要为取消设置一下`isOpen = false`或者调用`hide`方法即可。
@@ -694,7 +694,7 @@ methods: {
 </div>
 ```
 现在效果如下
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/checklist-hide.gif"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/checklist-hide.gif"/></div>
 
 ### 4.3 添加蒙层
 为了使蒙层能够覆盖整个页面，还不得不为DOM结构做一下调整
@@ -739,7 +739,7 @@ methods: {
 }
 ```
 特别注意，为`.checklist`增加了白色背景和`z-index:2000`，现在的效果如下
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/checklist-mengceng.gif"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/checklist-mengceng.gif"/></div>
 
 当然了，你也可以让点击蒙层的时候也可以隐藏组件，直接给蒙层绑定一个单击事件`@click = "hide"`即可。
 
@@ -890,7 +890,7 @@ changeKaochangValue (val) {
 }
 ```
 现在的效果如下：
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/emit.gif"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/emit.gif"/></div>
 
 至此，这个 Checklist 组件算是完成了。
 
@@ -929,7 +929,7 @@ props : {
                @on-change="changeKaochangValue"></checklist>
 ```
 显示设置 props 的`checkboxLeft` 为 true 即可
-<div align="center"><img width="320" src="http://dunizb.b0.upaiyun.com/article/201711/vue-checklist/10.png"/></div>
+<div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/10.png"/></div>
 
 ### 还可以做点什么呢？
 大家可以扩展一下...

@@ -10,7 +10,7 @@ tags:
 - 重点难点
 description: "这几个方法有时候总是傻傻分不清，尤其map，总是一下子有点懵逼记不清和其他方法的区别，每次都需要查一下API，他们的相同点都是需要遍历数组中的每一项，重点是他们的区别，不要搞混了，搞清楚他们的返回结果有什么区别。"
 ---
-![](https://dunizb.b0.upaiyun.com/article/201803/array/banner.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201803/array/banner.png)
 
 这几个方法有时候总是傻傻分不清，尤其map，总是一下子有点懵逼记不清和其他方法的区别，每次都需要查一下API，他们的相同点都是需要遍历数组中的每一项，重点是他们的区别，不要搞混了，搞清楚他们的返回结果有什么区别。
 

@@ -11,11 +11,11 @@ description: "2018年共读了 30 本书，合计价格为 795.08 元，比2017�
 
 2018年共读了 30 本书，合计价格为 795.08 元，比2017年多读了4本，其中11本作为五星推荐（关注下面豆瓣链接）
 
-![2018年读书记录](http://dunizb.b0.upaiyun.com/iPic/2018%E5%B9%B4%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95-1.png)
+![2018年读书记录](https://raw.githubusercontent.com/dunizb/cloudimg/master/iPic/2018%E5%B9%B4%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95-1.png)
 
 2018年卖出28本书，收获533.76元，基本通过多抓鱼、转转卖出，小部分通过自己的博客卖出，2017年通过博客卖出的比较多。
 
-![2018卖书明细](http://dunizb.b0.upaiyun.com/iPic/2018%E5%8D%96%E4%B9%A6%E6%98%8E%E7%BB%86.png)
+![2018卖书明细](https://raw.githubusercontent.com/dunizb/cloudimg/master/iPic/2018%E5%8D%96%E4%B9%A6%E6%98%8E%E7%BB%86.png)
 
 关注Github读书仓库，持续更新：[https://github.com/dunizb/reading-list](https://github.com/dunizb/reading-list)
 

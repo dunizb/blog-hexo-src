@@ -141,7 +141,7 @@ console.log(p.__prop__ === Person.prototype);//true
 ```
 于是他们的关系图如下：
 
-![构造、原型、实例三角结构图](https://dunizb.b0.upaiyun.com/article/201609/prototype/prototype1.png)
+![构造、原型、实例三角结构图](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201609/prototype/prototype1.png)
 
 ## 五、对象的原型链
 
@@ -165,7 +165,7 @@ var p = new Person();
 
 默认的原型链结构就是：`当前对象 -> 构造函数.prototype -> Object.prototype -> null`
 
-![构造、原型、实例三角结构图](https://dunizb.b0.upaiyun.com/article/201609/prototype/prototype2.png)
+![构造、原型、实例三角结构图](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201609/prototype/prototype2.png)
 
 在实现继承的时候，有时候会利用替换原型链结构的方式实现原型继承，那么原型链结构就会发送改变
 ```js
@@ -174,7 +174,7 @@ DunizbCollection.prototype = [];
 var arr = new DunizbCollection();
 // arr -> [] -> Array.prototype -> Object.prototype -> null
 ```
-![](https://dunizb.b0.upaiyun.com/article/201609/prototype/prototype3.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201609/prototype/prototype3.png)
 
 ## 六、函数的构造函数Function
 
@@ -262,7 +262,7 @@ function foo () {}
 
 下面绘制出 Function 的构造原型实例三角形结构
 
-![](https://dunizb.b0.upaiyun.com/article/201609/prototype/prototype4.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201609/prototype/prototype4.png)
 
 ### 6.3 为什么要使用Function？
 

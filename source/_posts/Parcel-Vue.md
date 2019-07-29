@@ -8,7 +8,7 @@ tags:
 - Parcel
 description: "零配置前端打包工具实战"
 ---
-![](https://dunizb.b0.upaiyun.com/article/201805/parcel/banner.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201805/parcel/banner.png)
 
 前段时间发了一篇[《前端构建工具发展及其比较》](https://blog.dunizb.com/2018/04/23/%E5%89%8D%E7%AB%AF%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E5%8F%91%E5%B1%95%E5%8F%8A%E5%85%B6%E6%AF%94%E8%BE%83/)，回顾了前端构建工具的发展历程和进化，其中最新出来的零配置打包工具[Parcel](https://parceljs.org/)我一直很好奇，它到底怎么零配置了？<!-- more -->众所周知此前 Webpack 的配置简有点让人茫然和无措，虽然现在 Webpack 4 也号称零配置，但也是相对的，依然需要配置一些东西，而我使用了 Parcel 后我有点惊讶，这货居然连个配置文件也不需要。不像 Webpack 需要一个`webpack.config.js`这样的文件，Parcel真正是不需要配置，不需要指定什么入口、出口、插件配置之类的，看起来这货真的是个零配置工具。
 
@@ -20,7 +20,7 @@ Parcel有个中文网站：[https://parceljs.org/](https://parceljs.org/)，非�
 
 对着官网文档搭建环境到跑起来，硬是花了我几个小时消化，试错，搜索等。下面是相册应用的整体目录：
 
-<img src="https://dunizb.b0.upaiyun.com/article/201805/parcel/parcel_0.png" width="300px">
+<img src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201805/parcel/parcel_0.png" width="300px">
 
 这个目录结构大家做过`Vue.js`项目的应该很清楚吧，就把一一介绍是什么了。
 
@@ -134,8 +134,8 @@ export default [
 到这里环境搭建就算完成了，写好vue页面后，就可以执行`npm run dev`了，Parcel会自动读取脚本里的配置进行打包，然后会在根目录生成一个`dist`文件夹，里面的代码就是打包后的文件了，并且自动做了压缩操作。
 
 并且Parcel的输出也是很美观
-![](https://dunizb.b0.upaiyun.com/article/201805/parcel/parcel_1.jpg)
-![](https://dunizb.b0.upaiyun.com/article/201805/parcel/parcel_2.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201805/parcel/parcel_1.jpg)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201805/parcel/parcel_2.png)
 
 ## 后记
 

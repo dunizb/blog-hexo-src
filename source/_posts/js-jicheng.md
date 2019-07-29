@@ -10,7 +10,7 @@ tags:
 - 重点难点
 description: "JS面向对象知识中，继承是比较难比较抽象的一块内容，而且实现继承有很多种方法，每种方法又各有优缺点，更加的让人奔溃，这需要对面向对象知识中的对象、原型、原型链、构造函数等基础知识掌握透彻，否则《JS高程》里第六章继承也是看不明白的，网上也有N多的文章，看了这么多对继承依然不是很明白，所谓懂得不少道理但依然过不好这一生。"
 ---
-![banner.png](https://dunizb.b0.upaiyun.com/article/201801/js-jicheng/banner.png)
+![banner.png](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201801/js-jicheng/banner.png)
 
 JS面向对象知识中，继承是比较难比较抽象的一块内容，而且实现继承有很多种方法，每种方法又各有优缺点，更加的让人奔溃，这需要对面向对象知识中的对象、原型、原型链、构造函数等基础知识掌握透彻，否则《JS高程》里第六章继承也是看不明白的，网上也有N多的文章，看了这么多对继承依然不是很明白，所谓懂得不少道理但依然过不好这一生。
 
@@ -143,7 +143,7 @@ var s1 = new Child3();
 var s2 = new Child3();
 console.log(s1, s2);
 ```
-![](https://dunizb.b0.upaiyun.com/article/201801/js-jicheng/import-prototype.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201801/js-jicheng/import-prototype.png)
 
 我们来看如下代码：
 ```js

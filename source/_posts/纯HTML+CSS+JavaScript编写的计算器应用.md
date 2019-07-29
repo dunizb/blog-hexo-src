@@ -163,7 +163,7 @@ function updateApp(){
 [
     {
         "version":"3.1.0",
-        "downloadUrl":"http://dunizb.b0.upaiyun.com/demo/app/myCalc-3.1.0.apk",
+        "downloadUrl":"https://raw.githubusercontent.com/dunizb/cloudimg/master/demo/app/myCalc-3.1.0.apk",
         "hashCode":"20160812224616",
         "log":"1.新增切换主题功能 \n 2.新增单手切换模式功能 \n 3.调整UI "
     }

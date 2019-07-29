@@ -9,10 +9,10 @@ tags:
 description: "小技巧|CSS如何实现文字两端对齐,text-align:justify的使用"
 ---
 
-![小技巧|CSS文字两端对齐效果实现](http://dunizb.b0.upaiyun.com/article/201709/text-align-justify/banner.png)
+![小技巧|CSS文字两端对齐效果实现](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/text-align-justify/banner.png)
 
 需求如下，红框所在的文字有四个字的、三个字的、两个字的，如果不两端对齐可以选择居中对齐，或者右对齐。但是如果要像下面这样两端对齐呢？ 
-![](http://dunizb.b0.upaiyun.com/article/201709/text-align-justify/1.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/text-align-justify/1.png)
 
 我相信以前很多人都这么干过：两个字中间使用&nbsp;来隔开达到四个字的宽度，三个字也可以，但是，像上图中“122账号”“122密码”这样的，就不好计算该用几个空格了。
 
@@ -30,7 +30,7 @@ div{
 ```
 
 初始效果是这样的 
-![](http://dunizb.b0.upaiyun.com/article/201709/text-align-justify/2.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/text-align-justify/2.png)
 
 `text-align: justify`这是什么东西？CSS2中`text-align`有一个属性值为`justify`，为对齐之意。其实现的效果就是可以让一行文字两端对齐显示（文字内容要超过一行）。
 
@@ -49,7 +49,7 @@ div i{
 }
 ```
 `padding-left: 100%`和`width:100%`都可以达到效果，选用其一即可。效果如下 
-![](http://dunizb.b0.upaiyun.com/article/201709/text-align-justify/3.png)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/text-align-justify/3.png)
 
 但是加入HTML元素又违反了结构表现分离的原则，我们可以改用after、before伪元素：
 ```css

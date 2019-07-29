@@ -8,11 +8,11 @@ tags:
 - 小技巧
 description: "在我们做文件上传功能时，比如说导入Excel功能，通常需要限定用户只能导入Excel文件，对其他文件要进行过滤，一种做法是用户在选择文件时可以选择任何文件，只是在选择后出发`change`事件后再判断文件后缀格式，这是一种不太优雅的方式。"
 ---
-![](http://dunizb.b0.upaiyun.com/iPic/-%E5%A4%B4%E5%9B%BE-%E5%B0%8F%E6%8A%80%E5%B7%A7-%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E8%BF%87%E6%BB%A4%E9%9D%9E%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6.jpg)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/iPic/-%E5%A4%B4%E5%9B%BE-%E5%B0%8F%E6%8A%80%E5%B7%A7-%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E8%BF%87%E6%BB%A4%E9%9D%9E%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6.jpg)
 
 在我们做文件上传功能时，比如说导入Excel功能，通常需要限定用户只能导入Excel文件，对其他文件要进行过滤，一种做法是用户在选择文件时可以选择任何文件，只是在选择后触发`change`事件后再判断文件后缀格式，这种方法的麻烦之处在于要自己写代码判断。如何在打开资源管理器中就过滤非Excel文件呢？如下图所示。
 
-![](http://dunizb.b0.upaiyun.com/iPic/%E5%B0%8F%E6%8A%80%E5%B7%A7-%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E8%BF%87%E6%BB%A4%E9%9D%9E%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6.jpg)
+![](https://raw.githubusercontent.com/dunizb/cloudimg/master/iPic/%E5%B0%8F%E6%8A%80%E5%B7%A7-%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E8%BF%87%E6%BB%A4%E9%9D%9E%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F%E7%9A%84%E6%96%87%E4%BB%B6.jpg)
 
 上面在打开的文件选择资源管理器中，只显示了Excel文件，其他文件格式都不能选择。
 
