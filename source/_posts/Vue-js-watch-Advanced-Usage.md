@@ -8,7 +8,7 @@ tags:
 - Vue.js
 description: "handler方法和immediate、deep属性的使用"
 ---
-![Vue.js中侦听器（watch）的高级用法](//dunizb.b0.upaiyun.com/article/201804/watch/banner.png)
+![Vue.js中侦听器（watch）的高级用法](//https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201804/watch/banner.png)
 
 假设有如下代码：
 ```html
