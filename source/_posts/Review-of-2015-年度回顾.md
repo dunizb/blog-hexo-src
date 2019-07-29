@@ -10,7 +10,7 @@ tags:
 description: "好像是第一次写年度Review，年度Plan倒是写过，比如某年在空间写了年度阅读Plan，呵呵，青葱岁月，稚嫩，其实没做到，没有读懂这个世界，过着唯心主义生活，而，这个世界是唯物的。"
 ---
 
-![Review of 2015 年度回顾](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7wv0oq1j30yg0nxnpd.jpg)
+![Review of 2015 年度回顾](//ww1.sinaimg.cn/large/006tNc79ly1g5d7wv0oq1j30yg0nxnpd.jpg)
 
 突然，各个社交圈都在狂晒年度Review，或者Plan，所以我被激到了。
 
@@ -23,7 +23,7 @@ description: "好像是第一次写年度Review，年度Plan倒是写过，比�
 这个单词，是我开始写这篇Reivew的时候最先冒出到脑海的词，即是我的恐惧，也是我的变化。
 
 ### 工作
-2014年10月11月偷偷面试，11月提出离职，11月25日到新东家报道，26日到了顺丰上海的一个项目组，做了2个月后项目陆续关闭，作为一个传统行业企业，没有互联网基因，政策多变，关闭也不奇怪了，殊不知最先做的顺丰优选也被后起之秀嘿客合并，呵呵，2016年元旦，到顺丰另一个海淘项目组，一直到到现在，项目组已经脱离顺丰独立运营，现在叫[丰趣海淘](http://www.fengqu.com)，不过，还是有深深的顺丰烙印。
+2014年10月11月偷偷面试，11月提出离职，11月25日到新东家报道，26日到了顺丰上海的一个项目组，做了2个月后项目陆续关闭，作为一个传统行业企业，没有互联网基因，政策多变，关闭也不奇怪了，殊不知最先做的顺丰优选也被后起之秀嘿客合并，呵呵，2016年元旦，到顺丰另一个海淘项目组，一直到到现在，项目组已经脱离顺丰独立运营，现在叫[丰趣海淘](//www.fengqu.com)，不过，还是有深深的顺丰烙印。
 
 2015年工作上算是很平静，一直安静的呆在这个公司，风平浪静，也没有发生多大的风波，有点尴尬的是，我应该是唯一一个被研发总监问过三次早上来的有点晚的人，多亏老大帮我顶着，说谎我说上下班要4个小时（我也是佩服老大）
 
@@ -38,7 +38,7 @@ description: "好像是第一次写年度Review，年度Plan倒是写过，比�
 
 写了服务端、也写了小二后台、与产品、测试、运营等不同人员配合完成项目。这样的开发方式是我以前没经历过的，也知道了关于项目测试、发布流程，需求的提出、评审到开发这个流程。
 
-服务端是用Java写的，运营后台是Java与Groovy混合使用，Groovy以前也没听过，刚开始还很担心，还好它如此简单，差不多就是Java的简写版吧，UI是EasyUI，这个倒是很熟了，前一个公司我就在用，还自定义了一套[仿window8风格的主题](http://www.mybry.com/products/easyUI-themes/index.html)|[GitHub](https://github.com/dunizb/JQEasyUI-SolidMetroBlue-Themes)。
+服务端是用Java写的，运营后台是Java与Groovy混合使用，Groovy以前也没听过，刚开始还很担心，还好它如此简单，差不多就是Java的简写版吧，UI是EasyUI，这个倒是很熟了，前一个公司我就在用，还自定义了一套[仿window8风格的主题](//www.mybry.com/products/easyUI-themes/index.html)|[GitHub](https://github.com/dunizb/JQEasyUI-SolidMetroBlue-Themes)。
 
 公司还有一个互联网公司都有的各部门，产品、研发、运营、运维、测试等，我以前的那些小公司都没有这些，回想起来真的很蛋疼！除了研发和运营，其他工种和部门我还是头一次遇见，之前不知道运维到底是干嘛的，都做些什么，对测试的理解也很片面，现在想起来以前的我都是兼任这些工种啊，自己脑补设计、自己撸代码、自己点一点测一测，自己运维、、、那都是些什么破公司！感觉好牛逼的样子.....。
 
@@ -46,7 +46,7 @@ description: "好像是第一次写年度Review，年度Plan倒是写过，比�
 
 实话说，我本来是个Java程序员，但我发现更多的偏前端了，Java离我感觉渐行渐远了，也好，我也对JavaEE失去了兴趣，2016年正式转战WEB前端开发！公司也有团队做大数据、推荐、搜索，都很高大上的东西。
 
-学习了Bootstrap，年末还发现家里好多书，这对于搬家很不不利啊，于是索性用刚学到的知识写了个卖书的页面挂在博客上，叫[旧物商店]([http://www.mybry.com/products/store/list.html)，后来在听罗辑思维的节目，发现他们在用有赞，于是我也搞了个[微信商城](https://shop15634529.koudaitong.com/v2/showcase/homepage?alias=ya7nfhf7&type=share_shop&share=wxd_ext&mtd=sh_ext_wxd)主要的目的是出售旧书了，不过这东西除了发朋友圈和微博外，不知道怎么推广，几乎就是弄着好玩罢了。
+学习了Bootstrap，年末还发现家里好多书，这对于搬家很不不利啊，于是索性用刚学到的知识写了个卖书的页面挂在博客上，叫[旧物商店]([//www.mybry.com/products/store/list.html)，后来在听罗辑思维的节目，发现他们在用有赞，于是我也搞了个[微信商城](https://shop15634529.koudaitong.com/v2/showcase/homepage?alias=ya7nfhf7&type=share_shop&share=wxd_ext&mtd=sh_ext_wxd)主要的目的是出售旧书了，不过这东西除了发朋友圈和微博外，不知道怎么推广，几乎就是弄着好玩罢了。
 
 学习了LESS CSS这个动态样式语言，但没有用它写过项目
 
@@ -59,8 +59,8 @@ description: "好像是第一次写年度Review，年度Plan倒是写过，比�
 自从有了多看，我对电子书的反抗越来越低，相反，越来越喜欢，现在也经常看一些需要深度阅读的书了，也看技术书，多看的电子书真的很精美，多看上显示我读过215本（包括杂志），读完100本，阅读总时长227小时，大部分时间都是上下班和零碎时间看的，手机居多，现在有了ipad后，看一些书更爽。电子书查找笔记、书签、章节真的很方便。
 
 回忆一下看过的纸书：
-- [《毛泽东选集第一卷》](http://www.mybry.com/products/store/list.html)
-- [《编写高质量代码：WEB前端开发修炼之道》](http://www.mybry.com/products/store/list.html)
+- [《毛泽东选集第一卷》](//www.mybry.com/products/store/list.html)
+- [《编写高质量代码：WEB前端开发修炼之道》](//www.mybry.com/products/store/list.html)
 - [《程序员的数学》](http://detail.koudaitong.com/show/goods?alias=3nu3x9vlbwzq1&reft=1454320764825&spm=h14598865)
 - [《浪潮之巅全三册》](http://detail.koudaitong.com/show/goods?alias=2xlc890z5tgux&reft=1454320681808&spm=h14598865)
 - [《数学之美》](http://detail.koudaitong.com/show/goods?alias=2xcph3otu3dxl&reft=1454320738353&spm=h14598865)- 《图解HTTP》
@@ -84,7 +84,7 @@ description: "好像是第一次写年度Review，年度Plan倒是写过，比�
 
 这些都集中在上半年。
 
-4还是5月份，记不清了，公司组织了一次户外拓展，在腾格里沙漠，这个算是2015年最有意思的一次了，想来以后很少有机会跑去内蒙古，跑去沙漠里，深入沙漠，有文记录：[《屌爆了 | 公司拓展去沙漠是怎样一种体验？》](http://www.mybry.com/?p=111)。
+4还是5月份，记不清了，公司组织了一次户外拓展，在腾格里沙漠，这个算是2015年最有意思的一次了，想来以后很少有机会跑去内蒙古，跑去沙漠里，深入沙漠，有文记录：[《屌爆了 | 公司拓展去沙漠是怎样一种体验？》](//www.mybry.com/?p=111)。
 
 清明节的时候去了江西婺源，这个地方进年人气很高，唉，清明节还真不适合出去，多雨，而且地处江南，尼玛下了两天整的雨啊，油菜花都被雨打没了，我看到的全是绿油油的一篇，一点黄的都没有，
 

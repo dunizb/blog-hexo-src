@@ -46,7 +46,7 @@ ${2}表示代码插入后，按Tab键，光标会根据顺序跳转到相应位�
 	<title>Document</title>
 	<meta name="Generator" content="Sublime Text3">
 	<meta name="Author" content="dunizb">
-    <meta name="website" content="http://www.mybry.com">
+    <meta name="website" content="//www.mybry.com">
     <meta name="Description" content="读你，这世间唯有梦想和好姑娘不可辜负~~">
     <link type="image/x-icon" rel="shortcut icon" href="image/favicon.ico" />
 	<script type="text/javascript">
@@ -66,6 +66,6 @@ ${2}表示代码插入后，按Tab键，光标会根据顺序跳转到相应位�
 ```
 然后保存代码片段，保存到Sublime Text3\Data\Packages\User下面，取个名字
 
-![Paste_Image.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7vd41wcj30gu08uaaq.jpg)
+![Paste_Image.png](//ww4.sinaimg.cn/large/006tNc79ly1g5d7vd41wcj30gu08uaaq.jpg)
 
 就这样，在HTML页面中输入hjs+tab，就可以自动补全这一系列代码了。

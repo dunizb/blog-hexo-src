@@ -60,4 +60,4 @@ public static void main(String[] args) {
     System.err.println("aaaaaaaaaaaaaaaa");
 }
 ```
-![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8fnskgwj30au03ljr6.jpg)
+![](//ww3.sinaimg.cn/large/006tNc79ly1g5d8fnskgwj30au03ljr6.jpg)

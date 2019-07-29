@@ -42,7 +42,7 @@ strong{background-color: green}
 
 在浏览器中的效果如下图：
 
-![Paste_Image.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d84yc9tlj30at036a9w.jpg)
+![Paste_Image.png](//ww4.sinaimg.cn/large/006tNc79ly1g5d84yc9tlj30at036a9w.jpg)
 
 块级元素可以设置width、height属性，行内元素设置width、height属性无效。如下面代码：
 ```css
@@ -58,7 +58,7 @@ strong{background-color: green;width: 400px;height: 100px;}
 
 在浏览器中的效果如下图:
 
-![Paste_Image.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d84zdxdoj30d509xjrb.jpg)
+![Paste_Image.png](//ww4.sinaimg.cn/large/006tNc79ly1g5d84zdxdoj30d509xjrb.jpg)
 
 注意，块级元素即使设置了宽度，任然是独占一行的。
 
@@ -76,7 +76,7 @@ strong{background-color: green;padding: 20px;margin: 20px;}
 
 在浏览器中的效果如图：
 
-![Paste_Image.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d850a2xdj30gj05xdfq.jpg)
+![Paste_Image.png](//ww3.sinaimg.cn/large/006tNc79ly1g5d850a2xdj30gj05xdfq.jpg)
 
 如上图所示，竖直方向的`margin`看不到任何效果，竖直方向的`padding`虽然增加了，但却并没有和相邻的元素拉开距离。
 
@@ -94,4 +94,4 @@ strong{background-color: green;display: block;}
 
 在浏览器中的效果如图：
 
-![Paste_Image.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d850ostfj30bt022t8j.jpg)
+![Paste_Image.png](//ww1.sinaimg.cn/large/006tNc79ly1g5d850ostfj30bt022t8j.jpg)

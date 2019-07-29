@@ -432,7 +432,7 @@ CSS：
 
 <div align="center"><img width="320" src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/9.png"/></div>
 
-更多移动端1像素边框问题可以参看[《移动端1像素边框问题》](http://www.qinshenxue.com/article/20151104151932.html)
+更多移动端1像素边框问题可以参看[《移动端1像素边框问题》](//www.qinshenxue.com/article/20151104151932.html)
 
 ### 2.5 列表滚动
 实现滚动很简单，只要给父级元素也就是我们代码中的`.list`元素设置一个高度，在这里我们的数据多少不一定，所以我们最好只设置一个最大高度`max-height`即可，同时需要给最外层DIV也就是`.cl-checklist`设置`overflow:hidden`。我们先复制很多行来进行测试。

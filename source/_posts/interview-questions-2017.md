@@ -92,7 +92,7 @@ box-sizing属性可以为三个值之一：
 ## 5.说说HTML5中有趣的标签（新标签及语义化）
 如果代码写的语义化，有利于SEO。搜索引擎就会很容易的读懂该网页要表达的意思。例如文本模块要有大标题，合理利用h1-h6，列表形式的代码使用ul或ol，重要的文字使用strong等等。总之就是要充分利用各种HTML标签完成他们本职的工作
 ## 6.git命令，如何批量删除分支
-`git branch |grep 'branchName' |xargs git branch -D`,从分支列表中匹配到指定分支，然后一个一个(分成小块)传递给删除分支的命令，最后进行删除。(参考[这里](http://www.jianshu.com/p/3602f666799a))
+`git branch |grep 'branchName' |xargs git branch -D`,从分支列表中匹配到指定分支，然后一个一个(分成小块)传递给删除分支的命令，最后进行删除。(参考[这里](//www.jianshu.com/p/3602f666799a))
 
 ## 7.创建对象的三种方法
 第一种方式，字面量
@@ -170,7 +170,7 @@ Child3.prototype.constructor = Child3;
 2. 把DOM Tree和CSS Rule Tree经过整合生成Render Tree（布局阶段）
 3. 元素按照算出来的规则，把元素放到它该出现的位置，通过显卡画到屏幕上
 
-> 更多详情看[这里](http://www.cnblogs.com/slly/p/6640761.html)
+> 更多详情看[这里](//www.cnblogs.com/slly/p/6640761.html)
 
 ## 12.前端路由的原理
 **什么是路由？**简单的说，路由是根据不同的 url 地址展示不同的内容或页面
@@ -187,7 +187,7 @@ Child3.prototype.constructor = Child3;
 **优点**
 从性能和用户体验的层面来比较的话，后端路由每次访问一个新页面的时候都要向服务器发送请求，然后服务器再响应请求，这个过程肯定会有延迟。而前端路由在访问一个新页面的时候仅仅是变换了一下路径而已，没有了网络延迟，对于用户体验来说会有相当大的提升。
 
-> 更多内容请看[这里](http://www.cnblogs.com/yuqing6/p/6731980.html)
+> 更多内容请看[这里](//www.cnblogs.com/yuqing6/p/6731980.html)
 
 **缺点**
 使用浏览器的前进，后退键的时候会重新发送请求，没有合理地利用缓存。
@@ -424,7 +424,7 @@ function deepCopy(p, c) {
 　 return c;
 }
 ```
-参考文章：[阮一峰：Javascript面向对象编程（三）：非构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html)
+参考文章：[阮一峰：Javascript面向对象编程（三）：非构造函数的继承](//www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html)
 
 **深拷贝实现方式**
 - 手动复制方式，如上面的代码，缺点就是

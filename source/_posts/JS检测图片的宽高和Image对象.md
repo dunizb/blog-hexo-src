@@ -9,8 +9,8 @@ tags:
 description: "在一些页面中我们需要限制图片的规格，也就是宽、高。我们可有用JS来实现，关键是得到图片的绝对地址src,还有JavaScript的Image()对象，给这个对象指定src属性即可获取这个图片的width、height，我们以下面这个图片为例"
 ---
 
-在一些页面中我们需要限制图片的规格，也就是宽、高。我们可有用JS来实现，关键是得到图片的绝对地址src,还有JavaScript的Image()对象，给这个对象指定src属性即可获取这个图片的width、height，我们以下面这个图片为例（[本博客](http://www.mybry.com)LOGO图标）
-![Paste_Image.png](http://ww3.sinaimg.cn/large/006tNc79ly1g5d7khpx2tj30dm05jdgj.jpg)
+在一些页面中我们需要限制图片的规格，也就是宽、高。我们可有用JS来实现，关键是得到图片的绝对地址src,还有JavaScript的Image()对象，给这个对象指定src属性即可获取这个图片的width、height，我们以下面这个图片为例（[本博客](//www.mybry.com)LOGO图标）
+![Paste_Image.png](//ww3.sinaimg.cn/large/006tNc79ly1g5d7khpx2tj30dm05jdgj.jpg)
 
 它的宽度为36，高度为39，代码如下：
 ```html
@@ -36,7 +36,7 @@ description: "在一些页面中我们需要限制图片的规格，也就是宽
 ```
 结果：
 
-![Paste_Image.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7kijty5j30bl04njrd.jpg)
+![Paste_Image.png](//ww1.sinaimg.cn/large/006tNc79ly1g5d7kijty5j30bl04njrd.jpg)
 
 ### HTML DOM Image对象**
 Image 对象代表嵌入的图像。 标签每出现一次，一个 Image 对象就会被创建。
@@ -94,7 +94,7 @@ objImage.src="http://img0.sfht.com/cmsres/20151030/4704a64f-8d6d-4a82-ab11-62d91
 // 图像加载完的函数调用
 objImage.onLoad = imagesLoaded();
 function imagesLoaded() { 
-      document.location.href="http://www.mybry.com/"; 
+      document.location.href="//www.mybry.com/"; 
 } 
 </script> 
 </head> 

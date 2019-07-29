@@ -12,7 +12,7 @@ description: "`display`的值除了`block`和`inline`，还有其他的值，比
 
 `display`的值除了`block`和`inline`，还有其他的值，比如`list-item`、`table-cell`等，但因为IE6和IE7浏览器支持的display类型很少，所以为了兼容IE，我们真正能用的display类型只有block、inline和none三种。
 
-对于另一中非常有用的display类型inline-block，其实IE和IE7下也是有办法实现的，但需要注意的是，并不是说IE6和IE7支持display：inline-block，它的实现其实是一种hack——触发行内元素的hasLayout。在前面[《CSS常见问题二：hasLayout》](http://www.jianshu.com/p/35ec4d7200f9)我们讲过，hasLayout是IE浏览器为解释盒模型而设计的一个转有属性，它的设计初衷是用于块级元素的，如果触发行内元素的hasLayout，就会让行内元素拥有块级元素的特征。
+对于另一中非常有用的display类型inline-block，其实IE和IE7下也是有办法实现的，但需要注意的是，并不是说IE6和IE7支持display：inline-block，它的实现其实是一种hack——触发行内元素的hasLayout。在前面[《CSS常见问题二：hasLayout》](//www.jianshu.com/p/35ec4d7200f9)我们讲过，hasLayout是IE浏览器为解释盒模型而设计的一个转有属性，它的设计初衷是用于块级元素的，如果触发行内元素的hasLayout，就会让行内元素拥有块级元素的特征。
 
 先说说`display：inline-block`的特性吧，顾名思义，它是行内的块级元素，它拥有块级元素的特点，可以设置长宽，可以设置margin和padding值，但它却不是独占一行，它的宽度并不占满父元素，而是和行内元素一样，可以和其他行内元素排在同一行里。它集块级元素和行内元素的特点于一身，是个非常有用的display类型。
 
@@ -24,4 +24,4 @@ description: "`display`的值除了`block`和`inline`，还有其他的值，比
 
 另一个有趣的现象是`position：absolute`和float会隐式的改变display类型，不论之前什么类型的元素（display：none除外），只要设置了`position：absolute`、`float：left`或`float：right`中人一个，都会让元素以`display：inline-block`的方式显示：可以设置长宽，默认宽度并不占满父元素。就算我们显示的设置`display：inline`或者`display：block`，也任然是无效的（float在IE6下的双边距BUG就是利用添加`display：inline`来解决的）。值得注意的是，`position：relative`却不会隐式的改变display的类型。
 
-跟多关于absolute、float、overflow的知识可以参考慕课网视频：[http://www.imooc.com/space/teacher/id/197450]()
+跟多关于absolute、float、overflow的知识可以参考慕课网视频：[//www.imooc.com/space/teacher/id/197450]()

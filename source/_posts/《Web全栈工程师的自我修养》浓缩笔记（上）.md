@@ -11,7 +11,7 @@ tags:
 
 本书的作者余果，腾讯社交用户体验设计部高级UI工程师，前端开发组负责人，熟悉前端开发、iOS开发、PHP开发和Ruby开发等。这本书所讲的内容适合所程序员，不限于前端后端客户端，很多内容其实都是常识。第二遍阅读，特此整理此书精华内容笔记。
 <!-- more -->
-![timg (1).jpg](http://ww3.sinaimg.cn/large/006tNc79ly1g5d823rrr1j30jg0e474q.jpg)
+![timg (1).jpg](//ww3.sinaimg.cn/large/006tNc79ly1g5d823rrr1j30jg0e474q.jpg)
 
 ## 一、什么是全栈工程师？
 
@@ -236,7 +236,7 @@ QQ空间静态资源在浏览器端使用的缓存策略。
 - 其他所有的文件类型都设置Cache-Control头，**并且在文件内容有所修改的时候修改文件名**。
 
 **********
-猜你喜欢：[《Web全栈工程师的自我修养》浓缩笔记（下）](http://www.jianshu.com/p/8423c354108c)
+猜你喜欢：[《Web全栈工程师的自我修养》浓缩笔记（下）](//www.jianshu.com/p/8423c354108c)
 
 > 
 文章出处：[http://dunizb.com](http://dunizb.com)

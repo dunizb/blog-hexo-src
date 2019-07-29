@@ -53,7 +53,7 @@ var res2 = f();
 
 我们使用前面学习的绘制作用域链结构图的方法来绘制闭包的作用域链结构图，如下： 
 
-![1.jpg](http://ww4.sinaimg.cn/large/006tNc79ly1g5d8ch1dxlj30jx0blwem.jpg)
+![1.jpg](//ww4.sinaimg.cn/large/006tNc79ly1g5d8ch1dxlj30jx0blwem.jpg)
 
 
 ## 3.闭包使用举例

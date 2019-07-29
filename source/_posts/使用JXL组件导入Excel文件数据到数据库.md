@@ -17,13 +17,13 @@ tags:
 5. 操作过程删除上传的文件
 <!-- more -->
 功能界面如下：
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d8g5x1psj30ku08ytb9.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d8g5x1psj30ku08ytb9.jpg)
 
 **注意**
 1. Excel文件数据格式需要先约定好（模板），随便乱七八糟的可不行。
 2. 上传MS Office 2007以上版本、WPS Office需要添加MIME文件类型，详见《文件上传支持WPS Office、MS Office2003-2010的办法》
 
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8gck5q0j30jg07s0sy.jpg)
+![](//ww1.sinaimg.cn/large/006tNc79ly1g5d8gck5q0j30jg07s0sy.jpg)
 
 二、思路：
 

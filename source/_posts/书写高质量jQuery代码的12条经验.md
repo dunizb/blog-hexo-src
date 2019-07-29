@@ -25,8 +25,8 @@ tags:
 高效正确的使用jQuery选择器是熟练使用jQuery的基础，而掌握jQuery选择器需要一定的时间积累，我们开始学习jQuery时就应该注意选择器的使用。
 ```html
 <div id="nav" class="nav"> 
-     <a class="home" href="http://www.jquery001.com">jQuery学习网</a> 
-     <a class="articles" href="http://www.jquery001.com/articles/">jQuery教程</a> 
+     <a class="home" href="//www.jquery001.com">jQuery学习网</a> 
+     <a class="articles" href="//www.jquery001.com/articles/">jQuery教程</a> 
 </div>
 ```
 

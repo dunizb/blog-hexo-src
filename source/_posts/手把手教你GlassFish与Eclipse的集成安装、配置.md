@@ -20,7 +20,7 @@ tags:
 这一步没什么好说的，基础的东西
 
 [下载地址]：java.sun.com/javase/downloads/index.jsp这里有各个版本的JDK的下载，选择相应适合的版本下载， 下载完成是.exe格式文件，直接安装即可。注意：安装路径最好不要有空格。 
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d87z2vy1j308g0513z0.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d87z2vy1j308g0513z0.jpg)
 
 配置环境：Windows下Java用到的环境变量主要有3个，JAVA_HOME,CLASSPATH,path 
 
@@ -31,7 +31,7 @@ tags:
 最前面的`.`是告诉JDK搜索class时先查找当前目录的class文件，至于classpath后面制定的具 体文件是由Java语言的import机制和jar机制决定的 
 
 此时本人机器的配置如下：
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d886453ej30ak0btgn1.jpg)
+![](//ww1.sinaimg.cn/large/006tNc79ly1g5d886453ej30ak0btgn1.jpg)
 
 classpath的值：`.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`
 
@@ -59,7 +59,7 @@ java -Xmx256m -jar "目标文件"  即：java -Xmx256m -jar GlassFish-v2ur2-b04-
 此步骤进行解压缩操作。会弹出一个确认对话框，窗口可能出现在最底层，现实桌面会发现窗口。另外，你需要拖动下滚动条才让您点击同意。或者一段时间后才可以下一步。 
 
 正常解压情形：
-![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d88dmacwj30il0c642s.jpg)
+![](//ww3.sinaimg.cn/large/006tNc79ly1g5d88dmacwj30il0c642s.jpg)
 
 成功后会在当前目录生成一个glassFish文件夹
 
@@ -70,7 +70,7 @@ D:\>glassfish>ant -f setup.xml
 ```
 
 此命令完成GlassFish的安装 ,如图：
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d88kyd3ij30il0c6434.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d88kyd3ij30il0c6434.jpg)
 
 **启动GlassFish服务**
 进入GlassFish目录下的bin目录，执行以下命令
@@ -81,7 +81,7 @@ D:\>glassfish\bin>asadmin start-domain
 ```
 
 如果执行成功，如下图：
-![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d88s3rbvj30ik0c70yd.jpg)
+![](//ww3.sinaimg.cn/large/006tNc79ly1g5d88s3rbvj30ik0c70yd.jpg)
 
 如果这里出现问题，请到安装目录下查看，在bin同目录下是否有domains这个文件夹。如果没有，需要手动创建一个服务域， 代码如下：
 ```shell
@@ -93,12 +93,12 @@ C:\user>asadmin create-domain --adminport 4848 domain1
 **测试**
 GlassFish默认管理端口为4848，默认管理员为：admin，默认口令为：adminadmin,在浏览器上输入localhost:4848,就会出现管理控制台。输入http://localhost:4848
 
-![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d88z5cdhj30ku0brdhg.jpg)
+![](//ww2.sinaimg.cn/large/006tNc79ly1g5d88z5cdhj30ku0brdhg.jpg)
 
 如果能成功登陆，即这一步OK！接下里继续往下看：   
 停止GlassFish服务，同样进入GlassFish目录下的bin目录，执行以下命令   
 asadmin stop-domain   
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d8966uv8j30hs021aa6.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d8966uv8j30hs021aa6.jpg)
 
 GlassFish是通过ant来安装的，安装在脚本setup.xml下，在里面可以修改一下配置，比如端口等等 
 在setup.xml中主要有以下设置： 
@@ -138,33 +138,33 @@ asadmin start-domain domain1        //domain1是上面设置的domain.name,系�
 ```
 
 例如，我本人的情况，项目名li555（可以随便取，只是个标识）
-![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d899fdpej30hx02mwf1.jpg)
+![](//ww2.sinaimg.cn/large/006tNc79ly1g5d899fdpej30hx02mwf1.jpg)
 
 这样，你的glassfish服务器就开启了，项目可以运行了，你也可以在浏览器的管理控制台上看到和启动你的项目：
 刷新你的管理控制台，在左边找到 “Web Applications”
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d89bas4pj30ku06vab3.jpg)
+![](//ww1.sinaimg.cn/large/006tNc79ly1g5d89bas4pj30ku06vab3.jpg)
 
 不好意思，说错了，Action里的launch才是启动项目
 
 ## 四、GlassFish与Eclipse的集成
 
 打开你的Eclipse，访问菜单 新建一个Server 
-![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d89c6ownj30ku03q3yo.jpg)
+![](//ww2.sinaimg.cn/large/006tNc79ly1g5d89c6ownj30ku03q3yo.jpg)
 
 下载雾服务器适配链接
-![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d89d7lfsj30ek0eujsy.jpg)
+![](//ww3.sinaimg.cn/large/006tNc79ly1g5d89d7lfsj30ek0eujsy.jpg)
 
 找到GlassFish，其实我这个Eclipse还是没有的，我就截个图让你们看看，解决你的Eclipse获取不到GlassFish的方法再这节后面再讲，可能是Eclipse的版本问题，我的干开始很郁闷的，希望你们没我悲催
-![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d89e18dyj30ej0gv0v1.jpg)
+![](//ww2.sinaimg.cn/large/006tNc79ly1g5d89e18dyj30ej0gv0v1.jpg)
 
 接下来就可以在新建Serv里的看到GlassFish了，点一下部去配置
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d89ezkmqj30eh0ev0ul.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d89ezkmqj30eh0ev0ul.jpg)
 
 设置Dmain目录，指定你的GlassFish\domains,
-![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d89fg8i4j30ee0f0gmk.jpg)
+![](//ww3.sinaimg.cn/large/006tNc79ly1g5d89fg8i4j30ee0f0gmk.jpg)
 
 下一步（添加项目到服务器），也可以直接Finis完成了，我点完成，在Serv视图总就可一看到如图
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d89gds7vj30ku0480sy.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d89gds7vj30ku0480sy.jpg)
 
 Ok！大功告成，恭喜你做到最后一部！点小虫子就可以启动了，不需要在DOS窗口用命令行了，就和用Tomcat一样的了。 
 
@@ -172,7 +172,7 @@ Ok！大功告成，恭喜你做到最后一部！点小虫子就可以启动了
 
 目标就是像MyEclipse一样，有redeploy功能。不用手动重新部署。 
 
-我这里只写步骤，遇到问题了请参考http://www.iteye.com/topic/141589，如果需要用到touch.exe文件，请到附件里去下载。 
+我这里只写步骤，遇到问题了请参考//www.iteye.com/topic/141589，如果需要用到touch.exe文件，请到附件里去下载。 
 
 1. 在Eclipse里，把项目的编译的.class输出到WebContent/WEB-INF目录下。具体做法在项目右击到properties--Java Build Path -- source --Default output folder，选择WebContent/WEB-INF，在里面建一个classes，把.class保存在里面。 
 2. 按照目录部署，让glassfish启动，目录部署命令如下，asadmin deploydir --name 你项目名 你项目的WebContent的绝对路径 
@@ -186,7 +186,7 @@ Working directory:${project_loc}/WebContent
 Arguments:.reload   
 Common里的Display in Favorites menu选中Extends tools。   
 以后每次修改.java文件都可以通过touch.exe直接热部署。   
-![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d89hisz0j30gq0hjacz.jpg)
+![](//ww2.sinaimg.cn/large/006tNc79ly1g5d89hisz0j30gq0hjacz.jpg)
 
 ## 六、GlassFish配置jdbc数据源 
 
@@ -205,9 +205,9 @@ Common里的Display in Favorites menu选中Extends tools。
 下面来说说前面配置你可能会出现的错误：
 - 你的Eclipse在新建Server的时候，可能并不能获取到GlassFish,也就是说Download additional server adapters获取不到Glassfish,其他常规方法还是不行，我试过了，我的Eclipse就怎么也不行，后来我下载了另一个Eclipse的版本，叫JUNO(朱诺)，我机器上之前是HELOIS（太阳神）
 
-Eclipse Juno的下载地址：http://www.eclipse.org/downloads/ 
-![JUNO(朱诺)](http://ww2.sinaimg.cn/large/006tNc79ly1g5d89ibyvoj30cl08ggml.jpg)
+Eclipse Juno的下载地址：//www.eclipse.org/downloads/ 
+![JUNO(朱诺)](//ww2.sinaimg.cn/large/006tNc79ly1g5d89ibyvoj30cl08ggml.jpg)
 
-![HELIOS(太阳神)](http://ww1.sinaimg.cn/large/006tNc79ly1g5d89j5r7xj30cq08a0tp.jpg)
+![HELIOS(太阳神)](//ww1.sinaimg.cn/large/006tNc79ly1g5d89j5r7xj30cq08a0tp.jpg)
 
 让后用它去获取，能获取的到，在打开你的Eclipse Helios，很奇怪，此时helios自动出来了。

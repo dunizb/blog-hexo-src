@@ -30,7 +30,7 @@ XSS又称CSS，全称Cross Site Script，跨站脚本攻击，是Web程序中常
 
 请求下面链接就会出现问题了：
 ```html
-http://www.domain.com/test.jsp?content=<script>alert('XSS注入');</script>
+//www.domain.com/test.jsp?content=<script>alert('XSS注入');</script>
 ```
 
 ### 1.2 SQL注入
@@ -40,12 +40,12 @@ SQL Injection，就是通过把SQL命令插入到Web表单递交或输入域名�
 典型例子：
 国内最大的程序员社区CSDN网站的用户数据库被黑客公开发布，600万用户的登录名及密码被公开泄露。
 
-一个简单的例子，比如请求连接获取用户信息，请求连接为：`http://www.example.com/user?userId=1`，通常代码中会执行SQL语句：
+一个简单的例子，比如请求连接获取用户信息，请求连接为：`//www.example.com/user?userId=1`，通常代码中会执行SQL语句：
 ```sql
 select * from table_user where userId=${userId}
 ```
 
-假如SQL注入，请求连接为：`http://www.example.com/user?userId=1 or 1=1`，SQL会执行：
+假如SQL注入，请求连接为：`//www.example.com/user?userId=1 or 1=1`，SQL会执行：
 ```sql
 select * from table_user where userId=1 or 1=1
 ```

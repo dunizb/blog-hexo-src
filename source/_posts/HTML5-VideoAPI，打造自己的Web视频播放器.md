@@ -11,7 +11,7 @@ tags:
 
 > 本文将使用HTML5提供的VideoAPI做一个自定义的视频播放器，需要用到HTML5提供的video标签、以及HTML5提供的对JavascriptAPI的扩展。
 <!-- more -->
-![video.jpg](http://ww3.sinaimg.cn/large/006tNc79ly1g5d89orce0j30ll0dj0sy.jpg)
+![video.jpg](//ww3.sinaimg.cn/large/006tNc79ly1g5d89orce0j30ll0dj0sy.jpg)
 
 一、基础知识
 ---------------------------
@@ -51,7 +51,7 @@ tags:
 **currentTime**：设置或返回音频/视频中的当前播放位置（以秒计）
 **ended**：返回音频/视频的播放是否已结束    
 
-更多属性、事件、方法请查看[w3school](http://www.w3school.com.cn/tags/html_ref_audio_video_dom.asp)
+更多属性、事件、方法请查看[w3school](//www.w3school.com.cn/tags/html_ref_audio_video_dom.asp)
 
 二、打造自己的播放器
 ---------------------------

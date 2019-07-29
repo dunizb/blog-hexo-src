@@ -12,11 +12,11 @@ tags:
 <!-- more -->
 Javascript中的实例的属性和行为是由构造函数和原型两部分组成的，我们定义两个类：Person和zhangsan，它们在内存中的表现如下图1：
 
-![Person和zhangsan，它们在内存中的表现](http://ww3.sinaimg.cn/large/006tNc79ly1g5d8a2hqowj30js05k3ym.jpg)
+![Person和zhangsan，它们在内存中的表现](//ww3.sinaimg.cn/large/006tNc79ly1g5d8a2hqowj30js05k3ym.jpg)
 
 如果想让Zhangsan继承Person，那么我们需要把Person构造函数和原型中的属性和行为全部传给Zhangsan的构造函数和原型，如下图2所示：
 
-![Zhangsan的构造函数和原型](http://ww2.sinaimg.cn/large/006tNc79ly1g5d8a4qe1oj30jm05nwen.jpg)
+![Zhangsan的构造函数和原型](//ww2.sinaimg.cn/large/006tNc79ly1g5d8a4qe1oj30jm05nwen.jpg)
 
 Are you Ok？了解了继承的思路后，那么我们一步步完成Person和Zhangsan的继承功能。首先，我们需要定义Person类，如下代码：
 

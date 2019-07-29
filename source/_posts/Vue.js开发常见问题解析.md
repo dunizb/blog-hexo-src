@@ -9,11 +9,11 @@ tags:
 description: "《Vue.js权威指南》读书笔记之一"
 ---
 
-![Vue.js](http://ww1.sinaimg.cn/large/006tNc79ly1g5d800a721j30p00b0q2x.jpg)
+![Vue.js](//ww1.sinaimg.cn/large/006tNc79ly1g5d800a721j30p00b0q2x.jpg)
 此前的Vue.js系列文章：
 
  - [Vue.js常用开发知识简要入门（一）](http://dunizb.com/2016/12/18/Vue.js常用开发知识简要入门（一）)
- - [Vue.js常用开发知识简要入门（二）](http://www.jianshu.com/p/ce9fc4c8a7ce)
+ - [Vue.js常用开发知识简要入门（二）](//www.jianshu.com/p/ce9fc4c8a7ce)
  - [Vue.js常用开发知识简要入门（三）](http://dunizb.com/2017/02/13/Vue.js常用开发知识简要入门（三）)
 
 ## camelClass & kebab-case
@@ -108,4 +108,4 @@ var vm = new Vue({
 《Vue.js权威指南》读书笔记
 
 **++++++++++[本人出售《Vue.js权威指南》，二手价20元！](http://dunizb.com/obook/)++++++++++**
-[![Vue.js权威指南](http://ww2.sinaimg.cn/large/006tNc79ly1g5d806ctb3j30g20jkdjd.jpg)](http://dunizb.com/obook/)
+[![Vue.js权威指南](//ww2.sinaimg.cn/large/006tNc79ly1g5d806ctb3j30g20jkdjd.jpg)](http://dunizb.com/obook/)

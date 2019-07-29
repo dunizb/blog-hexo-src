@@ -56,7 +56,7 @@ description: "我所知道的AOP初看起来，上来就是一大堆的术语，
 = advice +　目标对象的方法
 
 下面的图简化和形象的说明了AOP
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7wy63x7g300400801g.gif)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d7wy63x7g300400801g.gif)
 
 ## 我所理解的AOP原理
 

@@ -330,7 +330,7 @@ function Person(){}
 var p = new Person();
 ```
 原型链结构图为：
-![原型链结构图](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7vgc9lhj30i40c7gm6.jpg)
+![原型链结构图](//ww1.sinaimg.cn/large/006tNc79ly1g5d7vgc9lhj30i40c7gm6.jpg)
  
 使用原型需要注意两点：
 1. 原型继承链条不要太长，否则会出现效率问题。
@@ -461,5 +461,5 @@ foo( 123 );
 ******************
 
 **参考资料**
-- 本文原型部分部分引用自[《JavaScript原型详解》](http://www.admin10000.com/document/9336.html)，版权归原作者所有
+- 本文原型部分部分引用自[《JavaScript原型详解》](//www.admin10000.com/document/9336.html)，版权归原作者所有
 - [js闭包的用途](http://blog.csdn.net/sunlylorn/article/details/6534610)

@@ -12,10 +12,10 @@ GitHub初学入门者的图谱，介绍Github网站每个功能的意思
 一、键盘快捷键
 =============================
 在GitHub中，很多页面都可以使用键盘快捷键。在各个页面按下“shift + /”都可以打开键盘快捷键一览表，如下图：
-![快捷键](http://ww3.sinaimg.cn/large/006tNc79ly1g5d80e9e8rj30st0dqwfp.jpg)
+![快捷键](//ww3.sinaimg.cn/large/006tNc79ly1g5d80e9e8rj30st0dqwfp.jpg)
 二、工具栏
 ============================
-![工具栏](http://ww3.sinaimg.cn/large/006tNc79ly1g5d80f9w7sj30rz0443yx.jpg)
+![工具栏](//ww3.sinaimg.cn/large/006tNc79ly1g5d80f9w7sj30rz0443yx.jpg)
 1. LOGO
 点击GitHub的LOGO就会进入控制面板。
 2. Search（搜索）
@@ -34,7 +34,7 @@ Gist功能主要时用于管理及发布一些没必要保存在仓库中的代�
 
 三、个人信息页
 ==================================
-![个人信息页](http://ww4.sinaimg.cn/large/006tNc79ly1g5d80ih41dj30sr0rwwvk.jpg)
+![个人信息页](//ww4.sinaimg.cn/large/006tNc79ly1g5d80ih41dj30sr0rwwvk.jpg)
 1. 用户信息
 显示注册的基本信息，包括姓名、所属公司、邮箱地址、已加入的Organization（组织）等，如果对该用户感兴趣，可以点击页面右上角的Follow（跟随）按钮（已经Follow的用户会显示Unfollow）。这样一来，这个人在GitHub上的活动都会显示在您的News Feed（新闻提要）中。
 2. Popular Repositories（受欢迎的库）
@@ -48,14 +48,14 @@ Gist功能主要时用于管理及发布一些没必要保存在仓库中的代�
 6. Repositories
 显示该用户公共开的仓库。Fork（叉）来的仓库也显示在这里。
 仓库名称、简要说明、使用的语言、最终更新日期都会出现在列表中。星形图案旁边的数字表示这个仓库添加Star的人数，再旁边是杯Fork数。
-![Repositories.jpg](http://ww3.sinaimg.cn/large/006tNc79ly1g5d80iwua7j30st0e4759.jpg)
+![Repositories.jpg](//ww3.sinaimg.cn/large/006tNc79ly1g5d80iwua7j30st0e4759.jpg)
 7. Public Activity（公开的活动）
 显示该用户的公开活动信息。活动就是指这个用户做了什么，比如向仓库进行提交或者Pull Request等，其大量的公开信息都会被记录在这里。从这里可以了解到这个用户平常都在GitHub上做些什么，比如查看一下崇拜已久的程序员的公开活动，就可以知道他现在在关注些什么，或者正在热心于开发些什么。
-![Public Activity.jpg](http://ww2.sinaimg.cn/large/006tNc79ly1g5d80jvwgbj30ro0bt3zi.jpg)
+![Public Activity.jpg](//ww2.sinaimg.cn/large/006tNc79ly1g5d80jvwgbj30ro0bt3zi.jpg)
 
 四、仓库
 ==============================
-![仓库.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d8180h6wj30s00fwmyy.jpg)
+![仓库.png](//ww4.sinaimg.cn/large/006tNc79ly1g5d8180h6wj30s00fwmyy.jpg)
 1. 用户名（组织名）/仓库名
 2. Watch、Star、Fork
 眼睛图标标着Watch字样，点击这个按钮就可以Watch该仓库，今后该仓库的更新信息会显示在用户的公开活动中。Star旁边的数组表示给这个仓库添加Star的人数，这个数越高，代表该仓库越受关注。

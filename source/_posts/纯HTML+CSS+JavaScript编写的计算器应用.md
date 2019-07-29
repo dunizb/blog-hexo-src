@@ -54,7 +54,7 @@ key由appName+id组成，id是自动增长不重复的，可以按id和appName�
 
 **打包APP**
 
-移动Web版计算器写完后，又想把他做成APP在手机上运行，由于本人没用过混合APP诸如ionic之类的框架，所以参考了一下，选择了Hbuild来进行开发和APP的打包，非常方便。（[HBuild](http://www.dcloud.io/index.html)）.
+移动Web版计算器写完后，又想把他做成APP在手机上运行，由于本人没用过混合APP诸如ionic之类的框架，所以参考了一下，选择了Hbuild来进行开发和APP的打包，非常方便。（[HBuild](//www.dcloud.io/index.html)）.
 
 **单手模式**
 

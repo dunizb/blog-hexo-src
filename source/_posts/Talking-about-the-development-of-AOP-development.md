@@ -38,14 +38,14 @@ public class AuthAspect {
 
 但此时Spring并知道这个类要作为Aspect使用的，这样依然只是一个普通的bean。还不知道要当肉来使用。这时候我们需要到如一个的明白空间AOP：
 ```xml
-<beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:p="http://www.springframework.org/schema/p"
-    xmlns:aop="http://www.springframework.org/schema/aop"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
-    http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
-    http://www.springframework.org/schema/aop
-    http://www.springframework.org/schema/aop/spring-aop-3.2.xsd" >
+<beans xmlns="//www.springframework.org/schema/beans"
+    xmlns:p="//www.springframework.org/schema/p"
+    xmlns:aop="//www.springframework.org/schema/aop"
+    xmlns:xsi="//www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="//www.springframework.org/schema/beans
+    //www.springframework.org/schema/beans/spring-beans-3.2.xsd
+    //www.springframework.org/schema/aop
+    //www.springframework.org/schema/aop/spring-aop-3.2.xsd" >
 ```
 
 所有有关AOP的配置，都放在aop:config元素中：
@@ -61,11 +61,11 @@ public class AuthAspect {
 ```
 
 AOP配置图：
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7vbn9l1j30fe0bqmyv.jpg)
+![](//ww1.sinaimg.cn/large/006tNc79ly1g5d7vbn9l1j30fe0bqmyv.jpg)
 
 注意，我们需要增加如下几个包：aopalliance、AspectJ、cglib。
 运行上面的程序结果：
-![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d7vclk0hj30fe076dii.jpg)
+![](//ww2.sinaimg.cn/large/006tNc79ly1g5d7vclk0hj30fe076dii.jpg)
 
 **1、Spring支持的Advice**
 对于Advice而言，Spring一共支持5种Advice：

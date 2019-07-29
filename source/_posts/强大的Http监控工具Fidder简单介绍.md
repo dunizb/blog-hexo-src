@@ -17,13 +17,13 @@ Fiddler 包含一个简单却功能强大的基于JScript .NET 事件脚本子�
 http://fiddler2.com/get-fiddler
 
 软件学习：
-http://www.cnblogs.com/TankXiao/archive/2012/02/06/2337728.html#request
+//www.cnblogs.com/TankXiao/archive/2012/02/06/2337728.html#request
 
 Fiddler还支持丰富的插件，官方也停供大量的插件：
-http://www.telerik.com/fiddler/add-on
+//www.telerik.com/fiddler/add-on
 
 ## 2、Fiddler工作原理
-![Fiddler工作原理](http://ww2.sinaimg.cn/large/006tNc79ly1g5d7wzjr0yj30gp06y0ty.jpg)
+![Fiddler工作原理](//ww2.sinaimg.cn/large/006tNc79ly1g5d7wzjr0yj30gp06y0ty.jpg)
 
 两种代理模式：
 - 流模式（streaming）：更接近浏览器的真实情况
@@ -39,13 +39,13 @@ http://www.telerik.com/fiddler/add-on
 
 ## 4、工具条、状态栏常用功能
 工具条:
-![工具条](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7x1y9daj30yg0am108.jpg)
+![工具条](//ww4.sinaimg.cn/large/006tNc79ly1g5d7x1y9daj30yg0am108.jpg)
 
 状态栏:
-![状态栏](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7x2yjkxj30rr05r3yt.jpg)
+![状态栏](//ww4.sinaimg.cn/large/006tNc79ly1g5d7x2yjkxj30rr05r3yt.jpg)
 
 ## 5、监控面板的使用
-![监控面板的使用](http://ww2.sinaimg.cn/large/006tNc79ly1g5d7x4h39mj30yg07mte7.jpg)
+![监控面板的使用](//ww2.sinaimg.cn/large/006tNc79ly1g5d7x4h39mj30yg07mte7.jpg)
 
 ## 6、文件、文件夹代理和Host配置
-![Host配置](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7x5rt21j30l40c3wg0.jpg)
+![Host配置](//ww1.sinaimg.cn/large/006tNc79ly1g5d7x5rt21j30l40c3wg0.jpg)

@@ -122,6 +122,6 @@ RESTfu，`api/file` 只需要这一个接口：
 *******
 推荐文章
 - [《前端程序员面试笔试宝典》P162](https://book.douban.com/subject/30324146/)
-- [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
+- [理解RESTful架构](//www.ruanyifeng.com/blog/2011/09/restful.html)
 - [RESTful 架构风格概述](https://blog.igevin.info/posts/restful-architecture-in-general/)
 - [前后端分离与restful api介绍](https://zhuanlan.zhihu.com/p/32901317)

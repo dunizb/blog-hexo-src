@@ -10,7 +10,7 @@ tags:
 
 假设现在有两台机器，一个是你本地开发的机器，一台是服务器，而你本地又有两个应用，需要从shopManage同步到fxShop,如下图.
 <!-- more -->
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7y9z7v0j30ku08g3z0.jpg)
+![](//ww1.sinaimg.cn/large/006tNc79ly1g5d7y9z7v0j30ku08g3z0.jpg)
 
 在2的时间节点还要同时同步到右边的服务器上，二本地两个应用之间使用I\O拷贝。
 
@@ -161,28 +161,28 @@ public static void main(String[] args) {
 FileZilla Server设置：
 首先需要新建一个用户：
 
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7yayt55j30ku0azgri.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d7yayt55j30ku0azgri.jpg)
 
 直接填一个用户名就好了：
 
-![](http://ww2.sinaimg.cn/large/006tNc79ly1g5d7ybrf16j308v060jrn.jpg)
+![](//ww2.sinaimg.cn/large/006tNc79ly1g5d7ybrf16j308v060jrn.jpg)
 
 然后账号设置这里，你可以给给他分配一个密码，也可以不写，去掉勾就好了：
 
-![](http://ww3.sinaimg.cn/large/006tNc79ly1g5d7ycqqpfj30i90c8gmc.jpg)
+![](//ww3.sinaimg.cn/large/006tNc79ly1g5d7ycqqpfj30i90c8gmc.jpg)
 
 接下来就是制定一个共享目录，这个目录就是用来同步到的目标地址：
 
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7yd776oj30if0cf75a.jpg)
+![](//ww1.sinaimg.cn/large/006tNc79ly1g5d7yd776oj30if0cf75a.jpg)
 
 这里假设建在F盘的FTPTest目录下。
 注意：这里的Read、Write必须勾选，否则FTP就没法写入文件了
 
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7ye3p4rj303y07b0sl.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d7ye3p4rj303y07b0sl.jpg)
 
 还要设置这个文件夹为系统共享的，右键-属性-共享这个文件夹：
 
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5d7yephvlj30f20dp75h.jpg)
+![](//ww1.sinaimg.cn/large/006tNc79ly1g5d7yephvlj30f20dp75h.jpg)
 
 好了，就弄完了。
 

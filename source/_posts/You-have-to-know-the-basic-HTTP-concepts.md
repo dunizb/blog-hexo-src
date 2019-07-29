@@ -98,7 +98,7 @@ Server不再只是一个单独的机器，它可以是在同一个机器上装�
 - 登陆，允许存储历史信息
 
 每一个发送到服务器的请求，都会被服务器处理并且返回一个消息，也就是response。在client与server之间，还有许许多多的被称为proxies的实体，他们的作用与表现各不相同，比如有些是网关，还有些是caches等。
-![Client-server-chain](http://ww1.sinaimg.cn/large/006tNc79ly1g5d89mybl5j30mr03dq30.jpg)
+![Client-server-chain](//ww1.sinaimg.cn/large/006tNc79ly1g5d89mybl5j30mr03dq30.jpg)
 
 实际上，在一个浏览器和处理请求的服务器之间，还有计算机、路由器、调制解调器等等许多实体。由于Web的层次设计，那些在网络层和传输层都不可见了。HTTP是在最上层应用层中的，虽然下面的层次对分析网络问题非常重要，但是对HTTP的描述来说，这些大多数都是不相关的。
 
@@ -144,7 +144,7 @@ URL是一种资源位置标示方法。URL描述了一个资源在服务器上�
 - 第二部分：服务器地址(比如，example.com）。
 - 其余部分指定了Web服务器上的某个资源(比如，/part/index.htm)。
 
-当在地址栏输入此资源名并回车后，用户代理会把URL解析，把必要的信息以HTTP协议的要求，打入请求消息内。以http://www.example.com/index.html，变成
+当在地址栏输入此资源名并回车后，用户代理会把URL解析，把必要的信息以HTTP协议的要求，打入请求消息内。以//www.example.com/index.html，变成
 ```
 GET index.html HTTP/1.1
 host:www.example.com
@@ -208,7 +208,7 @@ HTTP是很简单可扩展的一种协议。结合了轻松添加头部信息能�
 
 **********
 
-关于HTTP，如果你不想啃大部头的《HTTP权威指南》，那么强烈建议你阅读刘传君的图灵电子书《HTTP小书》，准能帮你节省不少时间，只要9块钱！戳这里：[http://www.ituring.com.cn/book/1791](http://www.ituring.com.cn/book/1791)
+关于HTTP，如果你不想啃大部头的《HTTP权威指南》，那么强烈建议你阅读刘传君的图灵电子书《HTTP小书》，准能帮你节省不少时间，只要9块钱！戳这里：[//www.ituring.com.cn/book/1791](//www.ituring.com.cn/book/1791)
 
 <div align="center">
 <img src="http://file.ituring.com.cn/ScreenShow/01009e449fbd55d97a7f" width="320" title="HTTP小书" alt="HTTP小书"/>
@@ -218,5 +218,5 @@ HTTP是很简单可扩展的一种协议。结合了轻松添加头部信息能�
 参考资料：
 
 - MDN：[https://developer.mozilla.org/zh-CN/docs/Web/HTTP](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
-- 《HTTP小书》，刘传君，[http://www.ituring.com.cn/book/1791](http://www.ituring.com.cn/book/1791)
+- 《HTTP小书》，刘传君，[//www.ituring.com.cn/book/1791](//www.ituring.com.cn/book/1791)
 - [扫盲 HTTPS 和 SSL/TLS 协议[1]：背景知识、协议的需求、设计的难点](https://program-think.blogspot.com/2014/11/https-ssl-tls-1.html)

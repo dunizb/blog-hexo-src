@@ -18,7 +18,7 @@ https://github.com/rails/rails/compare/1-2-stable...2-0-stable
 ```
 
 这样，就可以查看两个分支间的差别了。可以看到，有12名程序员经过1989次提交，完成了1.2版本到2.0版本的升级工作。
-![1.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8fdvaakj30s60grabr.jpg)
+![1.png](//ww1.sinaimg.cn/large/006tNc79ly1g5d8fdvaakj30s60grabr.jpg)
 
 查看与几天前的差别
 ==============================
@@ -28,7 +28,7 @@ https://github.com/rails/rails/compare/master@{7.day.ago}...master
 ```
 
 这样，就可以查看这段时间内的差别。
-![2.png](http://ww1.sinaimg.cn/large/006tNc79ly1g5d8feuk8sj30ru0f9jsw.jpg)
+![2.png](//ww1.sinaimg.cn/large/006tNc79ly1g5d8feuk8sj30ru0f9jsw.jpg)
 + day
 + week
 + month
@@ -44,4 +44,4 @@ https://github.com/rails/rails/compare/master@{2013-01-01}...master
 ```
 
 这样，便可以查看与指定日期之间的差别。但是如果指定日期与现在的差别过大，或者指定日期过于久远，则无法显示。
-![3.png](http://ww2.sinaimg.cn/large/006tNc79ly1g5d8flc50sj30ri0gjgmv.jpg)
+![3.png](//ww2.sinaimg.cn/large/006tNc79ly1g5d8flc50sj30ri0gjgmv.jpg)

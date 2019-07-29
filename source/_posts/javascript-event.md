@@ -19,19 +19,19 @@ description: "事件流描述的是从页面中接收事件的顺序，IE的事�
 
 如下图所示，如果你点击了按钮，那么也认为你点击了外面的div，最终会一直传递到document上，从小到大的传播，就好比水里鱼的冒泡，从小泡泡大道泡泡的过程。
 
-![Paste_Image.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d84u4340j30km0bldfx.jpg)
+![Paste_Image.png](//ww4.sinaimg.cn/large/006tNc79ly1g5d84u4340j30km0bldfx.jpg)
 
 ### 2、事件捕获
 
 事件捕获跟事件冒泡恰好相反。它的思想是不太具体的节点应该更早接收到事件，而最具体的节点最后接收到事件。
 
-![Paste_Image.png](http://ww2.sinaimg.cn/large/006tNc79ly1g5d84v3p82j30pp09rwew.jpg)
+![Paste_Image.png](//ww2.sinaimg.cn/large/006tNc79ly1g5d84v3p82j30pp09rwew.jpg)
 
 ### 3、事件的三个阶段
 
 事件的三个阶段分别是：捕获阶段、目标阶段、冒泡阶段
 
-![事件的三个阶段](http://ww1.sinaimg.cn/large/006tNc79ly1g5d84w1g8aj30af06uaa7.jpg)
+![事件的三个阶段](//ww1.sinaimg.cn/large/006tNc79ly1g5d84w1g8aj30af06uaa7.jpg)
 
 ## 二、事件处理程序
 
@@ -187,7 +187,7 @@ eventUtil.addHandle(btn3,"click",showMsg);
 
 事件对象event
 
-![Paste_Image.png](http://ww4.sinaimg.cn/large/006tNc79ly1g5d84wxh6fj30gk07nq4j.jpg)
+![Paste_Image.png](//ww4.sinaimg.cn/large/006tNc79ly1g5d84wxh6fj30gk07nq4j.jpg)
 
 ### 1、DOM中的事件对象
 

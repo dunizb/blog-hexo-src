@@ -12,7 +12,7 @@ tags:
 
 系统结构为：Struts2+MyBaties+Spring3+MySQL
 
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7z9zoggj30ku04o3zh.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d7z9zoggj30ku04o3zh.jpg)
 
 HTML、JS：
 ```js
@@ -151,4 +151,4 @@ public class ExcelUtils {
 ```
 
 代码完成后点击导出按钮，结果如图：
-![](http://ww4.sinaimg.cn/large/006tNc79ly1g5d7zaw7csj30eo0973yk.jpg)
+![](//ww4.sinaimg.cn/large/006tNc79ly1g5d7zaw7csj30eo0973yk.jpg)
