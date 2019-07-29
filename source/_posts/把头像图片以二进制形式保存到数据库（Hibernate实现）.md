@@ -3,8 +3,8 @@ title: 把头像图片以二进制形式保存到数据库（Hibernate实现）
 date: 2014-07-13 20:47:28
 categories:
 - 服务端开发 
-- Java
 tags:
+- Java
 - Hibernate
 - 数据库
 description: "我们把头像直接保存到数据库，而不是保存一个地址。使用Hibernate自动创建表方式，数据库photo字段的数据类型是CLOB，这是针对MySQL，其他数据库可能不一样。"

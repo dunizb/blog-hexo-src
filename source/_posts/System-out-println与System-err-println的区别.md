@@ -3,9 +3,8 @@ title: System.out.println与System.err.println的区别
 date: 2013-10-29 15:17:21
 categories:
 - 服务端开发
-- Java
 tags:
-- javase
+- Java
 ---
 
 `System.out.println`能重定向到别的输出流，这样的话你在屏幕上将看不到打印的东西了， 而`System.err.println`只能在屏幕上实现打印，即使你重定向了也一样。

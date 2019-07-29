@@ -3,7 +3,6 @@ title: Vue.js项目API、Router配置拆分实践
 date: 2017-06-20 20:35:48
 categories:
 - 前端开发
-- 前端框架
 tags:
 - Vue.js
 - 实战

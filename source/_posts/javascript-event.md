@@ -3,9 +3,8 @@ title: JavaScript事件探秘
 date: 2014-09-06 11:25:29
 categories:
 - 前端开发
-- JavaScript
 tags:
-- 事件
+- JavaScript
 description: "事件流描述的是从页面中接收事件的顺序，IE的事件流是事件冒泡流，而Netscape的事件流是事件捕获流，事件冒泡，即事件最开始由最具体的元素(文档中嵌套层次最深的那个节点)接收，然后逐级向上传播至最不具体的节点(文档)。"
 ---
 

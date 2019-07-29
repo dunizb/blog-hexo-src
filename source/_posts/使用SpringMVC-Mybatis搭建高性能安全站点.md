@@ -3,8 +3,8 @@ title: 使用SpringMVC+Mybatis搭建高性能安全站点
 date: 2016-11-01 23:29:08
 categories:
 - 服务端开发
-- Java
 tags:
+- Java
 - Spring
 - Mybatis
 description: "XSS又称CSS，全称Cross Site Script，跨站脚本攻击，是Web程序中常见的漏洞，XSS属于被动式且用于客户端的攻击方式，所以容易被忽略其危害性。其原理是攻击者向有XSS漏洞的网站中输入(传入)恶意的HTML代码，当其它用户浏览该网站时，这段HTML代码会自动执行，从而达到攻击的目的。如，盗取用户Cookie、破坏页面结构、重定向到其它网站等。"

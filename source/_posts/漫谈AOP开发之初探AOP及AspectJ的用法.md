@@ -3,8 +3,8 @@ title: 漫谈AOP开发之初探AOP及AspectJ的用法
 date: 2014-10-26 13:39:55
 categories:
 - 服务端开发
-- Java
 tags:
+- Java
 - Spring
 description: "AOP是一个很成熟的技术，假如项目中有方法A、方法B、方法C……等多个方法，如果项目需要为方法A、方法B、方法C……这批方法增加具有通用性质的横切处理。"
 ---

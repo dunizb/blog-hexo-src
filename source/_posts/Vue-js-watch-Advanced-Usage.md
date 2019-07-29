@@ -3,7 +3,6 @@ title: Vue.js中侦听器（watch）的高级用法
 date: 2018-04-28 21:11:14
 categories:
 - 前端开发
-- 前端框架
 tags:
 - Vue.js
 description: "handler方法和immediate、deep属性的使用"

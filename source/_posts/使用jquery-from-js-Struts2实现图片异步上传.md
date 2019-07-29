@@ -3,11 +3,10 @@ title: 使用jquery.from.js+Struts2实现图片异步上传
 date: 2013-09-19 12:42:29
 categories: 
 - 服务端开发
-- Java
 tags:
+- Java
 - jQuery
 - Struts2
-- 文件上传
 description: "jquery.form.js是jQuery的一个官方用语支持异步上传文件的插件。官方网站：http://plugins.jquery.com/form/ ，结合Struts2三步轻松实现文件上传。"
 ---
 

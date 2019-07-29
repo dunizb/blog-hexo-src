@@ -3,6 +3,8 @@ title: 前端要知道的RESTful API架构风格
 date: 2019-07-28 12:26:45
 categories:
 - 前端开发
+tags:
+- 读书笔记
 description: "前端程序员在开发完页面后总是要对接口的，跟后端联调有时候还占用蛮大的时间的，那么你了解你和后端对的接口都是什么风格吗，你们公司接口设计的如何，你使用愉快吗？下面介绍一种API架构风格，也是目前主流的API设计风格，你或许一直在使用。"
 ---
 ![RESTful API 示例](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/RESTful-API-Swaggar.png)

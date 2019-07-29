@@ -3,9 +3,9 @@ title: Java I/O FTP同步代码及FileZilla Server设置
 date: 2013-12-07 18:34:06
 categories:
 - 服务端开发
-- Java
 tags:
 - ftp
+- Java
 ---
 
 假设现在有两台机器，一个是你本地开发的机器，一台是服务器，而你本地又有两个应用，需要从shopManage同步到fxShop,如下图.

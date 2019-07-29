@@ -3,9 +3,8 @@ title: '小技巧|H5禁止手机虚拟键盘弹出'
 date: 2017-09-24 23:12:28
 categories:
 - 前端开发
-- 移动Web
 tags:
-- 小技巧
+- 移动Web
 description: "H5禁止手机虚拟键盘弹出的两种方式详解"
 ---
 

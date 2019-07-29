@@ -3,9 +3,8 @@ title: 模拟JavaScript的Array.sort()方法
 date: 2016-07-07 22:19:00
 categories:
 - 前端开发
-- JavaScript
 tags:
-- 数组
+- JavaScript
 ---
 
 在JavaScript中，Array对象的sort()方法是用来排序的，但是这个方法在默认情况下可能不是我们想要的，比如对于如下数组

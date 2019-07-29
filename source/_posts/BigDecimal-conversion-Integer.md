@@ -3,10 +3,8 @@ title: BigDecimal互转Integer
 date: 2013-10-26 20:57:51
 categories:
 - 服务端开发
-- Java
 tags:
-- javase
-- 备忘
+- Java
 ---
 
 ## 一、Integer类型
