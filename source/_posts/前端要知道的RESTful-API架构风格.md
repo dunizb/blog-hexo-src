@@ -46,14 +46,14 @@ REST给出了6种约束条件，通信两端在遵循这些约束后，就能提
 
 ## 常见笔试题:什么是 RESTful API，如何设计RESTful API？
 
-答案: RESTful API Web API。为了使得接口安全、易用、可维护以及可扩展，一般设计 RESTful API需要考虑以下几个方面:
+答案: RESTful API。为了使得接口安全、易用、可维护以及可扩展，一般设计 RESTful API需要考虑以下几个方面:
 1. 通信用HTPS安全协议。
-2. 在URL中加入版本号，例如“vl/animals＇s
+2. 在URL中加入版本号，例如"vl/animals"
 3. URL中的路径（endpoint）不能有动词，只能用名词。
 4. 用HTTP方法对资源进行增删改查的操作。
 5. 用HTTP状态码传达执行结果和失败原因。
 6. 为集合提供过滤、排序、分页等功能。
-7. 用查询字符串或HTTP首部 （7）AifF＊f＊ HTTP ＃ accpet i1tw＃t，ti＆ pETiT.进行内容协商，指定返回结果的数据格式。
+7. 用查询字符串或HTTP首部进行内容协商，指定返回结果的数据格式。
 8. 及时更新文档，每个接口都有对应的说明。
 
 
@@ -106,14 +106,14 @@ HTTP动词
 这里再区分以下传统接口写法与Restful API 的区别
 
 一个文件操作接口，传统模式：
-- api/getfile.php - 获取文件信息，下载文件
-- api/uploadfile.php - 上传创建文件
-- api/deletefile.php - 删除文件
+- `api/getfile.php` - 获取文件信息，下载文件
+- `api/uploadfile.php` - 上传创建文件
+- `api/deletefile.php` - 删除文件
 
-RESTfu，api/file 只需要这一个接口：
-- GET 方式请求 api/file - 获取文件信息，下载文件
-- POST 方式请求 api/file - 上传创建文件
-- DELETE 方式请求 api/file - 删除某个文件
+RESTfu，`api/file` 只需要这一个接口：
+- `GET` 方式请求 `api/file` - 获取文件信息，下载文件
+- `POST` 方式请求 `api/file` - 上传创建文件
+- `DELETE` 方式请求 `api/file` - 删除某个文件
 
 你的公司使用的是RESTful API吗？如果不是可以考虑辞职了，太落伍了！RESTful API 现在也要让位新宠 [GraphQL](https://graphql.cn/) 了，一种更高效、强大和灵活的数据提供方式。
 
