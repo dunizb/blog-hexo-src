@@ -8,7 +8,7 @@ tags:
 - 小技巧
 description: "Vue中的混入 mixins 是一种提供分发 Vue 组件中可复用功能的非常灵活的方式。听说在3.0版本中可能会用Hooks的形式实现，但这并不妨碍它的强大。"
 ---
-![云南大理崇圣寺](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201901/Vue-js-Mixins/banner.jpg)
+![云南大理崇圣寺 拍于2017年](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201901/Vue-js-Mixins/banner.jpg)
 
 Vue中的混入 [mixins](https://cn.vuejs.org/v2/guide/mixins.html) 是一种提供分发 Vue 组件中可复用功能的非常灵活的方式。听说在3.0版本中可能会用Hooks的形式实现，但这并不妨碍它的强大。基础部分的可以看这里。
 
