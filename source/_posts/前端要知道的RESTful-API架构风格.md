@@ -7,12 +7,13 @@ tags:
 - 读书笔记
 description: "前端程序员在开发完页面后总是要对接口的，跟后端联调有时候还占用蛮大的时间的，那么你了解你和后端对的接口都是什么风格吗，你们公司接口设计的如何，你使用愉快吗？下面介绍一种API架构风格，也是目前主流的API设计风格，你或许一直在使用。"
 ---
-![RESTful API 示例](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/RESTful-API-Swaggar.png)
+![RESTful API 示例](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201907/restful-api/banner.jpg)
 
 > 前端程序员在开发完页面后总是要对接口的，跟后端联调有时候还占用蛮大的时间的，那么你了解你和后端对的接口都是什么风格吗，你们公司接口设计的如何，你使用愉快吗？下面介绍一种API架构风格，也是目前主流的API设计风格，你或许一直在使用。
 
 RESTful 是一种遵守 REST 设计的架构风格。REST 既不是标准，也不是协议，而是一组架构约束条件和设计指导原则，一种基于HTTP、URI、XML 等现有协议与标准的开发方式。
 
+![RESTful API 示例](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201907/restful-api/1.png)
 
 ## REST
 REST这个词，源于HTTP协议（1.0版和1.1版）的主要设计者表于2000年的博士论文《架构风格与基于网络的软件架构设计》REST它是 Representational State Transfer的缩写，表示表述性状态转移，这个说明比较晦涩抽象，难以理解。接下来拆开解释。首先这句话省略了主语“表述性”其实指的是“资源”的“表述性”；其次，要先理解一个重要的概念:资源的表述；最后再体会状态转移。
@@ -62,7 +63,7 @@ REST给出了6种约束条件，通信两端在遵循这些约束后，就能提
 ## RESTful API 示例
 下面是我是真实API截图，用Swagger管理，基本遵循RESTful API架构风格
 
-![RESTful API 示例](https://i.loli.net/2019/07/28/5d3d1a28d056647013.png)
+![RESTful API 示例](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201907/restful-api/1.png)
 
 路径
 - https://api.example.com/v1/zoos
@@ -119,7 +120,7 @@ RESTfu，`api/file` 只需要这一个接口：
 
 你的公司使用的是RESTful API吗？如果不是可以考虑辞职了，太落伍了！RESTful API 现在也要让位新宠 [GraphQL](https://graphql.cn/) 了，一种更高效、强大和灵活的数据提供方式。
 
-![GraphQL](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/GraphQL.png)
+![GraphQL](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201907/restful-api/2.png)
 
 *******
 推荐文章
