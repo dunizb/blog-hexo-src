@@ -11,7 +11,7 @@ description: "Vue.js 图标选择组件实践，不是什么高深文章，随�
 
 ## 背景
 最近项目中在做一个自定义菜单需求，其中有一个为菜单设置小图标的功能，就是大家常见的左侧菜单
-![左侧菜单](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201812/icon/1.png)
+![左侧菜单](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201812/icon/1.gif)
 
 设置图标不难，方案就是字体图标，可供使用的图标库也有很多，比如阿里巴巴的 Iconfont，以及 Fontaswsome 等，问题在于如何优雅的提供几百个图标供用户选择，而不需要开发去一个一个的写标签，也不需要一个个的去找图标。
 
