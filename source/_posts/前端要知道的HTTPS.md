@@ -4,8 +4,9 @@ date: 2019-08-03 23:13:48
 categories:
 - 前端开发
 tags:
-- 读书笔记
+- 学习笔记
 - 网络协议
+description: "简单的说，HTTPS 就是 HTTP 的安全版本。SSL（Secure Sockets Layer）以及继任者 TLS（Transport Layer Security）是一种安全协议，为网络通信提供来源认证、数据加密和报文完整性检测，保障通信的保密性和可靠性。HTTPS协议的 URL 都以 “https://”开头，在访问某个 Web 页面时，客户端会打开一条到服务器 443 端口的连接。"
 ---
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201908/https/banner.png)
 
@@ -102,3 +103,6 @@ HTTPS有如下4个缺点
 运营商是指提供网络服务的ISP（Internet Service Provider），例如三大基础运营商:中国电信、中国移动和中国联通。
 
 运营商为了牟取经济利益，有时候会劫持用户的HTTP访问最明显的特征就是在页面上植入广告，有些是购物广告，有些却是淫秽广告，非常影响界面体验和公司形象。为了避免被劫持，可以让服务器支持 HTTPS HTTPS 协议，HTTPS传输的数据都被加密过了，运营商就无法再注入广告代码，这样页面就不会再被劫持。
+
+*******
+本文摘抄自《前端程序员面试笔试宝典》，媛媛之家/组编 平文 等/编著，机械工业出版社，版权归原作者所有
