@@ -22,7 +22,7 @@ HTTPS（HTTP Secure）是一种构建在 SSL 或 TLS 上的HTTP协议。
 2. 接收到的报文无法证明是发送时的报文，不能保障完整性，因此报文有被篡改的风险
 3. 不验证通信两端的身份，请求或响应有被伪造的风险
 
-![HTTP分风险](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201908/https/2.png)
+![HTTP的风险](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201908/https/2.png)
 
 ## HTTPS的组成
 ### 加密
