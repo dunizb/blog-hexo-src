@@ -9,31 +9,32 @@
 #    target: _blank    是否跳出，省略则在当前页面打开
 menu:
   home:
-    text: 首页
+    text: Home
     url: https://www.dunizb.com/
-  archive:
-    text: 文章
+  file-alt:
+    text: Archives
     url: /archives
-  shopping-bag:
-    text: 小铺
+  store:
+    text: Store
     url: //store.dunizb.com/
     target: _blank
-  camera-retro:
-    text: 相册
-    url: //photo.dunizb.com/
-    target: _blank
+  # camera-retro:
+  #   text: 相册
+  #   url: //photo.dunizb.com/
+  #   target: _blank
   code:
-    text: 小码
+    text: Lab Code
     url: //demo.dunizb.com/
     target: _blank
-  hand-o-right:
-    text: Segmentfault
+  edge:
+    text: SF
     url: https://segmentfault.com/u/dunizb
     target: _blank
-  user:
-    text: 关于我
+  user-tie:
+    text: About
     url: /about
   github:
+    text: Github
     url: https://github.com/dunizb
     target: _blank
 
