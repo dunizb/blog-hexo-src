@@ -2,10 +2,10 @@
 title: 前端要知道的HTTPS
 date: 2019-08-03 23:13:48
 categories:
-- 读书与学习
+- 技术
 tags:
-- 极客时间
-- 知识付费
+- 读书与学习
+- 前端
 - 网络协议
 description: "简单的说，HTTPS 就是 HTTP 的安全版本。SSL（Secure Sockets Layer）以及继任者 TLS（Transport Layer Security）是一种安全协议，为网络通信提供来源认证、数据加密和报文完整性检测，保障通信的保密性和可靠性。HTTPS协议的 URL 都以 “https://”开头，在访问某个 Web 页面时，客户端会打开一条到服务器 443 端口的连接。"
 ---
