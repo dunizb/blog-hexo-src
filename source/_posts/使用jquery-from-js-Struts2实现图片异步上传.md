@@ -2,8 +2,9 @@
 title: 使用jquery.from.js+Struts2实现图片异步上传
 date: 2013-09-19 12:42:29
 categories: 
-- 后端
+- 技术
 tags:
+- 后端
 - Java
 - jQuery
 - Struts2

@@ -2,8 +2,9 @@
 title: 使用SpringMVC+Mybatis搭建高性能安全站点
 date: 2016-11-01 23:29:08
 categories:
-- 后端
+- 技术
 tags:
+- 后端
 - Java
 - Spring
 - Mybatis

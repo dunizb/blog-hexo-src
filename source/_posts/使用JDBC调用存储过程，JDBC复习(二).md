@@ -2,8 +2,9 @@
 title: '使用JDBC调用存储过程，JDBC复习(二) '
 date: 2014-07-07 10:41:26
 categories:
-- 后端
+- 技术
 tags:
+- 后端
 - Java
 - jdbc
 ---

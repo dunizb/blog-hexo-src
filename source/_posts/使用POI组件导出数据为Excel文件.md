@@ -2,8 +2,9 @@
 title: 使用POI组件导出数据为Excel文件
 date: 2014-04-09 13:53:19
 categories:
-- 后端
+- 技术
 tags:
+- 后端
 - Java
 - 组件使用
 ---

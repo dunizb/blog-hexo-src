@@ -2,8 +2,9 @@
 title: 使用JXL组件导入Excel文件数据到数据库
 date: 2013-11-15 23:19:20
 categories:
-- 后端
+- 技术
 tags:
+- 后端
 - Java
 - 组件使用
 ---
