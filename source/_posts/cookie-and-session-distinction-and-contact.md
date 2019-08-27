@@ -2,7 +2,7 @@
 title: Cookie和Session的区别与联系
 date: 2014-11-08 12:25:19
 categories:
-- 服务端开发
+- 后端
 tags:
 - Java
 description: "关于Cookie和Session的，这些都是基础知识，不过有必要做深入了解。"

@@ -2,7 +2,7 @@
 title: 把头像图片以二进制形式保存到数据库（Hibernate实现）
 date: 2014-07-13 20:47:28
 categories:
-- 服务端开发 
+- 后端 
 tags:
 - Java
 - Hibernate

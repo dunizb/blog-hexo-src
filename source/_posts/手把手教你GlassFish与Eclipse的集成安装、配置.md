@@ -2,7 +2,7 @@
 title: 手把手教你GlassFish与Eclipse的集成安装、配置
 date: 2012-08-02 10:54:52
 categories:
-- 服务端开发
+- 后端
 
 tags:
 - Java

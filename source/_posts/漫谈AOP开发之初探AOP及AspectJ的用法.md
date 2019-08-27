@@ -2,7 +2,7 @@
 title: 漫谈AOP开发之初探AOP及AspectJ的用法
 date: 2014-10-26 13:39:55
 categories:
-- 服务端开发
+- 后端
 tags:
 - Java
 - Spring

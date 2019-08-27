@@ -2,7 +2,7 @@
 title: 漫谈AOP开发之开发Spring AOP程序
 date: 2014-10-29 19:17:30
 categories:
-- 服务端开发
+- 后端
 tags:
 - Java
 - Spring

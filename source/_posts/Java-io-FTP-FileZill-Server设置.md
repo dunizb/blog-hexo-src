@@ -2,7 +2,7 @@
 title: Java I/O FTP同步代码及FileZilla Server设置
 date: 2013-12-07 18:34:06
 categories:
-- 服务端开发
+- 后端
 tags:
 - ftp
 - Java

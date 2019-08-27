@@ -2,7 +2,7 @@
 title: 漫谈AOP开发之谈谈AOP那些学术概念
 date: 2014-10-28 10:03:38
 categories:
-- 服务端开发
+- 后端
 tags:
 - Java
 - Spring

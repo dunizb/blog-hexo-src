@@ -2,7 +2,7 @@
 title: Spring IOC(依赖注入、控制反转)概念理解
 date: 2013-08-21 21:09:01
 categories:
-- 服务端开发
+- 后端
 tags:
 - Java
 - Spring

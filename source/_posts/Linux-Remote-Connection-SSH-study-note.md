@@ -2,7 +2,7 @@
 title: Linux SSH 入门笔记
 date: 2015-05-29 00:00:04
 categories:
-- 服务端开发
+- 后端
 tags:
 - Linux
 - SSH
