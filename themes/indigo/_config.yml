@@ -11,10 +11,10 @@ menu:
   home:
     text: Home
     url: https://www.dunizb.com/
-  file-alt:
+  archive:
     text: Archives
     url: /archives
-  store:
+  shopping-cart:
     text: Store
     url: //store.dunizb.com/
     target: _blank
@@ -30,8 +30,8 @@ menu:
     text: SF
     url: https://segmentfault.com/u/dunizb
     target: _blank
-  user-tie:
-    text: About
+  user:
+    text: About Me
     url: /about
   github:
     text: Github
