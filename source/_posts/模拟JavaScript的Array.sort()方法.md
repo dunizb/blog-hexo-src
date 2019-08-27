@@ -2,8 +2,9 @@
 title: 模拟JavaScript的Array.sort()方法
 date: 2016-07-07 22:19:00
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - JavaScript
 ---
 

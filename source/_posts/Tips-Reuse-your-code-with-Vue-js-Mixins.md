@@ -2,8 +2,9 @@
 title: 小技巧|使用Vue.js的Mixins复用你的代码
 date: 2019-01-02 16:08:09
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - Vue.js
 - 小技巧
 description: "Vue中的混入 mixins 是一种提供分发 Vue 组件中可复用功能的非常灵活的方式。听说在3.0版本中可能会用Hooks的形式实现，但这并不妨碍它的强大。"

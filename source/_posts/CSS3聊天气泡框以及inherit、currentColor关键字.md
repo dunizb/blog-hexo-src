@@ -2,8 +2,9 @@
 title: CSS3聊天气泡框以及inherit、currentColor关键字
 date: 2016-07-20 19:39:00
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - CSS3
 description: "尽管绝大多数人都知道inherit这个关键字，但是很多人可能自始自终都没实际用过它，包括我自己，从来没有，在查询CSS文档时，习惯性的忽略它，直到看到《CSS揭秘》这本书。"
 ---

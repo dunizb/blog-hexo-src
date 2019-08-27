@@ -2,8 +2,9 @@
 title: Vue.js 图标选择组件实践
 date: 2018-12-01 15:03:17
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - Vue.js
 - 实战
 description: "Vue.js 图标选择组件实践，不是什么高深文章，随便看看吧"

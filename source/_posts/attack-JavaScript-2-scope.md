@@ -2,8 +2,9 @@
 title: 进击JavaScript之（二）词法作用域与作用域链
 date: 2016-08-19 22:02:00
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - JavaScript
 ---
 

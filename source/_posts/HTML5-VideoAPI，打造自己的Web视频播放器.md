@@ -2,8 +2,9 @@
 title: HTML5 VideoAPI，打造自己的Web视频播放器
 date: 2016-08-04 12:53:00
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - JavaScript
 - 实战
 ---

@@ -2,8 +2,9 @@
 title: 进击JavaScript之（四）原型与原型链
 date: 2016-09-19 09:08:00
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - JavaScript
 description: "一句话说明什么是原型：原型能存储我们的方法，构造函数创建出来的实例对象能够引用原型中的方法。"
 ---

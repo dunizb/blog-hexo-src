@@ -2,8 +2,9 @@
 title: Vue.js项目中管理每个页面的头部标签的方法
 date: 2018-06-24 19:51:18
 categories:
-- 前端
-tags: 
+- 技术
+tags:
+- 前端 
 - Vue.js
 description: '在 Vue SPA 应用中，如果想要修改 HTML 的头部标签，如页面的 title，我们只能去修改index.html模板文件，但是这个是全局的修改，如何为每个页面都设置不一样的 title 呢？下面介绍两种方法。'
 ---

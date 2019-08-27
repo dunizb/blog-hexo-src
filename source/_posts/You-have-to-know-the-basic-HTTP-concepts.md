@@ -2,8 +2,9 @@
 title: 你必须知道的HTTP基本概念
 date: 2017-12-08 18:58:10
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - HTTP
 description: "HTTP是干嘛用的？怎样和服务器通信？HTTP的基本性质？HTTP能控制什么？基于HTTP三大组件系统？HTTP 和 TCP 之间的关系？HTTP 协议如何使用 TCP 连接？"
 ---

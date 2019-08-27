@@ -2,8 +2,9 @@
 title: Vue.js新手教学|如何写一个Checklist组件
 date: 2017-11-18 23:06:45
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - Vue.js
 - 实战
 description: "本文教你如何写一个移动端的 Checklist 组件，使用 vue 单文件形式开发，适合 Vue.js 新手。同时此文非常长，最好跟着文章步骤边看边写。本文说些什么，或者你能收获什么？。"

@@ -2,8 +2,9 @@
 title: 实战Parcel构建一个基于Vue.js的相册应用
 date: 2018-05-08 15:20:40
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - Vue.js
 - Parcel
 description: "零配置前端打包工具实战"

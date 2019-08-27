@@ -2,8 +2,9 @@
 title: Array的 every、some、filter、map的区别，以及和reduce的区别
 date: 2018-03-04 15:36:11
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - JavaScript
 description: "这几个方法有时候总是傻傻分不清，尤其map，总是一下子有点懵逼记不清和其他方法的区别，每次都需要查一下API，他们的相同点都是需要遍历数组中的每一项，重点是他们的区别，不要搞混了，搞清楚他们的返回结果有什么区别。"
 ---

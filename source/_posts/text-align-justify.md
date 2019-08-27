@@ -2,8 +2,9 @@
 title: 小技巧|CSS如何实现文字两端对齐
 date: 2017-09-17 17:14:44
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - CSS
 - 小技巧
 description: "小技巧|CSS如何实现文字两端对齐,text-align:justify的使用"

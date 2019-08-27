@@ -2,8 +2,9 @@
 title: JS中的typeof和类型判断
 date: 2017-07-08 13:59:00
 categories:
-- 前端
+- 技术
 tags:
+- 前端
 - JavaScript
 description: "这篇文章讲述typeof运算符判断基本类型和引用类型的区别，以及怎么判断数组类型和空对象"
 ---
