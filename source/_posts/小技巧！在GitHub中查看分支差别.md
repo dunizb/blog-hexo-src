@@ -2,7 +2,7 @@
 title: 小技巧|在GitHub中查看分支差别
 date: 2016-04-18 11:05:00
 categories:
-- 工具使用
+- 其他
 tags:
 - github
 - 小技巧

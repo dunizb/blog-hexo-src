@@ -2,7 +2,7 @@
 title: 小技巧|移动端网页调试神器Eruda使用技巧
 date: 2017-10-16 21:25:52
 categories:
-- 工具使用
+- 其他
 tags:
 - 小技巧
 description: "大家好，给大家介绍一下，这是我的.....。Eruda 是一个专为手机网页前端设计的调试面板，类似 DevTools 的迷你版"

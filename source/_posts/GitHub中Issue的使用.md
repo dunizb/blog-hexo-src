@@ -2,7 +2,7 @@
 title: GitHub中Issue的使用
 date: 2016-04-28 23:21:00
 categories:
-- 工具使用
+- 其他
 tags:
 - github
 ---

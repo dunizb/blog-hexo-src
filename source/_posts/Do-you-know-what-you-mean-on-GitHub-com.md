@@ -2,7 +2,7 @@
 title: GitHub.com上的那些东西你都知道什么意思吗？
 date: 2016-04-12 19:21:00
 categories:
-- 工具使用
+- 其他
 tags:
 - github
 description: "GitHub初学入门者的图谱，介绍Github网站每个功能的意思"

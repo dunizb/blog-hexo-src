@@ -2,7 +2,7 @@
 title: GitHub中Graphs和Settings详解
 date: 2016-04-14 23:32:00
 categories:
-- 工具使用
+- 其他
 tags:
 - github
 description: "在GitHub中可以通过4种图标查看该仓库的相关统计信息。利用图标直观地汇总信息，可以让用户把握当前仓库的各种趋势。下面我们来了解一下每个图标所包含的信息。"

@@ -2,7 +2,7 @@
 title: 如何在Sublime Text中添加代码片段
 date: 2016-05-26 20:42:00
 categories:
-- 工具使用
+- 其他
 tags:
 - SublimeText
 ---

@@ -2,7 +2,7 @@
 title: 强大的Http监控工具Fidder简单介绍
 date: 2015-08-30 18:47:07
 categories:
-- 工具使用
+- 其他
 tags:
 - http
 description: "Fiddler是一个http调试代理，它能 够记录所有的你电脑和互联网之间的http通讯，Fiddler 可以也可以让你检查所有的http通讯，设置断点，以及Fiddle 所有的“进出”的数据（指cookie,html,js,css等文件，这些都可以让你胡乱修改的意思）。 Fiddler 要比其他的网络调试器要更加简单，因为它仅仅暴露http通讯还有提供一个用户友好的格式。"

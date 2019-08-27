@@ -2,7 +2,7 @@
 title: 小技巧|如何在Mac中创建加密文件夹？
 date: 2018-08-04 22:19:52
 categories:
-- 工具使用
+- 其他
 tags:
 - Mac
 - 小技巧

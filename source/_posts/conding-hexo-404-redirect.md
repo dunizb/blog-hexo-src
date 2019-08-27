@@ -2,7 +2,7 @@
 title: 小技巧|Coding+Hexo的博客设置404页面跳转
 date: 2017-12-26 16:16:18
 categories:
-- 工具使用
+- 其他
 tags:
 - Hexo
 - 小技巧
