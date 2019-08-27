@@ -2,9 +2,9 @@
 title: CSS行高(line-height)及文本垂直居中原理
 date: 2016-05-14 12:02:00
 categories:
-- 前端开发
+- 前端
 tags:
-- css
+- CSS
 description: "在CSS中，line-height 属性设置两段段文本之间的距离，也就是行高，如果我们把一段文本的line-height设置为父容器的高度就可以实现文本垂直居中了。那么，它怎么就垂直居中了？为了弄清楚它，下面我们先来看几个概念。"
 ---
 

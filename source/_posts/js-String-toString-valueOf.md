@@ -2,7 +2,7 @@
 title: JS的String()、toString()、valueOf()的一些隐秘特性
 date: 2017-07-06 22:06:50
 categories:
-- 前端开发
+- 前端
 tags:
 - JavaScript
 description: "要把一个值转换为一个字符串，最常用的就是，使用几乎每个值都有的toString()方法，这个方法唯一要做的就是返回相应值的字符串表现。"

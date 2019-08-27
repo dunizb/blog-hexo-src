@@ -2,7 +2,7 @@
 title: 小技巧|使用Vue.js的Mixins复用你的代码
 date: 2019-01-02 16:08:09
 categories:
-- 前端开发
+- 前端
 tags:
 - Vue.js
 - 小技巧

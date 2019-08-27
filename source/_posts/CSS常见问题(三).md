@@ -2,9 +2,9 @@
 title: CSS常见问题(三)
 date: 2015-05-26 18:47:10
 categories:
-- 前端开发
+- 前端
 tags:
-- css
+- CSS
 description: "`display`的值除了`block`和`inline`，还有其他的值，比如`list-item`、`table-cell`等，但因为IE6和IE7浏览器支持的display类型很少，所以为了兼容IE，我们真正能用的display类型只有block、inline和none三种。"
 ---
 

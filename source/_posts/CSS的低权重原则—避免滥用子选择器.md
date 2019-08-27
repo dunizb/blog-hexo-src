@@ -2,9 +2,9 @@
 title: CSS的低权重原则—避免滥用子选择器
 date: 2015-05-24 18:49:10
 categories:
-- 前端开发
+- 前端
 tags:
-- css
+- CSS
 description: "“CSS的低权重原则”既可以的到`font-size:40px`的样式，又可以得到`color： red`的样式。如果两个不同选择符设置的样式有冲突，又会如何？"
 ---
 

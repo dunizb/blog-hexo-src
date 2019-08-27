@@ -2,7 +2,7 @@
 title: 纯HTML+CSS+JavaScript编写的计算器应用
 date: 2016-09-24 18:49:00
 categories:
-- 前端开发
+- 前端
 tags:
 - HTML&CSS
 - 实战

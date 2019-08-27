@@ -2,7 +2,7 @@
 title: JavaScript的“&&”与“||”操作符总结
 date: 2016-06-15 10:39:00
 categories:
-- 前端开发
+- 前端
 tags:
 - JavaScript
 ---
