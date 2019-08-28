@@ -10,7 +10,7 @@ description: "“CSS的低权重原则”既可以的到`font-size:40px`的样�
 ---
 
 CSS设置的样式是可以层叠的，如下面[代码1]
-
+<!-- more -->
 [代码1]
 ```html
 <style type="text/css">

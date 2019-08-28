@@ -10,7 +10,7 @@ description: "大家好，给大家介绍一下，这是我的.....。Eruda 是�
 ![移动网页调试神器Eruda使用技巧](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201710/eruda/banner.jpg)
 
 做移动端Web开发的一大痛点就是，在真机运行下无法查看console.log日志和其他信息如网络请求、显示本地存储等信息。如果网页是运行在手机浏览器中还算好，可以把网址在电脑上打开查看console信息，但是如果是做APP的内嵌H5页面，那就只能靠开发阶段在浏览器模拟环境中尽量没有Bug，但是，一旦H5上线后报错那就比较麻烦了，而且还依赖APP环境才能跑的网页，更加难以查找问题。如果让移动端也拥有类似Chrome DevTools工具那岂不是很愉快么？
-
+<!-- more -->
 vConsole便是这样一款很棒的移动端DevTools工具，由大厂企鹅出品。但本文把他定位为男二号，今天的主角男一号是：**Eruda**！vConsole的同类。如果你不知道怎么在移动端调试网页，那么本篇文章对你很有帮助，如果你是vConsole的用户，那么你也可尝试一下Erdua，如果你是移动端网页开发骨灰级玩家，那么可以选择低调的忽略本文。
 
 **Eruda是谁？**

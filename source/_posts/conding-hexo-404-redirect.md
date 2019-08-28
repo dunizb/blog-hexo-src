@@ -8,14 +8,12 @@ tags:
 - 小技巧
 description: "一句话说不清，直接看文..."
 ---
-![Coding Pages的404页面](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201712/coding-hexo-404/banner.png)
-
 看这个标题可能不知道啥意思，具体点来说
 
 ## 背景
 
 我的博客地址本来是这样的：[https://dunizb.com](https://dunizb.com)，而这几天我开发了一个新的博客独立首页，我准备用这个域名，博客用二级域名：[https://blog.dunizb.com](https://blog.dunizb.com)来访问。这就会到导致我在SF和掘金上的文章原文连接地址就失效了，但是已经发表了那么多文章，我可不想一篇一篇文章的去修改。。。。为了解决以前的原文连接也能正确访问不报404，就是这么回事。
-
+<!-- more -->
 ## Coding Pages
 
 Coding Pages是由[https://coding.net](https://coding.net)提供的跟GitHub Pages一样的服务，它比GitHub Pages的优点就在于不会被墙，提供更加丰富的功能，最重要的还是两点：

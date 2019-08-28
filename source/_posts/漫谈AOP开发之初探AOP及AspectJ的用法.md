@@ -19,7 +19,7 @@ AOP 是一个很成熟的技术。
 如果项目需要为方法A、方法B、方法C……这批方法增加具有通用性质的横切处理。
 
 下图可以形象的说明具有通用性质的横切处理的思想：
-
+<!-- more -->
 ![](file:///var/folders/xc/nyykbxjj4w938ntjcjymx0rm0000gn/T/WizNote/d46a5cab-2910-4fed-abf3-94bf91c31a10/index_files/wpsD3C5.tmp3cfdfc77-43e2-4d1c-ac14-ffbf40c41c12.png)
 
 **在以前传统的做法是**

@@ -13,6 +13,7 @@ description: "小技巧|CSS如何实现文字两端对齐,text-align:justify的�
 ![小技巧|CSS文字两端对齐效果实现](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/text-align-justify/banner.png)
 
 需求如下，红框所在的文字有四个字的、三个字的、两个字的，如果不两端对齐可以选择居中对齐，或者右对齐。但是如果要像下面这样两端对齐呢？ 
+<!-- more -->
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/text-align-justify/1.png)
 
 我相信以前很多人都这么干过：两个字中间使用&nbsp;来隔开达到四个字的宽度，三个字也可以，但是，像上图中“122账号”“122密码”这样的，就不好计算该用几个空格了。

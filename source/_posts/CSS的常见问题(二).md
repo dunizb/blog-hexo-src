@@ -12,7 +12,7 @@ description: "很多时候，CSS在IE下的解释十分奇怪，明明在Firefox
 ## hasLayout
 
 很多时候，CSS在IE下的解释十分奇怪，明明在Firefox下显示的非常正确，但到了IE下却出现了问题，有时候，这些问题甚至表的非常诡异——例如，一个比较经典的BUG就是设置`border`的时候，有时候`border`会断开，刷新页面或者滚动页面的时候，断掉的部分又会重新连接起来。
-
+<!-- more -->
 这些诡异的问题往往大部分和IE下的一个神秘的属性相关——hasLayout。
 
 hasLayout是IE下的一个转有属性，用于CSS的解释引擎。有时候在IE下一些复杂的CSS设置解释起来会出现BUG，其原因可能是与hasLayout没有被自动触发有关，我们通过一些技巧，手动触发hasLayout属性就可以解决BUG了。这也算是针对IE下疑难杂症的特殊偏方了，很多时候，触发了hasLayout就可以药到病除了。

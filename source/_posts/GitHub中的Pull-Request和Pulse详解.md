@@ -11,6 +11,7 @@ description: "Pull Request是用户修改代码后向对方仓库发送采纳的
 Pull Request
 =========================
 Pull Request是用户修改代码后向对方仓库发送采纳的请求功能，也是GitHub的核心功能，正式因为有了这个功能，才会让众多开发者轻松地加入到开源开发的队伍中来。
+<!-- more -->
 ![1.png](//ww4.sinaimg.cn/large/006tNc79ly1g5d7zbhwbqj30rm0dogmq.jpg)
 
 在Pull Request界面能查看当前处于Open状态的Pull Request。通过点击列表上方的页面特定的Pull Request就会进入详细页面选项可以重新筛选和排列。点击列表中特定Pull Request就会进入详细页面。

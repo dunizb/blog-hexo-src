@@ -11,7 +11,7 @@ tags:
 创建加密文件夹实际上是创建一个带密码的dmg文件。双击该文件会要求输入密码。密码输入正确后会以文件夹形式打开并显示其中所包含的文件。
 
 那么就一起来试试吧！可以按以下步骤操作。
-
+<!-- more -->
 ## #1
 创建一个文件夹并将需要加密的文件全部存入该文件夹内
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201808/mac/1.webp)

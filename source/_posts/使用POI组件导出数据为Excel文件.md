@@ -12,7 +12,7 @@ tags:
 以下例子为HR系统中一个员工管理模块，导出员工数据为Excel文件的功能。
 
 系统结构为：Struts2+MyBaties+Spring3+MySQL
-
+<!-- more -->
 ![](//ww4.sinaimg.cn/large/006tNc79ly1g5d7z9zoggj30ku04o3zh.jpg)
 
 HTML、JS：

@@ -11,6 +11,7 @@ description: "在GitHub中可以通过4种图标查看该仓库的相关统计�
 一、Graphs
 =====================
 在GitHub中可以通过4种图标查看该仓库的相关统计信息。利用图标直观地汇总信息，可以让用户把握当前仓库的各种趋势。下面我们来了解一下每个图标所包含的信息。
+<!-- more -->
 1. Contributore
 -------------------------------
 ![Contributore](//ww3.sinaimg.cn/large/006tNc79ly1g5d7zr9q72j30ri0gbdh7.jpg)

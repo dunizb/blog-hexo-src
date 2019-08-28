@@ -12,7 +12,7 @@ description: "Vue中的混入 mixins 是一种提供分发 Vue 组件中可复�
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201901/Vue-js-Mixins/banner.jpg)
 
 Vue中的混入 [mixins](https://cn.vuejs.org/v2/guide/mixins.html) 是一种提供分发 Vue 组件中可复用功能的非常灵活的方式。听说在3.0版本中可能会用Hooks的形式实现，但这并不妨碍它的强大。基础部分的可以看这里。
-
+<!-- more -->
 
 这里主要来讨论 mixins 如何优化我们的数据列表代码。
 

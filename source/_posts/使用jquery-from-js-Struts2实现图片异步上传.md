@@ -12,7 +12,7 @@ description: "jquery.form.js是jQuery的一个官方用语支持异步上传文�
 ---
 
 jquery.form.js是jQuery的一个官方用语支持异步上传文件的插件。官方网站：[http://plugins.jquery.com/form/](http://plugins.jquery.com/form/) ，结合Struts2三步轻松实现文件上传。
-
+<!-- more -->
 一般是针对一个页面可能不止一个Form表单，所以在一个面提交表单会影响到另一个表单，为此，图片上传表单就可以使用无刷新提交方式上传，也就是异步上传，这时jquery.from.js就派上用场了。
 
 **在HTML页面上导入JS**

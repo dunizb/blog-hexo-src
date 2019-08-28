@@ -12,7 +12,7 @@ description: "`display`的值除了`block`和`inline`，还有其他的值，比
 ## display：inline-block和hasLayout
 
 `display`的值除了`block`和`inline`，还有其他的值，比如`list-item`、`table-cell`等，但因为IE6和IE7浏览器支持的display类型很少，所以为了兼容IE，我们真正能用的display类型只有block、inline和none三种。
-
+<!-- more -->
 对于另一中非常有用的display类型inline-block，其实IE和IE7下也是有办法实现的，但需要注意的是，并不是说IE6和IE7支持display：inline-block，它的实现其实是一种hack——触发行内元素的hasLayout。在前面[《CSS常见问题二：hasLayout》](//www.jianshu.com/p/35ec4d7200f9)我们讲过，hasLayout是IE浏览器为解释盒模型而设计的一个转有属性，它的设计初衷是用于块级元素的，如果触发行内元素的hasLayout，就会让行内元素拥有块级元素的特征。
 
 先说说`display：inline-block`的特性吧，顾名思义，它是行内的块级元素，它拥有块级元素的特点，可以设置长宽，可以设置margin和padding值，但它却不是独占一行，它的宽度并不占满父元素，而是和行内元素一样，可以和其他行内元素排在同一行里。它集块级元素和行内元素的特点于一身，是个非常有用的display类型。

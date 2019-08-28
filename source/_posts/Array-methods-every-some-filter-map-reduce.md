@@ -11,7 +11,7 @@ description: "这几个方法有时候总是傻傻分不清，尤其map，总是
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201803/array/banner.png)
 
 这几个方法有时候总是傻傻分不清，尤其map，总是一下子有点懵逼记不清和其他方法的区别，每次都需要查一下API，他们的相同点都是需要遍历数组中的每一项，重点是他们的区别，不要搞混了，搞清楚他们的返回结果有什么区别。
-
+<!-- more -->
 ## every、some
 
 这两个比较好理解，测试数组的元素是否都通过了指定函数的测试，测试一个数组是否符合某个条件，`every`表示每一项都必须通过才会返回`true`，`some`表示只要数组元素某一项满足即可，比如下面的例子，分别用 `every` 和 `some` 调用。

@@ -14,6 +14,7 @@ description: "这是漫谈AOP系列的第三篇"
 1. [《漫谈AOP开发之初探AOP及AspectJ的用法》](/2017/10/26/漫谈AOP开发之初探AOP及AspectJ的用法/)
 2. [《漫谈AOP开发之谈谈AOP那些学术概念 》](/2014/10/28/漫谈AOP开发之谈谈AOP那些学术概念/)
 
+<!-- more -->
 我们在Eclipse中创建一个新的工程，导入UserService、BookService两个类，并配置Spring的Bean：
 ```xml
 <bean id="us" class="com.mybry.aop.service.UserService"/>

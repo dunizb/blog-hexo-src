@@ -13,6 +13,7 @@ description: "H5禁止手机虚拟键盘弹出的两种方式详解"
 ![小技巧|CSS文字两端对齐效果实现](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/disable-virtual-keyboard-up/banner.png)
 
 工作中遇到如下需求，点击输入框弹出自定义弹窗，输入框是input标：
+<!-- more -->
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/disable-virtual-keyboard-up/1.gif)
 但是在移动端，input会默认触发手机的虚拟键盘，如何阻止手机虚拟键盘弹起呢？目前我试过有两个方案，一个是给input添加`readonly`属性,另一个就是在input事件处理方法前面添加一句`document.activeElement.blur()`  。  
 

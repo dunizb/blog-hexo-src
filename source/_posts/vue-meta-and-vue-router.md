@@ -11,7 +11,7 @@ description: '在 Vue SPA 应用中，如果想要修改 HTML 的头部标签，
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/c0zvb.png)
 
 在 Vue SPA 应用中，如果想要修改 HTML 的头部标签，如页面的 `title`，我们只能去修改`index.html`模板文件，但是这个是全局的修改，如何为每个页面都设置不一样的 `title` 呢？下面介绍两种方法。
-
+<!-- more -->
 ## 使用router.meta
 
 在路由里面配置每个路由的地址：

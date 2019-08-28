@@ -14,6 +14,7 @@ description: "尽管绝大多数人都知道inherit这个关键字，但是很�
 + 传统方式，利用CSS画小三角，利用到了透明背景和边框属性`transparent`的应用。
 + CSS3的`transform`属性的使用
 
+<!-- more -->
 然后通过`position`定位到合适的位置。
 
 此外，本文还会讲一下CSS的`inherit`属性值的知识。

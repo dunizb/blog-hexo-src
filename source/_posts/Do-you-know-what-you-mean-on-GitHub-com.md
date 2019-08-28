@@ -13,6 +13,8 @@ GitHub初学入门者的图谱，介绍Github网站每个功能的意思
 =============================
 在GitHub中，很多页面都可以使用键盘快捷键。在各个页面按下“shift + /”都可以打开键盘快捷键一览表，如下图：
 ![快捷键](//ww3.sinaimg.cn/large/006tNc79ly1g5d80e9e8rj30st0dqwfp.jpg)
+<!-- more -->
+
 二、工具栏
 ============================
 ![工具栏](//ww3.sinaimg.cn/large/006tNc79ly1g5d80f9w7sj30rz0443yx.jpg)

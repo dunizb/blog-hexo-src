@@ -20,6 +20,7 @@ tags:
 - SSH客户端适应于多种平台
 - SSH服务端几乎支持所有UNIX平台
 
+<!-- more -->
 ### 1.2 服务器安装SSH服务
 - 安装SSH：`yum install openssh-server`
 - 启动SSH：`service sshd start`

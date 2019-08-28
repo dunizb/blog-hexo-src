@@ -10,6 +10,7 @@ description: "在CSS中，line-height 属性设置两段段文本之间的距离
 ---
 
 在CSS中，line-height 属性设置两段段文本之间的距离，也就是行高，如果我们把一段文本的line-height设置为父容器的高度就可以实现文本垂直居中了，比如下面的例子：
+<!-- more -->
 ```html
 <!DOCTYPE html>
     <html lang="en">

@@ -12,7 +12,7 @@ description: "这篇文章讲述typeof运算符判断基本类型和引用类型
 ## 摘要
 
 这篇文章讲述typeof运算符判断基本类型和引用类型的区别，以及怎么判断数组类型和空对象
-
+<!-- more -->
 ## typeof
 
 ECMAScript 有 5 种原始类型（primitive type），即 Undefined、Null、Boolean、Number 和 String。我们都知道可以使用typeof运算符求得一个变量的类型，但是对引用类型变量却只会返回`object`，也就是说typeof只能正确识别基本类型值变量。
