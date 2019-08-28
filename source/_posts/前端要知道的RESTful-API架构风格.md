@@ -12,7 +12,7 @@ description: "前端程序员在开发完页面后总是要对接口的，跟后
 > 前端程序员在开发完页面后总是要对接口的，跟后端联调有时候还占用蛮大的时间的，那么你了解你和后端对的接口都是什么风格吗，你们公司接口设计的如何，你使用愉快吗？下面介绍一种API架构风格，也是目前主流的API设计风格，你或许一直在使用。
 
 RESTful 是一种遵守 REST 设计的架构风格。REST 既不是标准，也不是协议，而是一组架构约束条件和设计指导原则，一种基于HTTP、URI、XML 等现有协议与标准的开发方式。
-
+<!-- more -->
 ![RESTful API 示例](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201907/restful-api/1.png)
 
 ## REST
