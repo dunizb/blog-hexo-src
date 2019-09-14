@@ -7,7 +7,7 @@ tags:
 - 前端
 - 微信小程序
 ---
-
+![](https://ftp.bmp.ovh/imgs/2019/09/f45619b01c251e32.jpg)
 微信创造了 WXS ，除了提高性能，还有什么原因？
 <!-- more -->
 
@@ -74,3 +74,5 @@ WXS 具备如下特征：
 </view>
 ```
 
+******
+本文摘自【前端之巅】微信公众号：[谜之WXS，uni-app如何用它大幅提升性能](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247492501&idx=2&sn=585a50ad1ec2ba083bc370b0767bdd64&chksm=f95256d6ce25dfc092a4c4d1b273c83de7749fa2bc363d73be6acba974e064009eb64dd743a8&mpshare=1&scene=1&srcid=&sharer_sharetime=1568375136026&sharer_shareid=a1cefbdd3e6712df8aaf4240a0d50b87#rd)
