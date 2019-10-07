@@ -12,9 +12,9 @@ tags:
 <!-- more -->
 
 ## 环境准备
-首先当然是要初始化一个Koa项目了，安装 Koa、koa-route 即可。
+首先当然是要初始化一个Koa项目了，安装 Koa、koa-router 即可。
 ```
-npm install koa koa-route
+npm install koa koa-router
 ```
 设置图片上传目录，把图片上传到指定的目录中，在 app 路径下新建 public 文件夹，目录结构如下：
 ```
