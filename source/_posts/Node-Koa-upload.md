@@ -81,7 +81,9 @@ router.post('/upload', ctx => {
 
 这样我们其实已经可以进行文件上传，并把文件上传到 `public/uploads` 中了，我们用 Postman 来测试一下。
 
-大开 Postman，输入 `http://localhost:3001/upload`，选择 `POST` 方法，并且选择文件用 Body 来传输，并且选择 `form-data` 格式，然后在 KEY 中选择 file类型。
+## 使用 Postman 测试
+
+打开 Postman，输入 `http://localhost:3001/upload`，选择 `POST` 方法，并且选择文件用 Body 来传输，并且选择 `form-data` 格式，然后在 KEY 中选择 file类型。
 
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201903/koa-upload-20191007180046.png)
 
