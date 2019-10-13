@@ -7,7 +7,7 @@ tags:
 - 前端
 - 微信小程序
 ---
-![](https://ftp.bmp.ovh/imgs/2019/09/f45619b01c251e32.jpg)
+![微信小程序.jpg](https://i.loli.net/2019/10/12/27sHTr6aWKAER3j.jpg)
 微信创造了 WXS ，除了提高性能，还有什么原因？
 <!-- more -->
 
