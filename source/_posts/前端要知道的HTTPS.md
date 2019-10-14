@@ -9,7 +9,6 @@ tags:
 - 网络协议
 description: "简单的说，HTTPS 就是 HTTP 的安全版本。SSL（Secure Sockets Layer）以及继任者 TLS（Transport Layer Security）是一种安全协议，为网络通信提供来源认证、数据加密和报文完整性检测，保障通信的保密性和可靠性。HTTPS协议的 URL 都以 “https://”开头，在访问某个 Web 页面时，客户端会打开一条到服务器 443 端口的连接。"
 ---
-![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201908/https/banner.png)
 
 ## 概述
 HTTPS（HTTP Secure）是一种构建在 SSL 或 TLS 上的HTTP协议。

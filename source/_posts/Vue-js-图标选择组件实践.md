@@ -9,9 +9,7 @@ tags:
 - 实战
 description: "Vue.js 图标选择组件实践，不是什么高深文章，随便看看吧"
 ---
-![Vue.js 图标选择组件实践](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201812/icon/banner.png)
 
-## 背景
 最近项目中在做一个自定义菜单需求，其中有一个为菜单设置小图标的功能，就是大家常见的左侧菜单
 <!-- more -->
 ![左侧菜单](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201812/icon/1.gif)

@@ -9,8 +9,6 @@ tags:
 - 实战
 description: "本文教你如何写一个移动端的 Checklist 组件，使用 vue 单文件形式开发，适合 Vue.js 新手。同时此文非常长，最好跟着文章步骤边看边写。本文说些什么，或者你能收获什么？。"
 ---
-![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201711/vue-checklist/banner.jpg)
-
 **建议在电脑上阅读此文，全部源代码在文章最后**
 
 **2017.11.30更新：本案例有了更优雅更简单的实现方案了，具体请看文末源码里的checklist2.0.vue文件，可以比较看一下两种实现方式**
