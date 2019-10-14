@@ -8,15 +8,6 @@ tags:
 - Vue.js
 description: "什么是动态组件绑定？简单的说，就是几个组件放在一个挂载点下，然后根据父组件的某个变量来决定显示哪个，或者都不显示。"
 ---
-
-![Vue.js](//ww1.sinaimg.cn/large/006tNc79ly1g5d8f879yxj30p00b0q2x.jpg)
-此前的Vue.js系列文章：
-
- - [Vue.js常用开发知识简要入门（一）](http://dunizb.com/2016/12/18/Vue.js常用开发知识简要入门（一）)
- - [Vue.js常用开发知识简要入门（二）](//www.jianshu.com/p/ce9fc4c8a7ce)
- - [Vue.js常用开发知识简要入门（三）](http://dunizb.com/2017/02/13/Vue.js常用开发知识简要入门（三）)
- - [Vue.js开发常见问题解析](http://dunizb.com/2017/06/19/Vue.js开发常见问题解析/)
-
 什么是动态组件绑定？简单的说，就是几个组件放在一个挂载点下，然后根据父组件的某个变量来决定显示哪个，或者都不显示。
 <!-- more -->
 
@@ -85,7 +76,3 @@ Vue.component('activate-example', {
 });
 ```
 `activate`钩子只作用于动态组件切换或静态组件初始化渲染的过程中，不作用于使用实例方法手工插入的过程中。
-
-**********
-**++++++++++[本人出售《Vue.js权威指南》，二手价20元！](http://dunizb.com/obook/)++++++++++**
-[![Vue.js权威指南](//ww2.sinaimg.cn/large/006tNc79ly1g5d8f98fhbj30g20jkdjd.jpg)](http://dunizb.com/obook/)

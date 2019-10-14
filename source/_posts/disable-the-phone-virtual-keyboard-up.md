@@ -10,8 +10,6 @@ tags:
 description: "H5禁止手机虚拟键盘弹出的两种方式详解"
 ---
 
-![小技巧|CSS文字两端对齐效果实现](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/disable-virtual-keyboard-up/banner.png)
-
 工作中遇到如下需求，点击输入框弹出自定义弹窗，输入框是input标：
 <!-- more -->
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201709/disable-virtual-keyboard-up/1.gif)
