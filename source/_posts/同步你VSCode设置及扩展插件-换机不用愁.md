@@ -72,3 +72,10 @@ cloudSettings 的 gist 就创建了，点进去查看，里面是诸如 extensio
 开发人员常常使用 Gist 记录他们的代码片段，但是 Gist 不仅仅是为极客和码农开发的，每个人都可以用到它。如果您听说过类似 Pastebin 或者 Pastie 这样的web应用的话，那您就可以看到它们和 Gist 很像，但是 Gist 比它们要更优雅。因为这些免费应用一般含有广告，而且带有很多其他杂七杂八的功能。
 
 搞不清楚为什么国内不能访问 Gist，需要梯子....，更多 Gist 的信息可以参考这个链接：[https://www.zhihu.com/question/21343711/answer/32023379](https://www.zhihu.com/question/21343711/answer/32023379)
+
+*************
+关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
+
+<center>
+<img src="https://i.loli.net/2019/11/03/2gzpnIAqcTjB1hL.jpg" style="width:320px;" />
+</center>
