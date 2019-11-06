@@ -1,7 +1,11 @@
 ---
 title: WebComponent：像搭积木一样构建Web应用
 date: 2019-09-22 11:40:46
+categories:
+- 技术
 tags:
+- 前端
+- 组件化
 ---
 
 我们站在开发者和项目角度来聊聊 WebComponent，它是一套技术的组合，能提供给开发者组件化开发的能力。
