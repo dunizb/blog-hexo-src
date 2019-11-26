@@ -78,5 +78,5 @@ cloudSettings 的 gist 就创建了，点进去查看，里面是诸如 extensio
 关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
 
 <center>
-<img src="https://i.loli.net/2019/11/03/2gzpnIAqcTjB1hL.jpg" style="width:320px;" />
+<img src="https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg" />
 </center>
