@@ -72,11 +72,11 @@ new Vue({
         fetch(apiUrl, {
             headers: header
         })
-        .then((response) => response.json())
-        .then((res) => {
-            this.books = res.results.filter((item) => item.type === 'book')
-            this.softwares = res.results.filter((item) =>  item.type === 'software')
-        }).catch((err) => {
+        .then(response => response.json())
+        .then(res => {
+            this.books = res.results.filter(item => item.type === 'book')
+            this.softwares = res.results.filter(item =>  item.type === 'software')
+        }).catch(err => {
             console.log('err', err)
         });
     }
