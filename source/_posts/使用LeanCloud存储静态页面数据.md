@@ -1,5 +1,5 @@
 ---
-title: 使用LeanCloud存储的静态页面数据
+title: 使用LeanCloud存储静态页面数据
 date: 2019-12-01 21:44:26
 categories:
 - 技术
