@@ -58,6 +58,8 @@ LeanCloud 注册后首先要实名验证，这个很简单，只需要提供身�
 
 ![image.png](https://i.loli.net/2019/12/01/PJCUgH9dwc3aRMm.png)
 
+之后你还可以双击列进行编辑。
+
 特别需要注意的是权限设置问题，这里 ACL 权限一定要设置 read 为所有用户，否则我们接口请求不到数据，因为我这是只读应用，所以read 保证为所有用户即可，write 无所谓了，为了安全起见还是别所有用户吧。
 
 ![LeanCloud9.png](https://i.loli.net/2019/12/06/BXAmGxikYWe1ZPH.png)
