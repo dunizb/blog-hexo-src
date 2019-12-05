@@ -10,13 +10,13 @@
 menu:
   home:
     text: 主页
-    url: https://www.dunizb.com/
+    url: https://www.zhangbing.site/
   archive:
     text: 文章归档
     url: /archives
   shopping-cart:
     text: 我的小铺
-    url: //store.dunizb.com/
+    url: //store.zhangbing.site/
     target: _blank
   # camera-retro:
   #   text: 相册
@@ -24,7 +24,7 @@ menu:
   #   target: _blank
   flask:
     text: 代码实验室
-    url: //demo.dunizb.com/
+    url: //coding.zhangbing.site/
     target: _blank
   edge:
     text: Segmentfault
@@ -48,7 +48,7 @@ brand: /img/brand.jpg
 favicon: /favicon.ico
 
 # email
-email: zb@dunizb.vip
+email: dunizb@foxmail.com
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#3F51B5'
