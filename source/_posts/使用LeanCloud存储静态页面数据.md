@@ -59,12 +59,12 @@ LeanCloud 注册后首先要实名验证，这个很简单，只需要提供身�
 ![image.png](https://i.loli.net/2019/12/01/PJCUgH9dwc3aRMm.png)
 
 ### 在页面中调用
-LeanCloud 提供了 JavaScript SDK 和用于 Web页面的 CDN 链接（[官方文档](https://leancloud.cn/docs/start.html))
+LeanCloud 提供了 JavaScript SDK 和用于 Web页面的 CDN 链接（官方文档)
 ```
 <script src="//cdn.jsdelivr.net/npm/leancloud-storage@4.0.0/dist/av-min.js"></script>
 ```
+但是我们都是查询操作，所以根本不需要，只需要 Ajax 请求接口即可，所以也不用什么第三方 Ajax 请求库了，直接使用 Fetch API，只是为了渲染页面使用了 Vue.js CDN。全部JS代码如下
 
-由于我的页面很简单，所以也不用什么第三方 Ajax 请求库了，直接使用 Fetch API，只是为了渲染页面使用了 Vue.js CDN。全部JS代码如下
 ```javascript
 const baseUrl = 'https://oobzicxg.lc-cn-n1-shared.com/1.1/'
 const header = {
