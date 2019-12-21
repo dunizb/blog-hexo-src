@@ -5,6 +5,7 @@ date: 2017-08-14 22:26:51
 <div aligin="center"><img src="https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/myphots.jpg" /></div>
 <div style="text-align:center">到处浪的我</div>
 
+## 关于我
 大家好，我叫张兵，我的互联网ID是：[“Dunizb”](https://www.baidu.com/s?wd=Dunizb)，90后年湖南伢子，来自山旮旯里的农村，从小玩泥巴调皮淘气长大，做过很多城里人一辈子没做过的事，大学才接触编程，先从事Java开发工作，后来顺天命搞Web前端，吭哧吭哧不亦乐乎。
 
 我把自己定位是一个Web应用开发工程师，因为我一直都是在做基于浏览器的Web产品开发，无论是JavaWeb还是JsWeb。目前工作了五年，一直都在上海打滚，曾就职于[中国电信](http://www.ideal.sh.cn/)、[丰趣海淘](http://www.fengqu.com/)、[昂立嗨课堂](http://www.onlyhi.cn/)，[车轮驾考通](https://www.chelun.com/kjzapp.html)，经历传统软件、电商、在线教育、移动互联网企业，共事过各种程序员，目前对阿里系最有好感，待过最好的公司是阿里出来创业的丰趣海淘。
@@ -13,13 +14,13 @@ date: 2017-08-14 22:26:51
 
 业余生活逃不出写代码、[读书](http://book.douban.com/people/dunish/)、[旅行](http://dunizb.github.io/footprint/)、看电影、发呆这几件事，偶尔写点博客
 
-*******
-能找到我的N种办法：
-![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/ercode.jpg)
+## 能找到我的N种办法
+
+微信公众号，第一时间接收最新文章
+![我的微信公众号](https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg)
 
 社交媒体：
 - **微信**：dunizb（注明来源：博客）
-- **微信公众号**：做工程师不做码农(dunizb-weixin)
 - **QQ**：526324776（注明来源：博客）
 - **Email**：[zb@dunizb.vip](mailto:zb@dunizb.vip)
 - **GitHub**：[https://github.com/dunizb](https://github.com/dunizb)
