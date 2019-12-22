@@ -159,9 +159,8 @@ RESTfu，`api/file` 只需要这一个接口：
 
 ![GraphQL](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201907/restful-api/2.png)
 
-*******
-推荐文章
-- [《前端程序员面试笔试宝典》P162](https://book.douban.com/subject/30324146/)
-- [理解RESTful架构](//www.ruanyifeng.com/blog/2011/09/restful.html)
-- [RESTful 架构风格概述](https://blog.igevin.info/posts/restful-architecture-in-general/)
-- [前后端分离与restful api介绍](https://zhuanlan.zhihu.com/p/32901317)
+全文完。
+
+*************
+关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
+<img src="https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg" />
