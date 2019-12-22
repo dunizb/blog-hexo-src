@@ -14,19 +14,19 @@ menu:
   archive:
     text: 文章归档
     url: /archives
-  shopping-cart:
-    text: 我的小铺
+  shopping-bag:
+    text: 小铺
     url: //store.zhangbing.site/
     target: _blank
   # camera-retro:
   #   text: 相册
   #   url: //photo.dunizb.com/
   #   target: _blank
-  flask:
-    text: 代码实验室
+  code:
+    text: 小码
     url: //coding.zhangbing.site/
     target: _blank
-  edge:
+  globe:
     text: Segmentfault
     url: https://segmentfault.com/u/dunizb
     target: _blank
@@ -61,7 +61,7 @@ categories_title: 分类
 # 文章截断
 excerpt_render: true
 excerpt_length: 200
-excerpt_link: 阅读全文...
+excerpt_link: 阅读全文 >>
 mathjax: false
 archive_yearly: true
 
