@@ -20,10 +20,15 @@ date: 2017-08-14 22:26:51
 ![我的微信公众号](https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg)
 
 社交媒体：
-- **微信**：dunizb（注明来源：博客）
-- **QQ**：526324776（注明来源：博客）
-- **Email**：[zb@dunizb.vip](mailto:zb@dunizb.vip)
-- **GitHub**：[https://github.com/dunizb](https://github.com/dunizb)
-- **segmentfault**：[https://segmentfault.com/u/dunizb](https://segmentfault.com/u/dunizb)
-- **微博**：[http://www.weibo.com/duni/](http://www.weibo.com/duni/)
-- **豆瓣书单**：[http://book.douban.com/people/dunish/](http://book.douban.com/people/dunish/)
+- 微信：dunizb（注明来源：博客）
+- Email：[zb@dunizb.vip](mailto:zb@dunizb.vip)
+- [GitHub](https://github.com/dunizb)
+- [微博](http://www.weibo.com/duni/)
+- [豆瓣](https://www.douban.com/people/dunish/)
+
+分发渠道：
+- [Segmentfault专栏](https://segmentfault.com/blog/webhc)
+- [掘金](https://juejin.im/user/5794cec91532bc0060caf52b)
+- [今日头条](https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379)
+- [CSDN博客](https://blog.csdn.net/duninet)
+- [简书](https://www.jianshu.com/u/737d8047278d)

@@ -1,12 +1,12 @@
 ---
-title: MongoDB云数据库Atlas使用
+title: MongoDB云数据库Atlas使用教程
 date: 2019-11-10 21:16:53
 categories:
 - 技术
 tags:
 - MongoDB
 ---
-学习使用 MongoDB 官方提供的免费云数据库，学习利器。
+学习使用 MongoDB 官方提供的免费云数据库，初学者的学习利器，手把手图文教程。
 <!-- more -->
 
 ## 1. 云数据库 Atlas
@@ -138,3 +138,5 @@ mongoose.connection.on('error', console.error)
 *************
 关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
 <img src="https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg" />
+
+我的博客即将同步至腾讯云+社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=93yvswgsjuv4
