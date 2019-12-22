@@ -24,7 +24,7 @@ date: 2017-08-14 22:26:51
 - Email：[dunizb@foxmail.com](mailto:dunizb@foxmail.com)
 - [GitHub](https://github.com/dunizb)，有一些star过百的项目，但还没有什么非常有价值的项目，不过有些可能对你有点价值，可以瞧瞧
 - [微博](http://www.weibo.com/duni/)，偶尔在微博上更新日常
-- [豆瓣](https://www.douban.com/people/dunish/)
+- [豆瓣](https://www.douban.com/people/dunish/)，会标记看过的书和电影，创建了一些豆列，有兴趣可以看看
 
 分发渠道：
 - [Segmentfault专栏](https://segmentfault.com/blog/webhc)，Segmentfault是目前最喜欢的技术社区，界面美观简洁
