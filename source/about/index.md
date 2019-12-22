@@ -4,7 +4,7 @@ date: 2017-08-14 22:26:51
 ---
 
 ## 到处浪的我
-![有时间可以约~~](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/myphots.jpg)
+![有时间可以约~~](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/myphots.jpg)
 
 ## 简介
 大家好，我叫张兵，我的互联网ID是：[“Dunizb”](https://www.baidu.com/s?wd=Dunizb)，90后年湖南伢子，来自山旮旯里的农村，从小玩泥巴调皮淘气长大，做过很多城里人一辈子没做过的事，大学才接触编程，先从事Java开发工作，后来顺天命搞Web前端，吭哧吭哧不亦乐乎。
