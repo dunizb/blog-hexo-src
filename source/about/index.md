@@ -21,14 +21,14 @@ date: 2017-08-14 22:26:51
 
 社交媒体：
 - 微信：dunizb（注明来源：博客）
-- Email：[zb@dunizb.vip](mailto:zb@dunizb.vip)
-- [GitHub](https://github.com/dunizb)
-- [微博](http://www.weibo.com/duni/)
+- Email：[dunizb@foxmail.com](mailto:dunizb@foxmail.com)
+- [GitHub](https://github.com/dunizb)，有一些star过百的项目，但还没有什么非常有价值的项目，不过有些可能对你有点价值，可以瞧瞧
+- [微博](http://www.weibo.com/duni/)，偶尔在微博上更新日常
 - [豆瓣](https://www.douban.com/people/dunish/)
 
 分发渠道：
-- [Segmentfault专栏](https://segmentfault.com/blog/webhc)
-- [掘金](https://juejin.im/user/5794cec91532bc0060caf52b)
-- [今日头条](https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379)
-- [CSDN博客](https://blog.csdn.net/duninet)
-- [简书](https://www.jianshu.com/u/737d8047278d)
+- [Segmentfault专栏](https://segmentfault.com/blog/webhc)，Segmentfault是目前最喜欢的技术社区，界面美观简洁
+- [掘金](https://juejin.im/user/5794cec91532bc0060caf52b)，平时会经常看，但是一般发沸点和分享文章链接
+- [今日头条](https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379)，尝试新平台
+- [CSDN博客](https://blog.csdn.net/duninet)，CSDN主动邀请的
+- [简书](https://www.jianshu.com/u/737d8047278d)，以前经常混迹于此
