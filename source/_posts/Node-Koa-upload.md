@@ -144,16 +144,9 @@ router.post('/upload', ctx => {
 
 ![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201903/koa-upload-20191007184711.png)
 
-完！
 
-******
-[完整源码](https://github.com/dunizb/CodeTest/tree/master/Node/koa-upload-demo)
-
-*****
+全文完。[完整源码](https://github.com/dunizb/CodeTest/tree/master/Node/koa-upload-demo)
 
 *************
 关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
-
-<center>
 <img src="https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg" />
-</center>
