@@ -74,9 +74,8 @@ cloudSettings 的 gist 就创建了，点进去查看，里面是诸如 extensio
 
 搞不清楚为什么国内不能访问 Gist，需要梯子....，更多 Gist 的信息可以参考这个链接：[https://www.zhihu.com/question/21343711/answer/32023379](https://www.zhihu.com/question/21343711/answer/32023379)
 
+全文完。
+
 *************
 关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
-
-<center>
-<img src="https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg" />
-</center>
+![关注公众号](https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg)
