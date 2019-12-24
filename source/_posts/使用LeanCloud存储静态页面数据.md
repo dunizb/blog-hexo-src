@@ -12,7 +12,7 @@ Serverless 云开发是现在的大热门和趋势，各大云服务厂商都已
 <!-- more -->
 
 ## 背景
-我的[博客](https://www.dunizb.com/)有个[“我的小铺”](https://store.dunizb.com/)频道，是我个人书籍出售展示页面，其实是一个静态页面，托管在 [coding.net](https://coding.net/) 上，每次更新页面，比如上架下架一本书，都要打开源码编辑代码然后 `push` 到服务器中，步骤是：
+我的[博客](https://www.zhangbing.site/)有个[“我的小铺”](https://store.zhangbing.site/)频道，是我个人书籍出售展示页面，其实是一个静态页面，托管在 [coding.net](https://coding.net/) 上，每次更新页面，比如上架下架一本书，都要打开源码编辑代码然后 `push` 到服务器中，步骤是：
 1. 打开页面源码
 2. 上架一本书要 copy 已有的 DOM 结果，修改相应位置的值，比如标题、描述、价格等等
 3. 修改完毕，git push

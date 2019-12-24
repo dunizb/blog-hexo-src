@@ -1,11 +1,12 @@
 ---
-title: MongoDB云数据库Atlas使用教程
+title: 【图文教程】新手友好的MongoDB云数据库Atlas如何使用？
 date: 2019-11-10 21:16:53
 categories:
 - 技术
 tags:
 - MongoDB
 ---
+![MongoDB Atlas](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/atlas/banner.png)
 学习使用 MongoDB 官方提供的免费云数据库，初学者的学习利器，手把手图文教程。
 <!-- more -->
 
