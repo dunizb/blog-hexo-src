@@ -6,9 +6,10 @@ categories:
 tags:
 - MongoDB
 ---
-![MongoDB Atlas](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/atlas/banner.png)
+
 学习使用 MongoDB 官方提供的免费云数据库，初学者的学习利器，手把手图文教程。
 <!-- more -->
+![MongoDB Atlas](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/atlas/banner.png)
 
 ## 1. 云数据库 Atlas
 如果你想在本地安装 MongoDB 可以去官网下载，MongoDB 支持 Windows、OSX、Linux，虽然你可以在你的电脑上下载安装 MongoDB，但作为初学研究学习，其实没必要这么折腾，除非你天天在本机用。所以，一个更好的使用方法就是云MongoDB，云 MongoDB 就是把 MongoDB 安装在远程的服务器上，并对外暴露一个服务地址，我们用这个服务地址来连接数据库进行操作，其实我们现在公司开发都是使用云数据库，比如阿里云 RDS 服务。
