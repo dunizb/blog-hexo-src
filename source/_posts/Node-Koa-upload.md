@@ -1,5 +1,5 @@
 ---
-title: 在Koa.js中实现文件上传的接口
+title: 【实战】在Koa.js中实现文件上传的接口
 date: 2019-03-07 12:47:31
 categories:
 - 技术
@@ -11,6 +11,8 @@ tags:
 
 文件上传是一个基本的功能，每个系统几乎都会有，比如上传图片、上传Excel等。那么在Node Koa应用中如何实现一个支持文件上传的接口呢？本文从环境准备开始、最后分别用 [Postman](https://www.getpostman.com/) 和一个HTML页面来测试。
 <!-- more -->
+
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/koa-updalod/banner.png)
 
 ## 环境准备
 首先当然是要初始化一个Koa项目了，安装 Koa、koa-router 即可。
@@ -86,7 +88,7 @@ router.post('/upload', ctx => {
 
 打开 Postman，输入 `http://localhost:3001/upload`，选择 `POST` 方法，并且选择文件用 Body 来传输，并且选择 `form-data` 格式，然后在 KEY 中选择 file类型。
 
-![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201903/koa-upload-20191007180046.png)
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/koa-updalod/1.png)
 
 然后就可以选择图片进行上传了,上传成功后就可以看到 uploads 文件夹下有利一个图片了，并且输出量图片的路径。
 
@@ -119,7 +121,7 @@ router.post('/upload', ctx => {
 
 再用 Postman 测试一下，即可看到返回的 图片URL了，点击可以直接打开。
 
-![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201903/koa-upload-20191007183425.png)
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/koa-updalod/2.png)
 
 ## 编写前端页面上传文件
 
@@ -138,15 +140,17 @@ router.post('/upload', ctx => {
 
 然后我们用HTTP服务打开这个页面：`http://localhost:3001/upload.html`，因为我们整个 public 目录已经是一个静态HTTP服务目录了，里面的所有文件都可以通过HTTP访问。
 
-![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201903/koa-upload-20191007184601.png)
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/koa-updalod/3.png)
 
 选择文件，点击上传，上传成功后可以看到返回了文件地址
 
-![](https://raw.githubusercontent.com/dunizb/cloudimg/master/blog/article/201903/koa-upload-20191007184711.png)
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/koa-updalod/4.png)
 
 
 全文完。[完整源码](https://github.com/dunizb/CodeTest/tree/master/Node/koa-upload-demo)
 
+
 *************
 关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
-<img src="https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg" />
+
+![关注公众号](https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg)

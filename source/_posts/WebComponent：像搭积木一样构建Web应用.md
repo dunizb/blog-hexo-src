@@ -117,6 +117,12 @@ WebComponent 是一套技术的组合，具体涉及到了**Custom elements（�
 另外，当生成布局树的时候，渲染引擎也会判断 `geek-bang` 属性下面的 `shadow-root` 元素是否是影子 DOM，如果是，那么在影子 DOM 内部元素的节点选择 CSS 样式的时候，会直接使用影子 DOM 内部的 CSS 属性。所以这样最终渲染出来的效果就是影子 DOM 内部定义的样式。
 
 *******
-本文改编自极客时间《浏览器工作原理与实践》专栏，推荐订阅
+> 本文改编自极客时间《浏览器工作原理与实践》专栏，推荐订阅
+> <img src="https://i.loli.net/2019/08/19/LRNyftlo5JsMj4p.jpg" alt="本文改编自极客时间《浏览器工作原理与实践》专栏，推荐订阅" style="width:320px" />
 
-<img src="https://i.loli.net/2019/08/19/LRNyftlo5JsMj4p.jpg" alt="本文改编自极客时间《浏览器工作原理与实践》专栏，推荐订阅" style="width:320px" />
+<div style="text-align:center;">【 全 文 完 】</div>
+
+*************
+关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
+
+![关注公众号](https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg)
