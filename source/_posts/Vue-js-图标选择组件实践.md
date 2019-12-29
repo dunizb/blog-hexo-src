@@ -11,6 +11,7 @@ tags:
 最近项目中在做一个自定义菜单需求，其中有一个为菜单设置小图标的功能，就是大家常见的左侧菜单
 <!-- more -->
 ![左侧菜单](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/1.gif)
+![Fontawesome](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/2.png)
 
 设置图标不难，方案就是字体图标，可供使用的图标库也有很多，比如阿里巴巴的 Iconfont，以及 Fontaswsome 等，问题在于如何优雅的提供几百个图标供用户选择，而不需要开发去一个一个的写标签，也不需要一个个的去找图标。
 
@@ -20,13 +21,13 @@ tags:
 
 在项目中本人使用的是 [Fontawesome](https://fontawesome.com/icons?d=gallery) 图标库方案，使用它是因为提供的可用图标比较丰富，基本上不需要特意去找合适的图标，直接把它的图标库下载过来，免费的有800多个。
 
-![Fontawesome](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/2.png)
+![svg格式的精灵图](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/3.png)
 
 这么多图标难道要一个一个手写800多个 `i` 标签吗？三连拒绝！
 
 Fontawesome 下载后的文件中提供一个 svg格式的精灵图，这个非常人性化，用 VSCode 打开这个SVG文件
 
-![svg格式的精灵图](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/3.png)
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/4.png)
 
 可以看到是熟悉的DOM，因为SVG本质上就是一个XML，既然是DOM，那么祭出**JS大法**吧，用浏览器打开这个SVG文件，在控制台编写如下代码获取所有的图标名称：
 ```javascript
@@ -34,13 +35,13 @@ const nodeArray = Array.from(document.querySelectorAll('symbol'));
 const names = nodeArray.map(item => item.id)
 names.toString()
 ```
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/4.png)
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/5.png)
 
 ## Icons组件
-> 大牛可以忽略
 
 拿到了所有图标的 name 那就好办了，一个数组循环呗。先别急着写代码，我们的目的是封装成组件复用，那么先创建一个 Icons 组件
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/5.png)
+
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/6.png)
 
 提供一个筛选框，然后给一个事件即可  
 ```html
@@ -108,7 +109,7 @@ export default {
 
 在组件平级新建一个 index.js 文件
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/6.png)
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/7.png)
 
 ```js
 import IconsCompontent from './Icons.vue'
@@ -125,7 +126,8 @@ export default Icons;
 ```
 
 接着在项目 components 根目录新建 index.js，这里是所有组件的集合
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/vue-icon-components/7.png)
+
+![](https://static.xmt.cn/e05a3384461044c1bf7ca440efd426b4.png)
 
 最后一步是在 main.js 中注册：
 ```js
