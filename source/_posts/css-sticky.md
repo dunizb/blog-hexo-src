@@ -8,6 +8,7 @@ tags:
 ---
 
 CSS 有两个最重要的基本属性，前端开发必须掌握：`display` 和 `position`。
+<!-- more -->
 
 `display` 属性指定网页的布局：`flex` 和网格布局 `grid`。本文介绍非常有用的 `position` 属性的 `sticky` 定位。
 
