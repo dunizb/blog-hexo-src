@@ -18,7 +18,7 @@ date: 2017-08-14 22:26:51
 ## 能找到我的N种办法
 
 微信公众号，第一时间接收最新文章
-![我的微信公众号](https://i.loli.net/2019/11/06/SdgA4QFiTzMeHyI.jpg)
+![我的微信公众号](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/关注名片-大礼包_横版二维码_2020-01-01-0.jpg)
 
 社交媒体：
 - 微信：dunizb（注明来源：博客）
