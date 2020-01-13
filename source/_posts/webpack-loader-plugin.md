@@ -6,8 +6,9 @@ categories:
 tags:
 - Webpack
 ---
-本文介绍如何编写自己的Loader和Plugins
+本文介绍通过两个小需求，教你如何编写自己的Loader和Plugins
 <!-- more -->
+![](https://gitee.com/dunizb/imgcloud/raw/master/webpack1.png)
 
 ## 1、Loader和Plugin的区别
 
@@ -85,61 +86,34 @@ module.exports = function(source) {
 webpack.config.js 使用我们编写好的 Loader
 
 ```js
-
 const path = require('path')
 
 module.exports = {
-
     mode: 'development',
-
     entry: './src/index.js',
-
     output: {
-
         path: path.resolve(__dirname, 'dist'),
-
         filename: '[name].js'
-
     },
-
     resolveLoader: {
-
         // 当你引用一个Loader的时候它会先去查找node_modules，如果找不到再去./loaders找
-
         modules: ['node_modules', './loaders'],  
-
     },
-
     module: {
-
         rules: [{
-
             test: /\.js$/,
-
             use: [
-
                 {
-
                     loader: 'replaceLoader',
-
                     options: {
-
                         origin: 'http',
-
                         replace: 'https'
-
                     }
-
                 }
-
             ]
-
         }]
-
     }
-
 }
-
 ```
 
 在 `rules` 中我们 `use` 了自己的 Loader，并且传入了 `options`，想要把字符串 http 替换为 https。运行 `webpack` 命令打包，输出的打包结果如下
@@ -172,7 +146,7 @@ module: {
 
 这样配置后，会先执行后面的 Loader 先把指定字符串替换掉，再把内容大写。
 
-> 完整源码：[GitHub](https://github.com/dunizb/CodeTest/tree/master/Webpack/make-loader)
+> Loader示例完整源码：[GitHub](https://github.com/dunizb/CodeTest/tree/master/Webpack/make-loader)
 
 ## 3、如何编写一个Plugin
 
@@ -256,6 +230,7 @@ apply(compiler) {
 
 好了，编写 Loader 和 Plugin 基本方法就是这样了，剩下就是自己根据实际业务需求去创造自己工具。
 
+> Plugin示例完整源码：[GitHub](https://github.com/dunizb/CodeTest/tree/master/Webpack/make-pulgin)
 
 全文完。
 
