@@ -26,7 +26,4 @@ date: 2017-08-14 22:26:51
 - [GitHub](https://github.com/dunizb)，有一些star过百的项目，但还没有什么非常有价值的项目，不过有些可能对你有点价值，可以瞧瞧
 - [微博](http://www.weibo.com/duni/)，偶尔在微博上更新日常
 - [豆瓣](https://www.douban.com/people/dunish/)，会标记看过的书和电影，创建了一些豆列，有兴趣可以看看
-- [V2EX](https://www.v2ex.com/?r=dunizb)，新发现
 - [Segmentfault专栏](https://segmentfault.com/blog/webhc)，Segmentfault是目前最喜欢的技术社区，界面美观简洁
-- [掘金](https://juejin.im/user/5794cec91532bc0060caf52b)，平时会经常看，但是一般发沸点和分享文章链接
-- [今日头条](https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379)，尝试新平台
