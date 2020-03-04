@@ -11,7 +11,7 @@ permalink: /404
     <a href="javascript:to();">>> 点击这里试试 <<</a>
     或者 修改当前URL的域名为：blog.dunizb.com
     页面找不到了，不要慌，你可以随便到处看看其他的东西
-  <a href="https://dunizb.com">网站首页</a> - <a href="https://blog.dunizb.com">博客首页</a>
+  <a href="https://zhangbing.site">网站首页</a> - <a href="https://blog.zhangbing.site">博客首页</a>
 </div>
 
 <script>
@@ -19,6 +19,6 @@ if(confirm('该页面URL可能已经变更，是否去新的地址？')) to();
 function to(){
     var url = window.location.href; 
     // 'https://dunizb.com/2017/12/08/You-have-to-know-the-basic-HTTP-concepts/';
-    location.href = 'https://blog.dunizb.com/' + url.split('.com')[1]
+    location.href = 'https://blog.zhangbing.site/' + url.split('.com')[1]
 }
 </script>
