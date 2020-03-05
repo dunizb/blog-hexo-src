@@ -312,3 +312,5 @@ Error: EISDIR: illegal operation on a directory, open <directory>
 
 *****
 本文源码：[https://github.com/dunizb/CodeTest/tree/master/Node/fs](https://github.com/dunizb/CodeTest/tree/master/Node/fs)
+
+全文完。

@@ -89,7 +89,7 @@ toc:
   list_number: true  # 是否显示数字排序
 
 # 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
-postMessage: <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p> 本文链接：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>。<p style="color:red;">还可以给我打赏，鼓励我写出更多的干货文章。</p>
+postMessage: <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p> 本文链接：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>。<p style="color:red;">关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。</p><img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/%E5%85%B3%E6%B3%A8%E5%90%8D%E7%89%87-%E5%A4%A7%E7%A4%BC%E5%8C%85_%E6%A8%AA%E7%89%88%E4%BA%8C%E7%BB%B4%E7%A0%81_2020-01-01-0.jpg" />
 
 # 站长统计，如要开启，输入CNZZ站点id，如 cnzz: 1255152447
 cnzz: false
