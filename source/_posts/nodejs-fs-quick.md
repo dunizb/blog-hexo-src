@@ -140,7 +140,7 @@ mkdirp('tmp/foo/bar/baz').then(made => console.log(`创建目录于： ${made}`)
 ```
 结果
 
-![](![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/node-fs/1.png))
+![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/node-fs/1.png)
 
 ## 3.实战举例
 ### 实战1

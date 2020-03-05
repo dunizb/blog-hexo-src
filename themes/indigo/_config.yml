@@ -10,7 +10,7 @@
 menu:
   home:
     text: 主页
-    url: https://www.zhangbing.site/
+    url: https://zhangbing.site/
   archive:
     text: 文章归档
     url: /archives
