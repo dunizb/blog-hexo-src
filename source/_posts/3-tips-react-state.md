@@ -1,5 +1,5 @@
 ---
-title: 【译】3条简单的React状态管规则
+title: 【译】3条简单的React状态管理规则
 date: 2020-03-08 12:27:04
 categories:
 - 技术
