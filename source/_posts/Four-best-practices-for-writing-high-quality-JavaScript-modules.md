@@ -1,5 +1,5 @@
 ---
-title: 编写高质量JavaScript模块的4个最佳实践
+title: 【译】编写高质量JavaScript模块的4个最佳实践
 date: 2020-03-04 13:56:11
 categories:
 - 技术
