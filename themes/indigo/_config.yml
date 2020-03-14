@@ -28,11 +28,11 @@ menu:
     url: //coding.zhangbing.site/
     target: _blank
   globe:
-    text: Segmentfault
-    url: https://segmentfault.com/u/dunizb
+    text: 公众号订阅
+    url: https://zhangbing.site/#rss
     target: _blank
   rss:
-    text: RSS
+    text: RSS订阅
     url: /atom.xml
     target: _blank
   user:
