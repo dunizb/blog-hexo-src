@@ -2,6 +2,7 @@
 # https://github.com/yscoder/hexo-theme-indigo
 
 # 添加新菜单项遵循以下规则
+# https://fontawesome.com/icons
 # menu:
 #  link:               fontawesome图标，省略前缀，本主题前缀为 icon-，必须
 #    text: About       菜单显示的文字，如果省略即默认与图标一致，首字母会转大写
@@ -30,13 +31,13 @@ menu:
     text: Segmentfault
     url: https://segmentfault.com/u/dunizb
     target: _blank
+  rss:
+    text: RSS
+    url: /atom.xml
+    target: _blank
   user:
     text: 关于
     url: /about
-  github:
-    text: Github
-    url: https://github.com/dunizb
-    target: _blank
 
 # 你的头像url
 avatar: /img/avatar.gif
@@ -81,7 +82,7 @@ reward:
 search: true
 
 # 是否大屏幕下文章页隐藏导航
-hideMenu: true
+hideMenu: false
 
 # 是否开启toc
 # toc: false
