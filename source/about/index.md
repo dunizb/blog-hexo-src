@@ -1,8 +1,6 @@
----
 title: 关于我
 date: 2017-08-14 22:26:51
 ---
-
 ## 到处浪的我
 ![有时间可以约~~](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/myphots.jpg)
 
@@ -17,8 +15,11 @@ date: 2017-08-14 22:26:51
 
 ## 能找到我的N种办法
 
-微信公众号，第一时间接收最新文章
+如果你喜欢微信公众号，那么可以第一时间接收最新文章，扫下面的二维码关注即可，关注还送大礼包哦！
 ![我的微信公众号](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/关注名片-大礼包_横版二维码_2020-01-01-0.jpg)
+
+如果你不想因为订阅太多的公众号而被信息淹没和打扰，你也可以选择在今日头条上偶遇我的博客文章，那么你可以扫码订阅我的头条号
+<img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/toutiao-290x290.jpeg" alt="我的头条号" style="width:320px" />
 
 社交媒体：
 - 微信：dunizb（注明来源：博客）

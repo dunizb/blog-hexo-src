@@ -3,11 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 七年就是一辈子
+title: 做工程不做码农
 # subtitle: 这世间唯有梦想和好姑娘不可辜负
-description: Web前端，Web技术博客，HTML5，CSS3，Vue.js，Hexo，Node.js，博客，GitHub，Bootstrap
+description: Web前端开发,Node,NodeJS,Vue,React,Vuex,vue-router,Redux,react-router,Koa,Express,Egg,CSS3,Hexo,博客,GitHub,Bootstrap,Element,Andt,iview,'view ui'
 author: Dunizb
 language: zh-CN
+# 时区
 timezone:
 
 # URL
@@ -67,7 +68,14 @@ theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: 
+deploy:
   type: git
   repo: git@git.coding.net:dunizb/blog.git
   branch: master
+
+# hexo-admin authentification
+admin:
+  # username: dunizb
+  # password_hash: $2a$10$H.KFxS6Yd/4qE2xigTcz7ePaje5jwlaWR61HPebRpmZrqrIcYoNcS
+  secret: my super secret phrase
+  deployCommand: hexo-publish.sh
