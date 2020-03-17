@@ -230,7 +230,7 @@ Restful 的目的是定义如何正确地使用 Web 标准，优雅地使用 HTT
 
 - 对于动态生成的 HTML 页面使用 HTTPS 头：`Cache-Control:nocache`。
 - 对于静态 HTML 面使用 HTTPS 头：Last-Modified 。
-- 其他所有的文件类型都设置 Expires 头，并且在文件内容有所修改的时候修改 QueryString。
+- 其它所有的文件类型都设置 Expires 头，并且在文件内容有所修改的时候修改 QueryString。
 
 **浏览器缓存的现实世界**
 服务器端可以设置缓存规则，告诉浏览器应该如何遵循和实现，但在服务器不能掌控的地方也许会出现一些意外。缓存会被挤出。文件有可能在运营商服务器上被劫持。
@@ -243,7 +243,7 @@ QQ 空间静态资源在浏览器端使用的缓存策略。
 
 - 对于动态生成的 HTML 页面使用 HTTPS 头：`Cache-Control:nocache`。
 - 对于静态 HTML 页面使用 HTTPS 头 ：Last-Modified 。
-- 其他所有的文件类型都设置 Cache-Control 头，**并且在文件内容有所修改的时候修改文件名**。
+- 其它所有的文件类型都设置 Cache-Control 头，**并且在文件内容有所修改的时候修改文件名**。
 
 ---
 
