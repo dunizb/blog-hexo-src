@@ -1,10 +1,11 @@
-<%- partial('_partial/header', {
-    title: page.title,
-    hdClass: 'post-header'
-}) %>
-<%
-page.reward = 'reward' in page ? (theme.reward && page.reward) : theme.reward
+<%- partial('_partial/header', { title: page.title, hdClass: 'post-header' }) %>
+<% page.reward = 'reward' in page ? (theme.reward && page.reward) : theme.reward
 %>
 <div class="container body-wrap">
     <%- partial('_partial/post', {post: page }) %>
 </div>
+<script
+    data-ad-client="ca-pub-9548862058455480"
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+></script>

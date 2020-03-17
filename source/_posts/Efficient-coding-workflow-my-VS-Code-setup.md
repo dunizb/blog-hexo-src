@@ -2,9 +2,9 @@
 title: 高效的编码：我的VS Code设置
 date: 2020-03-16 22:31:08
 categories:
-  - 技术
-tags:
   - 工具
+tags:
+  - VS Code
 ---
 
 代码编辑器很多，有些是免费的，有些是付费的。其中最喜欢的代码编辑器是 Visual Studio Code。它是免费的，并具有强大的功能，我陆续抛弃了 Atom、Sublime Text 以及也很强大的 WebStorm。
