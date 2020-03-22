@@ -27,6 +27,10 @@ menu:
     text: 小码
     url: //coding.zhangbing.site/
     target: _blank
+  play-circle:
+    text: B站
+    url: //space.bilibili.com/258420440
+    target: _blank
   globe:
     text: 公众号订阅
     url: https://zhangbing.site/#rss
@@ -52,7 +56,7 @@ favicon: /favicon.ico
 email: dunizb@foxmail.com
 
 # 设置 Android L Chrome 浏览器状态栏颜色
-color: '#3F51B5'
+color: "#3F51B5"
 
 # 页面标题
 tags_title: 标签
@@ -62,7 +66,7 @@ categories_title: 分类
 # 文章截断
 excerpt_render: true
 excerpt_length: 200
-excerpt_link: 阅读全文 >>
+excerpt_link: 阅读全文 🧐
 mathjax: false
 archive_yearly: true
 
@@ -75,8 +79,8 @@ share: true
 # 是否开启打赏，关闭 reward: false
 reward:
   title: 感谢您的支持
-  wechat: /img/wechat.jpg     #微信，关闭设为 false
-  alipay: /img/alipay.jpg     #支付宝，关闭设为 false
+  wechat: /img/wechat.jpg #微信，关闭设为 false
+  alipay: /img/alipay.jpg #支付宝，关闭设为 false
 
 # 是否开启搜索
 search: true
@@ -87,7 +91,7 @@ hideMenu: false
 # 是否开启toc
 # toc: false
 toc:
-  list_number: false  # 是否显示数字排序
+  list_number: false # 是否显示数字排序
 
 # 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
 postMessage: <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p> 本文链接：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>。<p style="color:red;">关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。</p><img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/%E5%85%B3%E6%B3%A8%E5%90%8D%E7%89%87-%E5%A4%A7%E7%A4%BC%E5%8C%85_%E6%A8%AA%E7%89%88%E4%BA%8C%E7%BB%B4%E7%A0%81_2020-01-01-0.jpg" />
@@ -130,8 +134,8 @@ gitment: false
 # Valine Comment system. https://valine.js.org
 valine:
   enable: true # 如果你想使用valine，请将值设置为 true
-  appId:  OObzICxguaEmKygmhE2mUp5G-gzGzoHsz # your leancloud appId
-  appKey:  bBzvsvDvqSr8jOmX6AcoKVhQ # your leancloud appKey
+  appId: OObzICxguaEmKygmhE2mUp5G-gzGzoHsz # your leancloud appId
+  appKey: bBzvsvDvqSr8jOmX6AcoKVhQ # your leancloud appKey
   notify: true # Mail notify
   verify: false # Verify code
   avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
@@ -142,7 +146,6 @@ valine:
 # 是否开启Hyper Comments，填写id则启用，false则禁用。http://hypercomments.com
 # Hyper Comments support. Write your id here, or false to disable
 hyper_id: false
-
 
 # 规范网址
 # 让搜索引擎重定向你的不同域名、不同子域、同域不同目录的站点到你期望的路径
