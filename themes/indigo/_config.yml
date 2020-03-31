@@ -27,7 +27,7 @@ menu:
     text: 小码
     url: //coding.zhangbing.site/
     target: _blank
-  youtube:
+  video:
     text: B站
     url: //space.bilibili.com/258420440
     target: _blank
