@@ -45,11 +45,11 @@ Tree shaking 两步走：
 
 **在 production 环境下**，webapck 会自动写好配置不需要我们配置，production 环境下 的 devtool 配置一般会使用 `cheap-module-source-map`。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/Tree-Shaking/1.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/Tree-Shaking/1.png)
 
 webpack4 在 `package.json` 新增了一个配置项叫做 `sideEffects`， 值为 `false` 表示整个包都没有副作用；或者是一个数组列出有副作用的模块。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/Tree-Shaking/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/Tree-Shaking/2.png)
 
 ## 总结
 1. 使用 ES6 模块语法编写代码

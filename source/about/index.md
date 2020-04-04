@@ -17,13 +17,10 @@ date: 2017-08-14 22:26:51
 
 ## 能找到我的N种办法
 
-如果你喜欢微信公众号，那么可以第一时间接收最新文章，扫下面的二维码关注即可，关注还送大礼包哦！
-
-![我的微信公众号](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/subscribe2.png)
-
-如果你不想因为订阅太多的公众号而被信息淹没和打扰，你也可以选择在今日头条上偶遇我的博客文章，那么你可以扫码订阅我的头条号
-
-<img src="https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/toutiao-290x290.jpeg" alt="我的头条号" style="width:320px" />
+| 头条号 | 微信公众号|
+|:-------|:-------|
+|如果你不想因为订阅太多的公众号而被信息淹没和打扰，你也可以选择在今日头条上偶遇我的博客文章，那么你可以扫码订阅我的头条号|如果你喜欢微信公众号，那么可以第一时间接收最新文章，扫下面的二维码关注即可，关注还送大礼包哦！|
+|<img src="https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/toutiao-290x290.jpeg" alt="我的头条号" style="width:235px" />|<img src="https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/subscribe2.png" />|
 
 ****
 

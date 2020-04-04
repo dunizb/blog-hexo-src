@@ -94,7 +94,7 @@ toc:
   list_number: false # 是否显示数字排序
 
 # 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
-postMessage: <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p> 本文链接：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>。<p style="color:red;">如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。</p><img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/subscribe2.png" />
+postMessage: <p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p> 本文链接：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>。<p style="color:red;">如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。</p><img src="https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/subscribe2.png" />
 
 # 站长统计，如要开启，输入CNZZ站点id，如 cnzz: 1255152447
 cnzz: false

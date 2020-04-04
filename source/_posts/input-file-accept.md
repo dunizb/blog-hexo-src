@@ -9,7 +9,7 @@ tags:
 ---
 在我们做文件上传功能时，比如说导入Excel功能，通常需要限定用户只能导入Excel文件，对其他文件要进行过滤，一种做法是用户在选择文件时可以选择任何文件，只是在选择后触发`change`事件后再判断文件后缀格式，这种方法的麻烦之处在于要自己写代码判断。如何在打开资源管理器中就过滤非Excel文件呢？如下图所示。
 <!-- more -->
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/input-file-accept/1.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/input-file-accept/1.png)
 
 上面在打开的文件选择资源管理器中，只显示了Excel文件，其他文件格式都不能选择。
 

@@ -27,11 +27,11 @@ CSS 有两个最重要的基本属性，前端开发必须掌握：`display` 和
 
 因此，它能够形成“动态固定”的效果。比如，网页的搜索工具栏，初始加载时在自己的默认位置（relative 定位）。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/css-sticky/1.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/css-sticky/1.png)
 
 页面向下滚动时，工具栏变成固定位置，始终停留在页面头部（fixed定位）。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/css-sticky/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/css-sticky/2.png)
 
 等到页面重新向上滚动回到原位，工具栏也会回到默认位置。
 
@@ -57,7 +57,7 @@ CSS 有两个最重要的基本属性，前端开发必须掌握：`display` 和
 
 堆叠效果（stacking）指的是页面滚动时，下方的元素覆盖上方的元素。下面是一个图片堆叠的例子，下方的图片会随着页面滚动，覆盖上方的图片（查看 [demo](https://jsbin.com/fegiqoquki/edit?html,css,output)）。
 
-![堆叠效果](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/css-sticky/1.gif)
+![堆叠效果](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/css-sticky/1.gif)
 
 HTML 代码就是几张图片。
 ```html
@@ -79,7 +79,7 @@ div {
 
 大型表格滚动的时候，表头始终固定，也可以用 `sticky` 实现（查看 [demo](https://jsbin.com/decemanohe/edit?html,css,output)）。
 
-![表格的表头锁定](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/css-sticky/2.gif)
+![表格的表头锁定](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/css-sticky/2.gif)
 
 CSS 代码也很简单。
 ```css

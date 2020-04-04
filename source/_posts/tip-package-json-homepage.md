@@ -20,14 +20,14 @@ tags:
 
 比如我们用 `create-react-app` 开发的 React 应用，以及 Vue CLI 开发的项目，默认是继承了 webpack 的，当不配置 `homepage` 属性，build 打包之后的文件资源应用路径默认是 `/` ，如下图
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/20200226/1.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/20200226/1.png)
 
 当你设置了 `homepage` 属性后，比如我这里`homepage` 设置为 github 的 pages 服务地址
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/20200226/3.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/20200226/3.png)
 
 打包后的资源路径就会加上 `homepage` 的地址。比如上面图片配置好 `homepage` 之后我打包一个 React 项目，打包后 `index.html` 页面的资源路径就是：
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/20200226/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/20200226/2.png)
 
 全文完。

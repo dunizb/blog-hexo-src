@@ -105,4 +105,4 @@ Comp mounted
 **************
 扫一扫关注我的公众号，第一时间接收最新文章，如果觉得文章对你有帮助，可以点个赞点个好看鼓励一下作者。
 
-![扫一扫关注我的公众号，第一时间接收最新文章](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/关注名片-大礼包_横版二维码_2020-01-01-0.jpg)
+![扫一扫关注我的公众号，第一时间接收最新文章](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/关注名片-大礼包_横版二维码_2020-01-01-0.jpg)
