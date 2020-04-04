@@ -16,7 +16,7 @@ tags:
 
 本文不会介绍基本的 React 或 JavaScript 语法，但你不必是 React 方面的专家也能跟上，最终我们的效果如下。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/React-Hook-create-sortable/1.gif)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/React-Hook-create-sortable/1.gif)
 
 ## 第一步，用 React 创建表格
 
@@ -329,4 +329,4 @@ const ProductTable = props => {
 
 感谢您的阅读。获取本文源码和在线体验，请点击[这里](https://coding.zhangbing.site)。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/React-Hook-create-sortable/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/React-Hook-create-sortable/2.png)

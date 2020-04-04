@@ -25,11 +25,11 @@ tags:
 
 这里看一个例子，常见的代码如下：
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/yewu-code/1.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/yewu-code/1.png)
 
 这段代码其实可以写成这样：
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/yewu-code/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/yewu-code/2.png)
 
 ## 考虑业务问题和技术问题的匹配
 
@@ -37,7 +37,7 @@ tags:
 
 不过，随着业务的发展，「烟囱」越来越多，对这些「烟囱」的后续维护成为很大的问题，「成长」的烦恼如期而至。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/yewu-code/3.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/yewu-code/3.png)
 
 其中存在的问题如下
 
@@ -47,11 +47,11 @@ tags:
 
 那么，能不能将其中 80% 甚至 90% 的共性问题抽象出来呢？核心领域模型是否可以稳定呢？
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/yewu-code/4.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/yewu-code/4.png)
 
 在既要支持不断出现的各种业务，又要建设新平台的纠结中权衡之后，该团队首先启动了平台化项目，建设路径是存量业务继续使用烟囱架构，但新业务随着新平台一起接入，然后逐步迁移存量业务，实现烟囱系统的下线。如图所示，优惠券平台对前端业务提供统一的能力输出。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/yewu-code/5.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/yewu-code/5.png)
 
 总结下来，平台化架构有如下好处。
 

@@ -11,9 +11,9 @@ tags:
 
 本文将向您展示Chrome DevTools的一些隐藏功能，以帮助您提高生产力，有些你可以能已经知道，有些你可能还不知道。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/inspect.png)
-
 <!-- more -->
+
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/inspect.png)
 
 ## 在低端设备上测试Web应用性能
 
@@ -27,17 +27,17 @@ tags:
 1. 打开 Chrome DevTools，按下 `CMD/CTRL + SHIFT + P` 打开命令菜单。
 2. 输入 `Show Performance`，然后按回车键打开性能面板。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/2.png)
 
 按右边的齿轮图标打开捕获设置。现在，您可以为网络和CPU选择不同的限制选项。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/3.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/3.png)
 
 还有一个更简单的选项来模拟预定义的设备配置文件。
 
 按下 `CMD/CTRL + SHIFT + M` 切换设备的工具栏，你可以在中档手机和低端手机之间进行选择，这些选项将相对地设置网络和CPU节流。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/4.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/4.png)
 
 ## 捕获不同设备大小的屏幕截图
 
@@ -45,7 +45,7 @@ tags:
 
 打开 Chrome DevTools，按下 `CMD/CTRL + SHIFT + P` 打开命令菜单，输入 `screenshot` 查看所有截图捕捉选项，选择其中之一来捕获屏幕截图。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/5.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/5.png)
 
 还有一种更简单的方法来捕获普通和全尺寸的屏幕截图。
 
@@ -53,7 +53,7 @@ tags:
 
 这些选项将捕获所选模拟设备视图的屏幕截图。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/6.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/6.png)
 
 ## 更改用户代理
 
@@ -63,11 +63,11 @@ tags:
 1. 打开Chrome DevTools，按下 `CMD/CTRL + SHIFT + P` 打开命令菜单。
 2. 输入 `Show Network conditions` 按回车键打开网络条件面板，取消选中 `User agent` 选项右边的 `Select automatically` 复选框。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/7.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/7.png)
 
 现在，您可以从预定义的用户代理列表中进行选择。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/8.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/8.png)
 
 
 ## 测试你的明亮(Light)和暗黑(Dark)主题
@@ -80,7 +80,7 @@ tags:
 
 您可以在其中使用 `Emulate CSS media feature prefers-color-scheme` 选项在 `preferred-color-scheme:light` 和 `preferred-color-scheme:dark` 之间进行选择。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/9.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/9.png)
 
 ## 为视力障碍者测试您的Web应用程序
 
@@ -92,7 +92,7 @@ tags:
 
 您可以使用 `Emulate vision deficiencies` 选项在 `Blurredvision`，`Protanopia`，`Deuteranopia`，`Tritanopia` 和 `Achromatopsia` 之间进行选择。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/10.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/10.png)
 
 ## 按媒体资源过滤网络请求
 
@@ -102,7 +102,7 @@ Chrome DevTools提供了很多选项来过滤网络请求。例如，您可以�
 
 打开 Chrome DevTools，按下 `CMD/CTRL + SHIFT + P` 打开命令行，输入 `Show Network` 后回车打开网络面板。将 `larger-than:1k` 写入过滤器输入，然后按Enter。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/11.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/11.png)
 
 ## 在控制台中获取DOM节点引用
 
@@ -114,7 +114,7 @@ Chrome DevTools具有一项称为 `Store as global variable` 的功能。您可�
 1. 右键单击要在屏幕上获得的任何节点，在菜单中选择 `检查` 以打开Chrome DevTools并选择元素。
 2. 右键单击元素面板中的节点，选择 `Store as global variable` ，之后，它将在控制台中的全局变量中可用。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/chrome-devtools-7-tips/12.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/chrome-devtools-7-tips/12.png)
 
 ## 总结
 
@@ -124,3 +124,9 @@ Chrome DevTools功能强大。您可能还不知道很多其他功能。请查�
 - https://developers.google.com/web/tools/chrome-devtools
 - https://twitter.com/ChromeDevTools
 - https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw
+
+*******
+原文：[https://medium.com/better-programming/7-hidden-chrome-devtools-features-8f5fd3b1385f](https://medium.com/better-programming/7-hidden-chrome-devtools-features-8f5fd3b1385f)
+
+翻译：本博客
+

@@ -140,7 +140,7 @@ mkdirp('tmp/foo/bar/baz').then(made => console.log(`创建目录于： ${made}`)
 ```
 结果
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/node-fs/1.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/node-fs/1.png)
 
 ## 3.实战举例
 ### 实战1
@@ -294,7 +294,7 @@ console.log("程序执行完毕")
 ### 实战：复制图片
 在项目根目录有一张图片`2020.png`，把它复制到 `/wwwroot/images` 中
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/node-fs/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/node-fs/2.png)
 
 代码如下
 ```js

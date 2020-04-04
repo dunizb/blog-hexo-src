@@ -43,7 +43,7 @@ typeof b; // => ???
 
 在 `foo()` 范围或全局范围中都没有声明变量 b。因此 JavaScript 将 `b = 0` 表达式解释为 `window.b = 0`。换句话说，b 是意外创建的全局变量。
 
-![Accidental global variables JavaScript](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/7-js-interview-questions/1.png)
+![Accidental global variables JavaScript](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/7-js-interview-questions/1.png)
 
 在浏览器中，以上代码片段等效于：
 
@@ -103,7 +103,7 @@ numbers; // => ???
 
 让我们仔细看一下分号 `；` 出现在左大括号 `{`：
 
-![The null statement effect](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/7-js-interview-questions/2.png)
+![The null statement effect](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/7-js-interview-questions/2.png)
 
 这个分号很容易被忽略，它创建了一个空语句。空语句是不做任何事情的空语句。
 
@@ -243,7 +243,7 @@ const myConst = 3.14;
 
 提升和临时死区是影响 JavaScript 变量生命周期的两个重要概念。
 
-![Temporal dead zone and hoisting in JavaScript](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/7-js-interview-questions/3.png)
+![Temporal dead zone and hoisting in JavaScript](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/7-js-interview-questions/3.png)
 
 在声明之前访问 `myVar` 的结果为 `undefined`。在初始化之前，提升的 var 变量具有 `undefined` 的值。
 

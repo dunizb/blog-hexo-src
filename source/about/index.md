@@ -1,8 +1,8 @@
 title: 关于我
 date: 2017-08-14 22:26:51
 ---
-## 到处浪的我
-![有时间可以约~~](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/myphots.jpg)
+
+![有时间可以约~~](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/myphots.jpg)
 
 ## 简介
 大家好，我叫张兵，我的互联网ID是：[“Dunizb”](https://www.baidu.com/s?wd=Dunizb)，90后年湖南伢子，来自山旮旯里的农村，从小玩泥巴调皮淘气长大，做过很多城里人一辈子没做过的事，大学才接触编程，先从事Java开发工作，后来顺天命搞Web前端，吭哧吭哧不亦乐乎。
@@ -13,13 +13,19 @@ date: 2017-08-14 22:26:51
 
 业余生活逃不出写代码、[读书](http://book.douban.com/people/dunish/)、[旅行](http://dunizb.github.io/footprint/)、看电影、发呆这几件事，偶尔写点博客
 
+*****
+
 ## 能找到我的N种办法
 
 如果你喜欢微信公众号，那么可以第一时间接收最新文章，扫下面的二维码关注即可，关注还送大礼包哦！
-![我的微信公众号](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/关注名片-大礼包_横版二维码_2020-01-01-0.jpg)
+
+![我的微信公众号](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/subscribe2.png)
 
 如果你不想因为订阅太多的公众号而被信息淹没和打扰，你也可以选择在今日头条上偶遇我的博客文章，那么你可以扫码订阅我的头条号
-<img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/toutiao-290x290.jpeg" alt="我的头条号" style="width:320px" />
+
+<img src="https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/toutiao-290x290.jpeg" alt="我的头条号" style="width:320px" />
+
+****
 
 社交媒体：
 - 微信：dunizb（注明来源：博客）

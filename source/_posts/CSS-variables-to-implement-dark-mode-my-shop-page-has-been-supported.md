@@ -14,7 +14,7 @@ tags:
 
 <!-- more -->
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-dark-mode/0.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-dark-mode/0.png)
 
 ## CSS Dark Mode
 
@@ -77,9 +77,9 @@ p {
 
 就是这样！如果有人使用深色操作系统主题并访问您的网站，您的网站现在将自动切换到黑暗模式。
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-dark-mode/1.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-dark-mode/1.png)
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-dark-mode/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-dark-mode/2.png)
 
 ## 测试
 

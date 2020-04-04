@@ -45,7 +45,7 @@ tags:
 
 此时，div 元素就会匹配`:empty`伪类，呈现出虚线框，如下图
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-3tips/3.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-3tips/3.png)
 
 ### 2.1 隐藏空元素
 
@@ -92,7 +92,7 @@ dd:empty::before {
 
 此时字段缺失后的布局效果如下：
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-3tips/4.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-3tips/4.png)
 
 ### 2.3 数据为空提示
 
@@ -204,7 +204,7 @@ HTML示意如下：
 
 效果如下
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-3tips/5.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-3tips/5.png)
 
 
 

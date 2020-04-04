@@ -45,7 +45,7 @@ tags:
 
 效果 
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-reg-selector/2.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-reg-selector/2.png)
 
 而利用`[attr$="val"]`后匹配选择器则可以实现显示文件类型小图标。CSS如下：
 ```css
@@ -68,7 +68,7 @@ tags:
 ```
 效果如下 
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-reg-selector/3.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-reg-selector/3.png)
 
 ## CSS属性选择器搜索过滤技术
 
@@ -101,7 +101,7 @@ input.addEventListener('input', function() {
 
 最终效果如下 
 
-![效果图](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/css-reg-selector/4.gif)
+![效果图](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/css-reg-selector/4.gif)
 
 
 

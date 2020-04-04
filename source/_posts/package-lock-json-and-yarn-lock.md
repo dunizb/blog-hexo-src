@@ -12,7 +12,7 @@ tags:
 
 <!-- more -->
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/package-lock/1.jpeg)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/package-lock/1.jpeg)
 
 你是不是遇到和思考过下面的问题？
 - 什么是package-lock.json（或yarn.lock）？
@@ -47,7 +47,7 @@ tags:
 
 ## 什么是 package lock 文件？水果和蔬菜的比喻
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/package-lock/2.jpeg)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/package-lock/2.jpeg)
 
 这样想吧，你喜欢吃水果和蔬菜。每周您都需要购买水果和蔬菜，因此您有一个标准的购物清单，很少更改：
 ```
@@ -210,15 +210,15 @@ tags:
 
 我将让一些数字来说话，`yarn` 初始安装后，`node_modules` 文件夹中文件的大小和数量 
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/package-lock/3.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/package-lock/3.png)
 
 删除 `node_modules` 并重新安装后的文件大小和数量，保持`yarn.lock`
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/package-lock/4.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/package-lock/4.png)
 
 删除 `node_modules` 并重新安装，删除 `yarn.lock` 之后的文件大小和数量 
 
-![](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/202003/package-lock/5.png)
+![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/package-lock/5.png)
 
 上述明细表面，在删除 `node_modules` 并重新安装包之后，`node_modules` 文件夹没有发生任何变化。
 
