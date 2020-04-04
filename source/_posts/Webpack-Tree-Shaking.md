@@ -57,9 +57,3 @@ webpack4 在 `package.json` 新增了一个配置项叫做 `sideEffects`， 值�
 3. 声明 sideEffects
 4. 自己在重构代码时也要注意副作用
 
-<div style="text-align:center;">【 全 文 完 】</div>
-
-*************
-关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
-
-![关注公众号](https://gitee.com/dunizb/cloudimg/raw/jsdelivr/关注名片-大礼包_横版二维码_2020-01-01-0.jpg)
