@@ -31,7 +31,7 @@ HTML5新增的标签和功能，常规的我相信大家都知道，这里就不
 
 效果如下
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/17153500916fcfe0?w=1530&h=586&f=png&s=88299)
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/HTML5-pingyin/1.png)
 
 ## 展开收起组件
 
@@ -47,7 +47,7 @@ HTML5新增的标签和功能，常规的我相信大家都知道，这里就不
 
 就可以实现如下效果
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/171535115788b38f?w=704&h=860&f=gif&s=540056)
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/HTML5-pingyin/exam.gif)
 
 是不是很棒啊 🤪
 
@@ -57,7 +57,7 @@ HTML5新增的标签和功能，常规的我相信大家都知道，这里就不
 
 **progress** 标签显示进度：
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/171535226273cb9c?w=1240&h=413&f=jpeg&s=26018)
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/HTML5-pingyin/4.jpg)
 
 值得一提的是：`progress` 不适合用来表示度量衡，如果想表示度量衡，我们应该使用 `meter` 标签代替。这又是什么标签？
 
@@ -70,10 +70,10 @@ HTML5新增的标签和功能，常规的我相信大家都知道，这里就不
 
 Chrome显示效果如下
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/1715353285f1a8d9?w=872&h=146&f=png&s=10150)
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/HTML5-pingyin/5.jpg)
 
 本文示例效果和完整代码已放在我的博客[小码](https://coding.zhangbing.site)页面。
 
 
-![](https://user-gold-cdn.xitu.io/2020/4/7/1715354001840ed8?w=2558&h=1172&f=png&s=460797)
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/HTML5-pingyin/QQ20200405-141143%402x.png)
 
