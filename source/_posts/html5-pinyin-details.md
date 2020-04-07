@@ -12,6 +12,8 @@ tags:
 - W3C 指 World Wide Web Consortium
 - WHATWG 指 Web Hypertext Application Technology Working Group
 
+<!-- more -->
+
 说好听了是“合作产出”，但其实更像是“HTML5 有两套规范”。但话说天下大势合久必分，分久必合，如今（就在前几天，2018.5.29）它们又表示将会开发单一版本的 HTML 规范。
 
 HTML5新增的标签和功能，常规的我相信大家都知道，这里就不啰嗦了，这里介绍两个大家可能不知道的功能，很实用！
