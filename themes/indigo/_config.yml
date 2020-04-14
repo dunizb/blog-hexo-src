@@ -15,6 +15,10 @@ menu:
   archive:
     text: 文章归档
     url: /archives
+  vuejs:
+    text: Vue3备忘单
+    url: https://zhangbing.site/vu3
+    target: _blank
   shopping-bag:
     text: 小铺
     url: //store.zhangbing.site/
@@ -27,7 +31,7 @@ menu:
     text: 小码
     url: //coding.zhangbing.site/
     target: _blank
-  video:
+  youtube:
     text: B站
     url: //space.bilibili.com/258420440
     target: _blank
