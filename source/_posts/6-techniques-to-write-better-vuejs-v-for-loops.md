@@ -1,5 +1,5 @@
 ---
-title: 在Vue.js编写更好的v-for循环的6种技巧
+title: 在Vue.js中编写更好的v-for循环的6种技巧
 date: 2020-04-12 14:09:46
 categories:
   - 技术
@@ -8,13 +8,12 @@ tags:
   - Vue.js
 ---
 
-# 编写更好的VueJS v-for循环的6种技巧
-
-在VueJS中，v-for循环是每个项目都会使用的东西，它允许您在模板代码中编写for循环。
+在 Vue.js 中，`v-for` 循环是每个项目都会使用的东西，它允许您在模板代码中编写for循环。
+<!-- more -->
 
 在最基本的用法中，它们的用法如下。
 
-```vue
+```html
 <ul>
   <li v-for='product in products'>
     {{ product.name }}
@@ -32,7 +31,7 @@ tags:
 
 果我们不使用key，Vue将尝试使DOM尽可能高效，这可能意味着 `v-for` 元素可能会出现乱序或其他不可预测的行为。如果我们对每个元素都有唯一的键引用，那么我们就可以更好地准确地预测DOM将如何操作。
 
-```vue
+```html
 <ul>
   <li 
     v-for='product in products'
@@ -49,7 +48,7 @@ tags:
 
 例如，假设我们正在为在线商店创建一个分页系统，而我们只希望每页显示10个产品。使用一个变量来跟踪当前的页码，我们可以像这样处理分页。
 
-```vue
+```html
 <ul>
   <li v-for='index in 10' :key='index'>
     {{ products[page * 10 + index] }}
@@ -65,7 +64,7 @@ tags:
 
 不要这样：
 
-```vue
+```html
 // BAD CODE!
 <ul>
   <li 
@@ -89,7 +88,7 @@ tags:
 
 首先，我们只需要设置一个计算属性，为了获得与之前的v-if相同的功能，代码应如下所示。
 
-```vue
+```html
 <ul>
   <li v-for='products in productsUnderFifty' :key='product._id' >
     {{ product.name }}
@@ -115,7 +114,7 @@ tags:
 
 下面的代码几乎相同，但是使用方法改变了我们访问模板中的值的方式，如果我们希望能够将变量传递给筛选器，那么方法是最好的选择。
 
-```vue
+```html
 <ul>
   <li v-for='products in productsUnderPrice(50)' :key='product._id' >
     {{ product.name }}
@@ -146,7 +145,7 @@ tags:
 
 为此，我们必须在项目后添加一个索引值，它非常简单，可用于分页，显示列表索引，显示排名等。
 
-```vue
+```html
 <ul>
   <li v-for='(products, index) in products' :key='product._id' >
     Product #{{ index }}: {{ product.name }}
@@ -164,7 +163,7 @@ tags:
 
 假设我们要遍历产品中的每个媒体资源。
 
-```vue
+```html
 <ul>
   <li v-for='(products, index) in products' :key='product._id' >
     <span v-for='(item, key, index) in product' :key='key'>
