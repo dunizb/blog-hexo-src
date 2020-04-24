@@ -1,5 +1,5 @@
 ---
-title: Vue3 Composition API中的提取和重用逻辑
+title: 迎接Vue3.0|Vue3 Composition API中的提取和重用逻辑
 date: 2020-04-22 21:19:27
 categories:
   - 技术
@@ -8,7 +8,7 @@ tags:
   - Vue.js
 ---
 
-Vue3 Composition API可以在大型项目中更好地组织代码。然儿，随着使用几种不同的选项属性切换到单一的` setup` 方法，许多开发人员面临的问题是... ...
+Vue3 Composition API可以在大型项目中更好地组织代码。然儿，随着使用几种不同的选项属性切换到单一的 `setup` 方法，许多开发人员面临的问题是... ...。
 
 <!-- more -->
 
