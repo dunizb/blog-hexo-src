@@ -5,7 +5,7 @@ categories:
   - 技术
 tags:
   - 前端
-  - NodeJS
+  - Node
 ---
 
 为什么要保留它们以及何时要抛弃它们？ 

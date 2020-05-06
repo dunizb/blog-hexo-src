@@ -5,7 +5,7 @@ categories:
 - 技术
 tags:
 - 前端
-- NodeJS
+- Node
 - Koa.js
 ---
 

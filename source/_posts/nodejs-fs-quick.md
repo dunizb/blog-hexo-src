@@ -4,7 +4,7 @@ date: 2020-03-04 23:49:32
 categories:
 - 技术
 tags:
-- NodeJS
+- Node
 ---
 
 JavaScript 的是没有操作文件的能力，但是 Node 是可以做到的，Node 提供了操作文件系统模块，是 Node 中使用非常重要和高频的模块，是绝对要掌握的一个模块系统。
