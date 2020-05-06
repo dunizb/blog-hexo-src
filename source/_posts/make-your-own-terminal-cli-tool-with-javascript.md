@@ -1,6 +1,6 @@
 ---
 title: 实战|从零开始使用JavaScript制作自己的命令行(CLI工具)
-date: 2020-05-06 13:30:03
+date: 2020-05-05 13:30:03
 categories:
   - 技术
 tags:
