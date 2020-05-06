@@ -9,7 +9,7 @@ tags:
   - JavaScript
 ---
 
-在这篇文章中，我们将构建一个简单的CLI，允许用户生成HTML页面。我们首先要生成一个标准的空白页面，然后让用户输入参数，比如文件名和标题，先通过选项，然后通过提示问题让用户输入参数。
+在上一篇文章：[【实战】从零开始使用JavaScript制作自己的命令行(CLI工具)](https://blog.zhangbing.site/2020/05/05/make-your-own-terminal-cli-tool-with-javascript/) 中我介绍了如何从零开始制作CLI，那么现在我们更进一步。在这篇文章中，我们将构建一个简单的CLI，允许用户生成HTML页面。我们首先要生成一个标准的空白页面，然后让用户输入参数，比如文件名和标题，先通过选项，然后通过提示问题让用户输入参数。
 <!-- more -->
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202005/d5c5446dc2f813cd69bece27345d4ee8.jpg)
