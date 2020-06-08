@@ -8,7 +8,7 @@ tags:
   - Vue.js
 ---
 
-Vue3 Composition API可以在大型项目中更好地组织代码。然儿，随着使用几种不同的选项属性切换到单一的 `setup` 方法，许多开发人员面临的问题是... ...。
+Vue3 Composition API 可以在大型项目中更好地组织代码。然儿，随着使用几种不同的选项属性切换到单一的 `setup` 方法，许多开发人员面临的问题是... ...。
 
 <!-- more -->
 
@@ -24,60 +24,60 @@ Vue.js 2.x 的 Options API 是一种非常直观的分隔代码的方法
 
 ```javascript
 export default {
-  data () {
+  data() {
     return {
       articles: [],
-      searchParameters: []
-    }
+      searchParameters: [],
+    };
   },
-  mounted () {
-    this.articles = ArticlesAPI.loadArticles()
+  mounted() {
+    this.articles = ArticlesAPI.loadArticles();
   },
   methods: {
-    searchArticles (id) {
+    searchArticles(id) {
       return this.articles.filter(() => {
         // 一些搜索代码
-      })
-    }
-  }
-}
+      });
+    },
+  },
+};
 ```
 
-问题是，如果一个组件中有数百行代码，那么就必须在多个部分data、methods、computed等中为单个特性(例如搜索)添加代码。
+问题是，如果一个组件中有数百行代码，那么就必须在多个部分 data、methods、computed 等中为单个特性(例如搜索)添加代码。
 
 这意味着仅一项功能的代码可能会分散分布在数百行中，并分布在几个不同的位置，从而使其难以阅读或调试。
 
-这只是Vue Composition API RFC中的一个示例，展示了现在如何按功能组织代码。
+这只是 Vue Composition API RFC 中的一个示例，展示了现在如何按功能组织代码。
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/vue-composition-api-and/1.png)
 
-现在，这是使用新的Composition API的等效代码。
+现在，这是使用新的 Composition API 的等效代码。
 
 ```javascript
-import { ref, onMounted } from 'vue'
+import { ref, onMounted } from "vue";
 
 export default {
-  setup () {
-    const articles = ref([])
-    const searchParameters = ref([])
+  setup() {
+    const articles = ref([]);
+    const searchParameters = ref([]);
 
     onMounted(() => {
-      this.articles = ArticlesAPI.loadArticles()
-    })
+      this.articles = ArticlesAPI.loadArticles();
+    });
 
     const searchArticles = (id) => {
       return articles.filter(() => {
         // 一些搜索代码
-      })
-    }
+      });
+    };
 
     return {
       articles,
       searchParameters,
-      searchArticles
-    }
-  }
-}
+      searchArticles,
+    };
+  },
+};
 ```
 
 现在，为了解决前面关于组织的问题，我们来看看一个提取逻辑的好方法。
@@ -92,41 +92,41 @@ export default {
 
 ```javascript
 const useSearchArticles = () => {
-  const articles = ref([])
-  const searchParameters = ref([])
+  const articles = ref([]);
+  const searchParameters = ref([]);
 
   onMounted(() => {
-    this.articles = ArticlesAPI.loadArticles()
-  })
+    this.articles = ArticlesAPI.loadArticles();
+  });
 
   const searchArticles = (id) => {
     return articles.filter(() => {
       // 一些搜索代码
-    })
-  }
+    });
+  };
 
   return {
     articles,
     searchParameters,
-    searchArticles
-  }
-}
+    searchArticles,
+  };
+};
 ```
 
 现在，在我们的 `setup` 方法中，我们可以通过调用我们的方法来访问属性。而且，当然，我们还必须记住从设 `setup` 法中返回它们。
 
 ```javascript
 export default {
-  setup () {
-    const { articles, searchParameters, searchArticles } = useSearchArticles()
+  setup() {
+    const { articles, searchParameters, searchArticles } = useSearchArticles();
 
     return {
       articles,
       searchParameters,
-      searchArticles
-    }
-  }
-}
+      searchArticles,
+    };
+  },
+};
 ```
 
 ## 在提取的逻辑中访问组件属性
@@ -137,14 +137,13 @@ Composition API 中的另一个新变化是 `this` 引用的变化，这一变�
 
 ```javascript
 export default {
-  setup (props, context) {
-
+  setup(props, context) {
     onMounted(() => {
-      console.log(props)
-      context.emit('event', 'payload')
-    })
-  }
-}
+      console.log(props);
+      context.emit("event", "payload");
+    });
+  },
+};
 ```
 
 但是现在我们要提取我们的逻辑，我们要把我们的逻辑包装器方法也接受参数。通过这种方式，我们可以从 `setup` 方法传递我们的 `props` 和 `context` 属性，逻辑代码可以访问它们。
@@ -152,15 +151,15 @@ export default {
 ```javascript
 const checkProps = (props, context) => {
   onMounted(() => {
-    console.log(props)
-    context.emit('event', 'payload')
-  })
-}
+    console.log(props);
+    context.emit("event", "payload");
+  });
+};
 export default {
-  setup (props, context) {
-    checkProps(props, context)
-  }
-}
+  setup(props, context) {
+    checkProps(props, context);
+  },
+};
 ```
 
 ## 重用逻辑
@@ -170,44 +169,44 @@ export default {
 然后，我们可以像之前一样调用该方法。假设我们将我们的 `useSearchArticles` 方法移至名为 `use-search-articles-logic.js` 的文件中，如下所示
 
 ```javascript
-import { ref, onMounted } from 'vue'
-export function useSearchArticles () {
-  const articles = ref([])
-  const searchParameters = ref([])
+import { ref, onMounted } from "vue";
+export function useSearchArticles() {
+  const articles = ref([]);
+  const searchParameters = ref([]);
 
   onMounted(() => {
-    this.articles = ArticlesAPI.loadArticles()
-  })
+    this.articles = ArticlesAPI.loadArticles();
+  });
 
   const searchArticles = (id) => {
     return articles.filter(() => {
       // 一些搜索代码
-    })
-  }
+    });
+  };
 
   return {
     articles,
     searchParameters,
-    searchArticles
-  }
+    searchArticles,
+  };
 }
 ```
 
 使用这个新文件，我们的原始组件将看起来像这样
 
 ```javascript
-import { useSearchArticles } from './logic/use-search-articles-logic'
+import { useSearchArticles } from "./logic/use-search-articles-logic";
 export default {
-  setup (props,) {
-    const { articles, searchParameters, searchArticles } = useSearchArticles()
+  setup(props) {
+    const { articles, searchParameters, searchArticles } = useSearchArticles();
 
     return {
       articles,
       searchParameters,
-      searchArticles
-    }
-  }
-}
+      searchArticles,
+    };
+  },
+};
 ```
 
 ## 最后
@@ -216,9 +215,8 @@ export default {
 
 但是，与往常一样，项目的组织取决于开发人员设计出色的组件代码并创建可重用逻辑的意愿。
 
-请记住，我们的目标是提高可读性，而在Vue中，Composition API 是实现这一点的好方法。
+请记住，我们的目标是提高可读性，而在 Vue 中，Composition API 是实现这一点的好方法。
 
-*****
+---
 
 原文：https://learnvue.co/2020/03/extract-and-reuse-logic-in-the-vue-composition-api/
-
