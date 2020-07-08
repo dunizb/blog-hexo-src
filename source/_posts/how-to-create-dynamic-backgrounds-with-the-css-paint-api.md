@@ -10,6 +10,8 @@ tags:
 
 现代 Web 应用对图像的需求量很大，它们占据网络下载的大部分字节。通过优化它们，你可以更好地利用它们的性能。如果你碰巧使用几何图形作为背景图像，有一个替代方案：你可以使用[CSS Paint API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Painting_API)以编程方式生成背景。
 
+<!-- more -->
+
 在本教程中，我们将探讨其功能，并探讨如何使用它来动态创建与分辨率无关的动态背景。这将是本教程的输出：
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202007/create-dynamic-backgrounds/1.gif)
