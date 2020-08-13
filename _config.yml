@@ -70,12 +70,5 @@ theme: indigo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@git.coding.net:dunizb/blog.git
+  repo: git@e.coding.net:dunizb/blog.git
   branch: master
-
-# hexo-admin authentification
-admin:
-  # username: dunizb
-  # password_hash: $2a$10$H.KFxS6Yd/4qE2xigTcz7ePaje5jwlaWR61HPebRpmZrqrIcYoNcS
-  secret: my super secret phrase
-  deployCommand: hexo-publish.sh
