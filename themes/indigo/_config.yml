@@ -31,16 +31,16 @@ menu:
     text: 小码
     url: //coding.zhangbing.site/
     target: _blank
-  youtube:
-    text: B站
-    url: //space.bilibili.com/258420440
-    target: _blank
+  # youtube:
+  #  text: B站
+  #  url: //space.bilibili.com/258420440
+  #  target: _blank
   globe:
-    text: 公众号订阅
+    text: 公众号
     url: https://zhangbing.site/#rss
     target: _blank
   rss:
-    text: RSS订阅
+    text: RSS
     url: /atom.xml
     target: _blank
   user:
@@ -57,7 +57,7 @@ brand: /img/brand.jpg
 favicon: /favicon.ico
 
 # email
-email: dunizb@foxmail.com
+email: webdev@88.com
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: "#3F51B5"
@@ -95,7 +95,7 @@ hideMenu: false
 # 是否开启toc
 # toc: false
 toc:
-  list_number: true # 是否显示数字排序
+  list_number: false # 是否显示数字排序
 
 # 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
 postMessage: <div><p>本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！</p><p>本文链接：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a></p><p>本文首发于公众号<strong>《前端全栈开发者》</strong>ID：by-zhangbing-dev，第一时间阅读最新文章，会优先两天发表新文章。关注后私信回复：大礼包，送某网精品视频课程网盘资料，准能为你节省不少钱！</p><img src="https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/subscribe2.png" /></div>
@@ -161,7 +161,7 @@ canonical: true
 since_year: 2019
 
 # 用户页面中作者相关的描述性文字，如不需要设为 false
-about: 前端开发
+about: 做工程师不做码农、全栈开发工程师、持续学习者
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
