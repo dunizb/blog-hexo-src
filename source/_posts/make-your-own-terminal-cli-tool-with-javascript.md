@@ -7,22 +7,25 @@ tags:
   - 前端
   - Node
   - JavaScript
+  - 实战
 ---
 
-我们每天都使用CLI程序（例如Terminal，cmd，Powershell等）进行软件开发。你使用的每个工具本质上都是其他软件工程师的产品，我们也可以制作自己的CLI工具。
+我们每天都使用 CLI 程序（例如 Terminal，cmd，Powershell 等）进行软件开发。你使用的每个工具本质上都是其他软件工程师的产品，我们也可以制作自己的 CLI 工具。
+
 <!-- more -->
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202005/7581033c-3e38-4f07-2b0b-bb1fe0b57cf6.jpg)
 
-从零开始的简单CLI，让我们开始吧！
+从零开始的简单 CLI，让我们开始吧！
 
-## 首先，让我们制作一个简单的CLI工具，该工具会打印“ HelloWord”
+## 首先，让我们制作一个简单的 CLI 工具，该工具会打印“ HelloWord”
 
-要制作CLI，您需要制作两个文件
+要制作 CLI，您需要制作两个文件
+
 - package.json：将设置和配置指定入口
-- index.js：根据CLI命令的可执行文件
+- index.js：根据 CLI 命令的可执行文件
 
-**添加Package.json 文件**
+**添加 Package.json 文件**
 
 ```json
 // package.json
@@ -39,7 +42,7 @@ tags:
 }
 ```
 
-在package.json中，指定有关当前CLI程序的元数据, `name`，`version`，`description`、`author`等。
+在 package.json 中，指定有关当前 CLI 程序的元数据, `name`，`version`，`description`、`author`等。
 
 **创建 index.js 可执行文件**
 
@@ -51,11 +54,11 @@ console.log('Hello CLI');
 
 那么，第一句话是什么意思?
 
-在**Linux**和基于**Unix**的操作系统（例如Mac）中，`＃！ / usr / bin / env node`  不仅仅是一个注释。它使用在 `/usr/bin/env` 中注册的node命令来运行文件。
+在**Linux**和基于**Unix**的操作系统（例如 Mac）中，`＃！ / usr / bin / env node` 不仅仅是一个注释。它使用在 `/usr/bin/env` 中注册的 node 命令来运行文件。
 
 但是，在**Windows**中，这只是一个注释。
 
-**添加bin属性**
+**添加 bin 属性**
 
 我们添加 `bin` 属性来实际运行 **index.js** 文件
 
@@ -75,9 +78,9 @@ console.log('Hello CLI');
 
 `bin` 属性具有可执行文件，`cli` 命令要求运行 `index.js` 文件。
 
-**运行CLI**
+**运行 CLI**
 
-最后，让我们运行CLI在控制台上打印**Hello CLI**。通过运行 `npm i -g` 在package.json中安装配置。
+最后，让我们运行 CLI 在控制台上打印**Hello CLI**。通过运行 `npm i -g` 在 package.json 中安装配置。
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/from-zero-terminal/4.png)
 
@@ -87,9 +90,9 @@ console.log('Hello CLI');
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/from-zero-terminal/5.png)
 
-你可能需要在Mac和Linux环境中附加 `sudo` 命令（即 `sudo cli`）,没有 `node_modules` 文件夹，因为你没有安装依赖项。
+你可能需要在 Mac 和 Linux 环境中附加 `sudo` 命令（即 `sudo cli`）,没有 `node_modules` 文件夹，因为你没有安装依赖项。
 
-**CLI中的Process.argv**
+**CLI 中的 Process.argv**
 
 ```javascript
 // index.js
@@ -111,13 +114,13 @@ cli one two three four
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/from-zero-terminal/6.png)
 
-数组中的**前两个元素**是 `node` 和 `cli` 命令的路径。（对于Windows系统，它可能会打印出不同的输出）输出可能会因您的计算机设置和环境而异（这取决于您在计算机上安装**node**和**cli**命令的位置）。
+数组中的**前两个元素**是 `node` 和 `cli` 命令的路径。（对于 Windows 系统，它可能会打印出不同的输出）输出可能会因您的计算机设置和环境而异（这取决于您在计算机上安装**node**和**cli**命令的位置）。
 
 此外，`one two three four` 表示为数组类型
 
-## 其次，通过“用户输入”与用户交互的简单CLI工具
+## 其次，通过“用户输入”与用户交互的简单 CLI 工具
 
-使用称为**readline**的本机Node模块从用户那里获取输入。
+使用称为**readline**的本机 Node 模块从用户那里获取输入。
 
 ```javascript
 // index.js
@@ -147,13 +150,13 @@ rl.question("你今天好吗(快乐, 悲伤)？", (answer) => {
 
 `readline` 模块接受来自用户的输入，`rl` 对象提问法是向用户提问的一种方法，回调函数具有一个 `answer` 参数（来自用户的输入），如果所有 I/O（输入和输出）完成，则关闭 `rl` 对象。
 
-**我们是否可以通过再次询问用户在这种情况下是否既不回答“高兴”也不回答“悲伤”来进一步提高CLI ?**
+**我们是否可以通过再次询问用户在这种情况下是否既不回答“高兴”也不回答“悲伤”来进一步提高 CLI ?**
 
 ## 再次询问用户时，是否回答错误
 
 ```javascript
 #! /usr/bin/env node
-const readline = require('readline');
+const readline = require("readline");
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -186,9 +189,8 @@ rl.question("你今天好吗(快乐，悲伤)?", answerCallback);
 
 ## 总结
 
-在本文中，我们练习了一种制作简单的CLI工具（要求用户输入）的方法。希望你喜欢阅读。
+在本文中，我们练习了一种制作简单的 CLI 工具（要求用户输入）的方法。希望你喜欢阅读。
 
-更多的高级和实用的例子可以从[博客](http://www.softxml.com/3012/CLI-program-from-scratch)上找到进阶版CLI。
+更多的高级和实用的例子可以从[博客](http://www.softxml.com/3012/CLI-program-from-scratch)上找到进阶版 CLI。
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/from-zero-terminal/8.gif)
-

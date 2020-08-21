@@ -6,6 +6,7 @@ categories:
 tags:
   - 前端
   - Deno
+  - 实战
 ---
 
 在本文中，我们将通过安装 Deno 运行时，并创建一个命令行天气程序，该程序将把一个城市名称作为参数，并返回未来 24 小时的天气预报。
@@ -15,13 +16,6 @@ tags:
 要为 Deno 编写代码，我强烈建议将 Visual Studio Code 与官方的[Deno 插件](https://github.com/denoland/vscode_deno)一起使用。为了使事情更有趣，我们将使用 TypeScript 编写应用程序。
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202008/deno-build-weather-app/deno.jpg)
-
----
-
-**目录：**
-[toc]
-
----
 
 ## 安装 Deno
 

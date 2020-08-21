@@ -6,6 +6,7 @@ categories:
 tags:
   - 前端
   - CSS
+  - 实战
 ---
 
 现代 Web 应用对图像的需求量很大，它们占据网络下载的大部分字节。通过优化它们，你可以更好地利用它们的性能。如果你碰巧使用几何图形作为背景图像，有一个替代方案：你可以使用[CSS Paint API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Painting_API)以编程方式生成背景。

@@ -6,6 +6,7 @@ categories:
 tags:
   - 前端
   - JavaScript
+  - 实战
 ---
 
 在这篇文章中，我将向您展示如何通过 JavaScript 在网页上访问设备的摄像头，并支持多种浏览器，而无需外部库。
