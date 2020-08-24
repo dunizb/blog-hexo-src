@@ -23,10 +23,6 @@ menu:
     text: 小铺
     url: //store.zhangbing.site/
     target: _blank
-  # camera-retro:
-  #   text: 相册
-  #   url: //photo.dunizb.com/
-  #   target: _blank
   code:
     text: 小码
     url: //coding.zhangbing.site/
@@ -39,6 +35,9 @@ menu:
     text: 公众号
     url: https://zhangbing.site/#rss
     target: _blank
+  mouse-pointer:
+    text: 我用什么
+    url: /2020/08/25/whta-I-use/
   rss:
     text: RSS
     url: /atom.xml
@@ -70,7 +69,7 @@ categories_title: 分类
 # 文章截断
 excerpt_render: true
 excerpt_length: 200
-excerpt_link: 阅读全文 🧐
+excerpt_link: 阅读全文
 mathjax: false
 archive_yearly: true
 
@@ -143,7 +142,7 @@ valine:
   notify: true # Mail notify
   verify: false # Verify code
   avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
-  placeholder: Just go go # Comment Box placeholder
+  placeholder: 请留下你的看法 # Comment Box placeholder
   guest_info: nick,mail,link # Comment header info
   pageSize: 10 # comment list page size
 
@@ -155,7 +154,7 @@ hyper_id: false
 # 让搜索引擎重定向你的不同域名、不同子域、同域不同目录的站点到你期望的路径
 # https://support.google.com/webmasters/answer/139066
 # 假设配置为 canonical: http://imys.net，那么从搜索引擎中 www.imys.net 进入会重定向到 imys.net
-canonical: true
+canonical: false
 
 # 版权起始年份
 since_year: 2019
