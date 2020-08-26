@@ -1,5 +1,5 @@
 ---
-title: [译]构建RESTful API的13种最佳实践
+title: 【译】构建RESTful API的13种最佳实践
 date: 2020-08-26 17:33:34
 categories:
   - 技术
@@ -23,11 +23,12 @@ RESTful API 需要满足以下约束才能被称为 RESTful API。
 1. **客户端-服务器模型**：RESTful API 遵循客户端-服务器模型，其中服务器为数据提供服务，而客户端连接到服务器以使用数据。客户端和服务器之间的交互是通过 HTTP（S）请求进行的，该请求传输了请求的数据。
 2. **无状态**：更重要的是，RESTful API 应该是无状态的。每个请求都被视为独立请求。服务器不应跟踪可能影响将来请求结果的任何内部状态。
 3. **统一接口**：最后，一致性定义了客户端和服务器之间的交互方式。RESTful API 定义了命名资源的最佳实践，但定义了允许你修改资源/与之交互的固定 HTTP 操作。可以在 RESTful API 中访问以下 HTTP 操作：
-   - GET 请求：检索资源
-   - POST 请求：创建资源或将信息发送到 API
-   - PUT 请求：创建或替换资源
-   - PATCH 请求：更新现有资源
-   - DELETE 请求：删除资源
+
+- GET 请求：检索资源
+- POST 请求：创建资源或将信息发送到 API
+- PUT 请求：创建或替换资源
+- PATCH 请求：更新现有资源
+- DELETE 请求：删除资源
 
 在对 RESTful API 的特性有了更深入的了解后，是时候了解更多关于 RESTful API 的最佳实践了。
 
@@ -54,16 +55,16 @@ RESTful API 需要满足以下约束才能被称为 RESTful API。
 
 RESTful API 最佳实践描述了端点应以资源名称开头，而 HTTP 操作则描述操作。现在我们得到：
 
-- POST api.com/authors
-- GET api.com/authors/3
+- POST `api.com/authors`
+- GET `api.com/authors/3`
 
 如果我们想访问 ID 为 `3` 的作者曾经写过的所有书籍怎么办？对于这种情况，RESTful API 也有解决办法：
 
-- GET api.com/authors/3/books
+- GET `api.com/authors/3/books`
 
 最后，如果您要为 ID 为 `3` 的作者删除 ID 为 `5` 的书，该怎么办？同样，让我们遵循相同的结构化方法来形成以下端点：
 
-- DELETE api.com/authors/3/books/5
+- DELETE `api.com/authors/3/books/5`
 
 简而言之，利用 HTTP 操作和资源映射的结构化方式来形成易于理解的端点路径。这种方法的最大优点是，每个开发人员都了解 RESTful API 的设计方式，他们可以立即使用 API，而不必阅读你的每个端点的文档。
 
@@ -118,9 +119,9 @@ HTTP 标头允许客户端随其请求发送其他信息。例如，`Authorizati
 
 速率限制是控制每个客户端请求数量的一种有趣方法。这些是服务器可能返回的速率限制标头：
 
-- X-Rate-Limit-Limit：告诉客户端在指定时间间隔内可以发送的请求数。
-- X-Rate-Limit-Remaining：告诉客户端在当前时间间隔内仍可以发送多少个请求。
-- X-Rate-Limit-Reset：告诉客户端速率限制何时重置。
+- `X-Rate-Limit-Limit`：告诉客户端在指定时间间隔内可以发送的请求数。
+- `X-Rate-Limit-Remaining`：告诉客户端在当前时间间隔内仍可以发送多少个请求。
+- `X-Rate-Limit-Reset`：告诉客户端速率限制何时重置。
 
 ## 10.有意义的错误处理
 
