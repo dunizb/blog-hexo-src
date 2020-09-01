@@ -1,5 +1,5 @@
 ---
-title: 【译】构建RESTful API的13种最佳实践
+title: 译|构建RESTful API的13种最佳实践
 date: 2020-08-26 17:33:34
 categories:
   - 技术

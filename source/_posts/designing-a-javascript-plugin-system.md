@@ -1,5 +1,5 @@
 ---
-title: 如何设计一个JavaScript插件系统
+title: 译|如何设计一个JavaScript插件系统
 date: 2020-08-30 12:24:28
 categories:
   - 技术
