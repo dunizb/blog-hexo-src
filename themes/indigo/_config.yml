@@ -20,7 +20,7 @@ menu:
     url: https://zhangbing.site/vue3
     target: _blank
   shopping-bag:
-    text: 小铺
+    text: 小商店
     url: //store.zhangbing.site/
     target: _blank
   code:
