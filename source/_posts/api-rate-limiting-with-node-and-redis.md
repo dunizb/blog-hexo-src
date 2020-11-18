@@ -8,11 +8,11 @@ tags:
   - 翻译
 ---
 
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/api-rate-limiting-with-node-and-redis/banner.jpeg)
+
 速率限制可以保护和提高基于 API 的服务的可用性。如果你正在与一个 API 对话，并收到 HTTP 429 Too Many Requests 的响应状态码，说明你已经被速率限制了。这意味着你超出了给定时间内允许的请求数量。你需要做的就是放慢脚步，稍等片刻，然后再试一次。
 
 <!-- more -->
-
-![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/api-rate-limiting-with-node-and-redis/banner.jpeg)
 
 ## 为什么要速率限制？
 
@@ -139,7 +139,7 @@ const client = redis.createClient({
   port: process.env.REDIS_PORT || 6379,
   host: process.env.REDIS_HOST || "localhost",
 });
-client.on("connect", function () {
+client.on("connect", function() {
   console.log("connected");
 });
 ```

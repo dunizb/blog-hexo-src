@@ -9,11 +9,9 @@ tags:
   - 翻译
 ---
 
-JavaScript 中的插件使我们能够扩展语言，以实现所需的某些强大（或不够强大）的功能。插件/库本质上是打包的代码，可以使我们免于一遍又一遍地编写相同的东西（功能）。
-
-<!-- more -->
-
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/agnostic-javascript-plugin/banner.png)
+
+JavaScript 中的插件使我们能够扩展语言，以实现所需的某些强大（或不够强大）的功能。插件/库本质上是打包的代码，可以使我们免于一遍又一遍地编写相同的东西（功能）。
 
 在 JavaScript 生态系统中，有数百个框架，这些框架中的每一个都为我们提供了一个创建插件的系统，以便为框架添加新的东西。
 
@@ -24,6 +22,8 @@ JavaScript 中的插件使我们能够扩展语言，以实现所需的某些强
 因此，使用普通 JavaScript 创建插件，让你有能力创建一个无论在哪个框架下都能使用。
 
 “与框架无关的 JavaScript 插件是无需框架上下文即可工作的插件，您可以在任何框架（甚至没有框架）中使用插件”
+
+<!-- more -->
 
 ## 构建库时要记住的事项
 
@@ -93,7 +93,7 @@ function ToolSidePlugin(options) {
 接下来，由于我们的幻灯片需要有一些控制，可以用来向前和向后移动幻灯片，我们将在构造函数中添加下面的方法。
 
 ```javascript
-this.prepareControls = function () {
+this.prepareControls = function() {
   const nextButton = document.createElement("button");
   const previousButton = document.createElement("button");
 
@@ -112,10 +112,10 @@ this.prepareControls = function () {
 
   document.querySelector(options.container).appendChild(controleContainer);
 
-  nextButton.addEventListener("click", function () {
+  nextButton.addEventListener("click", function() {
     _this.next();
   });
-  previousButton.addEventListener("click", function () {
+  previousButton.addEventListener("click", function() {
     _this.previous();
   });
 };
@@ -128,7 +128,7 @@ this.prepareControls = function () {
 接下来，我们将添加两个方法：`.goToSlide()` 和 `.hideOtherSlides()`。
 
 ```javascript
-this.goToSlide = function (index) {
+this.goToSlide = function(index) {
   this.hideOtherSlides();
   if (index > slides.length - 1) {
     index = 0;
@@ -140,7 +140,7 @@ this.goToSlide = function (index) {
   currentSlideIndex = index;
 };
 
-this.hideOtherSlides = function () {
+this.hideOtherSlides = function() {
   document.querySelectorAll(options.slidesClass).forEach((slide, index) => {
     slides[index].style = "display: none";
   });
@@ -152,10 +152,10 @@ this.hideOtherSlides = function () {
 接下来，我们将添加 `.next()` 和 `.previous()` 辅助方法，分别帮助我们向前一步，或者向后一步（还记得我们之前附加的事件监听器吗？
 
 ```javascript
-this.next = function () {
+this.next = function() {
   this.goToSlide(currentSlideIndex + 1);
 };
-this.previous = function () {
+this.previous = function() {
   this.goToSlide(currentSlideIndex - 1);
 };
 ```
@@ -165,7 +165,7 @@ this.previous = function () {
 现在，我们还将创建一个 `.init()` 方法，该方法将在实例化构造函数时帮助我们进行设置。
 
 ```javascript
-this.init = function () {
+this.init = function() {
   document.querySelectorAll(options.container).className +=
     " too-slide-slider-container";
   document.querySelectorAll(options.slidesClass).forEach((slide, index) => {
@@ -202,7 +202,7 @@ function ToolSidePlugin(options) {
   let slides = [];
   let currentSlideIdex = 0;
 
-  this.init = function () {
+  this.init = function() {
     document.querySelectorAll(options.container).className +=
       " too-slide-slider-container";
     document.querySelectorAll(options.slidesClass).forEach((slide, index) => {
@@ -215,7 +215,7 @@ function ToolSidePlugin(options) {
     this.prepareControls();
   };
 
-  this.prepareControls = function () {
+  this.prepareControls = function() {
     const nextButton = document.createElement("button");
     const previousButton = document.createElement("button");
 
@@ -234,15 +234,15 @@ function ToolSidePlugin(options) {
 
     document.querySelector(options.container).appendChild(controleContainer);
 
-    nextButton.addEventListener("click", function () {
+    nextButton.addEventListener("click", function() {
       _this.next();
     });
-    previousButton.addEventListener("click", function () {
+    previousButton.addEventListener("click", function() {
       _this.previous();
     });
   };
 
-  this.goToSlide = function (index) {
+  this.goToSlide = function(index) {
     this.hideOtherSlides();
     if (index > slides.length - 1) {
       index = 0;
@@ -254,16 +254,16 @@ function ToolSidePlugin(options) {
     currentSlideIndex = index;
   };
 
-  this.hideOtherSlides = function () {
+  this.hideOtherSlides = function() {
     document.querySelectorAll(options.slidesClass).forEach((slide, index) => {
       slides[index].style = "display: none";
     });
   };
 
-  this.next = function () {
+  this.next = function() {
     this.goToSlide(currentSlideIndex + 1);
   };
-  this.previous = function () {
+  this.previous = function() {
     this.goToSlide(currentSlideIndex - 1);
   };
 

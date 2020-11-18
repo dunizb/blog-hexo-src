@@ -7,15 +7,15 @@ tags:
   - WebStorm
 ---
 
-你可能已经知道，其他 JetBrains IDE（例如 PhpStorm 和 IntelliJ IDEA Ultimate）具有对数据库工具和 SQL 的内置支持，这些支持是通过与这些 IDE 捆绑在一起的[数据库插件](https://plugins.jetbrains.com/plugin/10925-database-tools-and-sql?_ga=2.46331489.739791175.1601482547-1981063879.1601022243)提供的。
-
-<!-- more -->
-
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202010/database-sql-webstorm/banner.png)
+
+你可能已经知道，其他 JetBrains IDE（例如 PhpStorm 和 IntelliJ IDEA Ultimate）具有对数据库工具和 SQL 的内置支持，这些支持是通过与这些 IDE 捆绑在一起的[数据库插件](https://plugins.jetbrains.com/plugin/10925-database-tools-and-sql?_ga=2.46331489.739791175.1601482547-1981063879.1601022243)提供的。
 
 虽然我们没有将数据库插件与 WebStorm 捆绑在一起，但早就有办法通过购买[DataGrip](https://www.jetbrains.com/datagrip/buy/?_ga=2.113030466.739791175.1601482547-1981063879.1601022243#personal)或[所有产品包](https://www.jetbrains.com/all/?_ga=2.113030466.739791175.1601482547-1981063879.1601022243)订阅来获得里面的数据库和 SQL 支持，这将允许你安装数据库插件并在 WebStorm 中使用它。
 
 此选项并非最佳选择，因为它需要你为更昂贵的 DataGrip 或“所有产品包”订阅付费。你一直在要求我们找到更好的方法，而我们终于可以说我们做到了！从 v2020.2 开始，你可以订阅我们的数据库插件，并在 WebStorm 中以合理的价格使用它。
+
+<!-- more -->
 
 ## 如何试用该插件
 

@@ -9,11 +9,11 @@ tags:
   - 实战
 ---
 
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/build-your-own-javascript-testing-framework/banner.jpeg)
+
 测试（单元或集成）是编程中非常重要的一部分。在当今的软件开发中，单元/功能测试已成为软件开发的组成部分。随着 Nodejs 的出现，我们已经看到了许多超级 JS 测试框架的发布：Jasmine，Jest 等。
 
 <!-- more -->
-
-![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/build-your-own-javascript-testing-framework/banner.jpeg)
 
 ## 单元测试框架
 
@@ -72,7 +72,7 @@ node_prj
     package.json
 ```
 
-该测试包含规格文件，这些规格文件是 src 文件夹中文件的单元测试，` package.json` 在 `script` 部分进行了 `test`。
+该测试包含规格文件，这些规格文件是 src 文件夹中文件的单元测试，`package.json` 在 `script` 部分进行了 `test`。
 
 ```json
 {
@@ -195,7 +195,7 @@ function afterAll(fn) {
 function expect(value) {
   return {
     // Match or Asserts that expected and actual objects are same.
-    toBe: function (expected) {
+    toBe: function(expected) {
       if (value === expected) {
         currIt.expects.push({
           name: `expect ${value} toBe ${expected}`,
@@ -212,7 +212,7 @@ function expect(value) {
     },
 
     // Match the expected and actual result of the test.
-    toEqual: function (expected) {
+    toEqual: function(expected) {
       if (value == expected) {
         currIt.expects.push({
           name: `expect ${value} toEqual ${expected}`,
@@ -306,7 +306,7 @@ global.afterAll = afterAll;
 
 接下来，我们设置 beforeEachs，afterEachs，afterAlls，beforeAlls 的数组。beforeEachs 将保存在它所附加的 `it` 函数开始时调用的函数；afterEachs 将在它所附加的 `it` 函数的末尾调用；beforeEachs 和 afterEachs 分别在 `describe` 函数的开始和结尾处调用。
 
-我们设置了 `Totaltests` 来保存运行的测试数量，` passTests` 保存已通过的测试数，` failedTests` 保存失败的测试数。
+我们设置了 `Totaltests` 来保存运行的测试数量，`passTests` 保存已通过的测试数，`failedTests` 保存失败的测试数。
 
 `stats` 收集每个 describe 函数的 stats，`curDesc` 指定当前运行的 describe 函数来帮助收集测试数据，`currIt` 保留当前正在执行的 `it` 函数，以帮助收集测试数据。
 

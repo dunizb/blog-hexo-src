@@ -7,11 +7,9 @@ tags:
   - Terminal
 ---
 
-**在本文中，我们将探讨 Windows Terminal，它是**[WSL2](https://www.sitepoint.com/wsl2)**的理想配套。它速度快、可配置、外观漂亮，并且提供了 Windows 和 Linux 开发的所有优点。**
-
-<!-- more -->
-
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202009/windows-terminal/1.png)
+
+**在本文中，我们将探讨 Windows Terminal，它是**[WSL2](https://www.sitepoint.com/wsl2)**的理想配套。它速度快、可配置、外观漂亮，并且提供了 Windows 和 Linux 开发的所有优点。**
 
 Windows 已经完全接受了 Linux，而 WSL2 使它成为一种无缝的乐趣。
 
@@ -35,11 +33,7 @@ Windows 已经完全接受了 Linux，而 WSL2 使它成为一种无缝的乐趣
 - 好的文档
 - 它是开源的！
 
----
-
-**目录**
-
-[toc]
+<!-- more -->
 
 ## 如何安装 Windows Terminal
 
@@ -363,8 +357,8 @@ ms-windows-store://pdp/?ProductId=9n0dx20hk701
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 功能键     | `f1-f24`                                                                                                                                                              |
 | 字母数字键 | `a-z`, `0-9`                                                                                                                                                          |
-| 符号键     | `-`,` =`,` [`,` ]`, `\`,` ;`,` ‘`,` ,`,` .`,` /`                                                                                                                      |
-| 光标键     | `down`, `left`, `right`, `up`,` pagedown`,`pageup`,`pgdn`,` pgup`,` end`,` home`,` plus`                                                                              |
+| 符号键     | `-`,`=`,`[`,`]`, `\`,`;`,`‘`,`,`,`.`,`/`                                                                                                                              |
+| 光标键     | `down`, `left`, `right`, `up`,`pagedown`,`pageup`,`pgdn`,`pgup`,`end`,`home`,`plus`                                                                                   |
 | 动作键     | `tab`, `enter`, `esc`, `escape`, `space`, `backspace`, `delete`, `insert`                                                                                             |
 | 数字键盘   | numpad_0-numpad_9, numpad0-numpad9, numpad_add, numpad_plus, <br />numpad_decimal, numpad_period, numpad_divide,<br /> numpad_minus, numpad_subtract, numpad_multiply |
 
@@ -391,11 +385,11 @@ ms-windows-store://pdp/?ProductId=9n0dx20hk701
 
 你还可以传递由分号分隔的命令列表。命令用于定义新的选项卡和窗格以及其他控制参数：
 
-| 命令       | 参数                                                                                                                   |                  |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| new-tab    | `—profile` or `-p`, `—startingDirectory` or `-d`, `commandline`, `—title`                                              | 打开一个新标签页 |
-| split-pane | `--horizontal` or `-H`,` —vertical` or `-V`, `—profile` or `-p`, `—startingDirectory` or `-d`, `commandline`, `—title` | 打开一个新窗格   |
-| focus-tab  | `—target` or `-t`                                                                                                      | 聚焦标签         |
+| 命令       | 参数                                                                                                                  |                  |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| new-tab    | `—profile` or `-p`, `—startingDirectory` or `-d`, `commandline`, `—title`                                             | 打开一个新标签页 |
+| split-pane | `--horizontal` or `-H`,`—vertical` or `-V`, `—profile` or `-p`, `—startingDirectory` or `-d`, `commandline`, `—title` | 打开一个新窗格   |
+| focus-tab  | `—target` or `-t`                                                                                                     | 聚焦标签         |
 
 ## 例子
 
