@@ -7,17 +7,19 @@ tags:
   - CSS
 ---
 
+![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/css-marker-pseudo-element/banner1.png)
+
 **现在，在使用 `<ul>` 或 `<ol>` 时自定义数字或项目符号的颜色，大小或类型很简单。**
 
 感谢 CSS `::marker`，我们可以更改内容以及项目符号和数字的某些样式。
+
+<!-- more -->
 
 ## 浏览器兼容性
 
 当 Chromium 86 发布时，`::marker` 将在桌面和 Android 的 Firefox、桌面 Safari 和 iOS Safari 以及基于 Chromium 的桌面和 Android 浏览器中得到支持。有关更新，请参见 MDN 的浏览器兼容性表。
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/css-marker-pseudo-element/1.png)
-
-<!-- more -->
 
 ## 伪元素
 
