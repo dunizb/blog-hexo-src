@@ -1,6 +1,7 @@
 ---
 title: 年终卷|2017我读了哪些书
 date: 2018-01-03 21:22:20
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/15.jpeg
 categories:
   - 读书与学习
 ---

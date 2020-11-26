@@ -1,6 +1,7 @@
 ---
 title: 如何在WebStorm中获得对数据库工具和SQL的支持
 date: 2020-10-26 15:36:28
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202010/database-sql-webstorm/banner.png
 categories:
   - 工具
 tags:

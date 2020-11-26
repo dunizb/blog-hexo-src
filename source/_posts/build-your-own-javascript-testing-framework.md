@@ -1,6 +1,7 @@
 ---
 title: 译|通过构建自己的JavaScript测试框架来了解JS测试
 date: 2020-09-01 10:49:08
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/build-your-own-javascript-testing-framework/banner.jpeg
 categories:
   - 技术
 tags:
@@ -233,7 +234,11 @@ function expect(value) {
 function it(desc, fn) {
   Totaltests++;
   if (beforeEachs) {
-    for (var index = 0; index < beforeEachs.length; index++) {
+    for (
+      var index = 0;
+      index < beforeEachs.length;
+      index++
+    ) {
       beforeEachs[index].apply(this);
     }
   }
@@ -270,7 +275,8 @@ exports.showTestsResults = function showTestsResults() {
 Test Suites: passed, total
 Tests: ${passedTests} passed, ${Totaltests} total
 `);
-  const logTitle = failedTests > 0 ? chalk.bgRed : chalk.bgGreen;
+  const logTitle =
+    failedTests > 0 ? chalk.bgRed : chalk.bgGreen;
   log(logTitle("Test Suites"));
   for (var index = 0; index < stats.length; index++) {
     var e = stats[index];
@@ -284,7 +290,9 @@ Tests: ${passedTests} passed, ${Totaltests} total
         const expect = _e.expects[ii];
         log(
           `      ${
-            expect.status === true ? chalk.green("√") : chalk.red("X")
+            expect.status === true
+              ? chalk.green("√")
+              : chalk.red("X")
           } ${expect.name}`
         );
       }

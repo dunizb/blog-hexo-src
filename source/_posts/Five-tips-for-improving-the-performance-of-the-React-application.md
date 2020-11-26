@@ -1,6 +1,7 @@
 ---
 title: 【译】改善React应用性能的5个建议
 date: 2020-03-21 13:38:40
+img: https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/16097/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png
 categories:
   - 技术
 tags:
@@ -23,7 +24,7 @@ tags:
 ```javascript
 import React from "react";
 
-const MyApp = props => {
+const MyApp = (props) => {
   return (
     <div>
       <ComponentA propA={props.propA} />
@@ -32,11 +33,11 @@ const MyApp = props => {
   );
 };
 
-const ComponentA = props => {
+const ComponentA = (props) => {
   return <div>{props.propA}</div>;
 };
 
-const ComponentB = props => {
+const ComponentB = (props) => {
   return <div>{props.propB}</div>;
 };
 ```
@@ -55,12 +56,12 @@ React 的作者意识到这并不是一个理想的结果，在重新渲染前�
 import React, { memo } from "react";
 
 // 🙅‍♀️
-const ComponentB = props => {
+const ComponentB = (props) => {
   return <div>{props.propB}</div>;
 };
 
 // 🙆‍♂️
-const ComponentB = memo(props => {
+const ComponentB = memo((props) => {
   return <div>{props.propB}</div>;
 });
 ```
@@ -105,7 +106,12 @@ class ComponentB extends PureComponent {
 import React from "react";
 
 function Foo() {
-  return <button onClick={() => console.log("boop")}> // 🙅‍♀️ BOOP</button>;
+  return (
+    <button onClick={() => console.log("boop")}>
+      {" "}
+      // 🙅‍♀️ BOOP
+    </button>
+  );
 }
 ```
 
@@ -122,7 +128,10 @@ function Foo() {
 
 // 变体2: "useCallback"
 function Foo() {
-  const handleClick = useCallback(() => console.log("boop"), []);
+  const handleClick = useCallback(
+    () => console.log("boop"),
+    []
+  );
   return <button onClick={handleClick}> // 🙆‍♂️ BOOP</button>;
 }
 ```
@@ -199,7 +208,7 @@ function ComponentB(props) {
 const myStyle = {
   // 🙆‍♂️
   color: "blue",
-  background: "gold"
+  background: "gold",
 };
 function ComponentA() {
   return (
@@ -211,7 +220,11 @@ function ComponentA() {
 }
 
 function ComponentB(props) {
-  return <div style={this.props.style}>TOP OF THE MORNING TO YA</div>;
+  return (
+    <div style={this.props.style}>
+      TOP OF THE MORNING TO YA
+    </div>
+  );
 }
 ```
 
@@ -242,7 +255,7 @@ function ComponentB(props) {
 ```js
 module.exports = {
   entry: {
-    main: "./src/app.js"
+    main: "./src/app.js",
   },
   output: {
     // `filename` provides a template for naming your bundles (remember to use `[name]`)
@@ -252,8 +265,8 @@ module.exports = {
     // `path` is the folder where Webpack will place your bundles
     path: "./dist",
     // `publicPath` is where Webpack will load your bundles from (optional)
-    publicPath: "dist/"
-  }
+    publicPath: "dist/",
+  },
 };
 ```
 

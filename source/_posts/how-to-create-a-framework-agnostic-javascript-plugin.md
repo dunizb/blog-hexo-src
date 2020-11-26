@@ -1,6 +1,8 @@
 ---
 title: 如何创建与框架无关的JavaScript插件
 date: 2020-11-14 16:03:25
+img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/agnostic-javascript-plugin/banner.png
+cover: true
 categories:
   - 技术
 tags:
@@ -105,12 +107,17 @@ this.prepareControls = function() {
 
   let controleContainer = document.createElement("div");
 
-  controleContainer.setAttribute("class", "too-slide-control-container");
+  controleContainer.setAttribute(
+    "class",
+    "too-slide-control-container"
+  );
 
   controleContainer.appendChild(previousButton);
   controleContainer.appendChild(nextButton);
 
-  document.querySelector(options.container).appendChild(controleContainer);
+  document
+    .querySelector(options.container)
+    .appendChild(controleContainer);
 
   nextButton.addEventListener("click", function() {
     _this.next();
@@ -141,9 +148,11 @@ this.goToSlide = function(index) {
 };
 
 this.hideOtherSlides = function() {
-  document.querySelectorAll(options.slidesClass).forEach((slide, index) => {
-    slides[index].style = "display: none";
-  });
+  document
+    .querySelectorAll(options.slidesClass)
+    .forEach((slide, index) => {
+      slides[index].style = "display: none";
+    });
 };
 ```
 
@@ -168,11 +177,14 @@ this.previous = function() {
 this.init = function() {
   document.querySelectorAll(options.container).className +=
     " too-slide-slider-container";
-  document.querySelectorAll(options.slidesClass).forEach((slide, index) => {
-    slides[index] = index;
-    slides[index].style = "display:none";
-    slides[index].className = " too-slide-single-slide too-slide-fade";
-  });
+  document
+    .querySelectorAll(options.slidesClass)
+    .forEach((slide, index) => {
+      slides[index] = index;
+      slides[index].style = "display:none";
+      slides[index].className =
+        " too-slide-single-slide too-slide-fade";
+    });
 
   this.goToSlide(0);
   this.prepareControls();
@@ -203,13 +215,17 @@ function ToolSidePlugin(options) {
   let currentSlideIdex = 0;
 
   this.init = function() {
-    document.querySelectorAll(options.container).className +=
-      " too-slide-slider-container";
-    document.querySelectorAll(options.slidesClass).forEach((slide, index) => {
-      slides[index] = index;
-      slides[index].style = "display:none";
-      slides[index].className = " too-slide-single-slide too-slide-fade";
-    });
+    document.querySelectorAll(
+      options.container
+    ).className += " too-slide-slider-container";
+    document
+      .querySelectorAll(options.slidesClass)
+      .forEach((slide, index) => {
+        slides[index] = index;
+        slides[index].style = "display:none";
+        slides[index].className =
+          " too-slide-single-slide too-slide-fade";
+      });
 
     this.goToSlide(0);
     this.prepareControls();
@@ -227,12 +243,17 @@ function ToolSidePlugin(options) {
 
     let controleContainer = document.createElement("div");
 
-    controleContainer.setAttribute("class", "too-slide-control-container");
+    controleContainer.setAttribute(
+      "class",
+      "too-slide-control-container"
+    );
 
     controleContainer.appendChild(previousButton);
     controleContainer.appendChild(nextButton);
 
-    document.querySelector(options.container).appendChild(controleContainer);
+    document
+      .querySelector(options.container)
+      .appendChild(controleContainer);
 
     nextButton.addEventListener("click", function() {
       _this.next();
@@ -255,9 +276,11 @@ function ToolSidePlugin(options) {
   };
 
   this.hideOtherSlides = function() {
-    document.querySelectorAll(options.slidesClass).forEach((slide, index) => {
-      slides[index].style = "display: none";
-    });
+    document
+      .querySelectorAll(options.slidesClass)
+      .forEach((slide, index) => {
+        slides[index].style = "display: none";
+      });
   };
 
   this.next = function() {
@@ -385,7 +408,10 @@ img {
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>测试幻灯片</title>
     <link rel="stylesheet" href="tooSlide.css" />
   </head>
@@ -393,16 +419,32 @@ img {
     <div class="contaoner">
       <div class="slideContainer">
         <div class="singleSlide">
-          <img src="slide1.png" alt="slide1" class="slideImage" />
+          <img
+            src="slide1.png"
+            alt="slide1"
+            class="slideImage"
+          />
         </div>
         <div class="singleSlide">
-          <img src="slide2.png" alt="slide2" class="slideImage" />
+          <img
+            src="slide2.png"
+            alt="slide2"
+            class="slideImage"
+          />
         </div>
         <div class="singleSlide">
-          <img src="slide3.png" alt="slide3" class="slideImage" />
+          <img
+            src="slide3.png"
+            alt="slide3"
+            class="slideImage"
+          />
         </div>
         <div class="singleSlide">
-          <img src="slide4.png" alt="slide4" class="slideImage" />
+          <img
+            src="slide4.png"
+            alt="slide4"
+            class="slideImage"
+          />
         </div>
       </div>
     </div>

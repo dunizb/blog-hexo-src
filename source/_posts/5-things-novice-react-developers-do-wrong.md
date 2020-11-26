@@ -1,6 +1,7 @@
 ---
 title: 新手React开发人员做错的5件事
 date: 2020-05-03 23:36:28
+img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png
 categories:
   - 技术
 tags:
@@ -8,13 +9,15 @@ tags:
   - React
 ---
 
-请勿执行的操作以及如何解决的方法，这部分内容是针对React的新手开发人员提供的。
+请勿执行的操作以及如何解决的方法，这部分内容是针对 React 的新手开发人员提供的。
+
 <!-- more -->
+
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png)
 
-## 1.忘记大写React组件
+## 1.忘记大写 React 组件
 
-考虑一下这段代码，它创建一个简单的div，其中包含父组件的标题。里面有一个子组件，其中包含带有一些文本的div。
+考虑一下这段代码，它创建一个简单的 div，其中包含父组件的标题。里面有一个子组件，其中包含带有一些文本的 div。
 
 ```react
 class childComponent extends React.Component {
@@ -53,17 +56,17 @@ export default ParentComponent;
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202004/5-Things-react-error/2.jpeg)
 
-事实证明，React将小写组件视为DOM标记。如果你是React的新手，你可能已经错过了React文档中的这个小细节。
+事实证明，React 将小写组件视为 DOM 标记。如果你是 React 的新手，你可能已经错过了 React 文档中的这个小细节。
 
 如果不了解这一点，初学者常常会陷入这样的困惑：即他们的代码编译没有任何错误，到底哪里出了问题?
 
 解决方法很简单，大写您的组件。
 
-## 2.错误地调用收到的props
+## 2.错误地调用收到的 props
 
-要访问由父组件传入的prop，子组件必须确保它们调用了正确的prop名称。
+要访问由父组件传入的 prop，子组件必须确保它们调用了正确的 prop 名称。
 
-还可以使用另一个变量名将Props传递给子组件。考虑以下代码片段：
+还可以使用另一个变量名将 Props 传递给子组件。考虑以下代码片段：
 
 ```javascript
 class ChildComponent extends React.Component {
@@ -80,8 +83,8 @@ class ChildComponent extends React.Component {
 
 class ParentComponent extends React.Component {
   render() {
-    const randomString = 'lorem ipsum';
-    
+    const randomString = "lorem ipsum";
+
     return (
       <div className='parentDiv'>
         <h1 className='parentHeader'>Parent Component</h1>
@@ -95,18 +98,18 @@ class ParentComponent extends React.Component {
 尽管此代码可以编译并运行无误，但 `ChildComponent` 内不会渲染任何文本。
 
 ```html
-<ChildComponent mainText={randomString} />
+<ChildComponent mainText="{randomString}" />
 ```
 
-仔细看看这一行代码，在 `ParentComponent` 中声明的变量 `randomString` 作为名为 `mainText` 的prop传递给 `ChildComponent`。
+仔细看看这一行代码，在 `ParentComponent` 中声明的变量 `randomString` 作为名为 `mainText` 的 prop 传递给 `ChildComponent`。
 
-然而，`ChildComponent` 试图从它收到的prop中访问 `randomString`。由于它仅接收 `mainText` 作为prop，因此将导致未定义的值分配给在 `ChildComponent` 中声明的 `randomString`。结果，其 `<p>`标记内未呈现任何内容。
+然而，`ChildComponent` 试图从它收到的 prop 中访问 `randomString`。由于它仅接收 `mainText` 作为 prop，因此将导致未定义的值分配给在 `ChildComponent` 中声明的 `randomString`。结果，其 `<p>`标记内未呈现任何内容。
 
-注意哪些prop被传递到您的组件中，并相应地访问它们。这将在调试期间为您节省一些不必要的麻烦。
+注意哪些 prop 被传递到您的组件中，并相应地访问它们。这将在调试期间为您节省一些不必要的麻烦。
 
-## 3.传递不正确的Props类型
+## 3.传递不正确的 Props 类型
 
-如果所接收的prop不是预期的类型，那么依赖于这些接收prop的组件可能会有不同的行为。
+如果所接收的 prop 不是预期的类型，那么依赖于这些接收 prop 的组件可能会有不同的行为。
 
 ```javascript
 class ChildComponent extends React.Component {
@@ -123,23 +126,23 @@ class ChildComponent extends React.Component {
 }
 ```
 
-考虑这个有两个prop的 `ChildComponent`：`showIntro` 和 `showBody`。它显示“你好！和“发现错误！”只有当`showIntro` 和 `showBody` 分别设置为 `true` 时才会这样。
+考虑这个有两个 prop 的 `ChildComponent`：`showIntro` 和 `showBody`。它显示“你好！和“发现错误！”只有当`showIntro` 和 `showBody` 分别设置为 `true` 时才会这样。
 
-`ChildComponent` 希望将两个布尔值作为prop传递。如果在父组件中执行类似的操作，会发生什么情况？
+`ChildComponent` 希望将两个布尔值作为 prop 传递。如果在父组件中执行类似的操作，会发生什么情况？
 
 ```html
-<ChildComponent showIntro='false' showBody='false' />
+<ChildComponent showIntro="false" showBody="false" />
 <ChildComponent showIntro={'false'} showBody={'false'} />
-<ChildComponent showIntro={false} showBody={false} />
+<ChildComponent showIntro="{false}" showBody="{false}" />
 ```
 
-在prop中使用了不同的引号和大括号。但是，它们的行为将不同。看看这个：
+在 prop 中使用了不同的引号和大括号。但是，它们的行为将不同。看看这个：
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202004/5-Things-react-error/3.jpeg)
 
 前两个 `ChildComponent` 都渲染了两个 `<p>` 标记，而最后一个 `ChildComponent` 没有渲染。
 
-作为prop传递的 `'false'` 和 `{'false'}` 会导致无意中为 `showIntro` 和 `showBody` 分配了一个值为 `false` 的字符串，而不是布尔值 `false`。
+作为 prop 传递的 `'false'` 和 `{'false'}` 会导致无意中为 `showIntro` 和 `showBody` 分配了一个值为 `false` 的字符串，而不是布尔值 `false`。
 
 对于前两个 `ChildComponent`，将 `showIntro` 和 `showBody` 都计算为 `true`。
 
@@ -154,30 +157,30 @@ console.log(`showBody type: ${typeof showBody}`);
 console.log(`showBody evaluated to: ${showBody && true}`);
 ```
 
-为了确认这一点，我们运行 `console.log()` 来检查每个 `ChildComponent` 中prop的运行结果。
+为了确认这一点，我们运行 `console.log()` 来检查每个 `ChildComponent` 中 prop 的运行结果。
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202004/5-Things-react-error/4.png)
 
-正如这里所演示的，初学者在将prop传递给其他组件时能够区分使用引号和花括号之间的区别是非常重要的。
+正如这里所演示的，初学者在将 prop 传递给其他组件时能够区分使用引号和花括号之间的区别是非常重要的。
 
 您可以使用引号来传递字符串文字。
 
 ```javascript
-<MyComponent data='Hello World!'/> // passing in a String
+<MyComponent data='Hello World!' /> // passing in a String
 ```
 
-花括号用于传递JavaScript表达式。
+花括号用于传递 JavaScript 表达式。
 
 ```javascript
 <MyComponent data={2468} /> // passing in a Number
 <MyComponent data={true} /> // passing in a Boolean
 ```
 
-以下是Reac文档中的一些注意事项：
+以下是 Reac 文档中的一些注意事项：
 
-> 将JavaScript表达式嵌入属性中时，请勿在大括号周围加上引号。您应该使用引号（用于字符串值）或大括号（用于表达式），但不要在同一属性中都使用引号。
+> 将 JavaScript 表达式嵌入属性中时，请勿在大括号周围加上引号。您应该使用引号（用于字符串值）或大括号（用于表达式），但不要在同一属性中都使用引号。
 
-## 4.在render()内部调用setState()
+## 4.在 render()内部调用 setState()
 
 下图无限循环错误消息
 
@@ -185,11 +188,11 @@ console.log(`showBody evaluated to: ${showBody && true}`);
 
 尽管您的组件中没有 `componentWillUpdate()` 或 `componentWillUpdate()`，您仍可能遇到此错误。当您在 `render()` 函数中调用 `setState()` 时也会发生此错误。
 
-为什么会这样？每次调用 `setState()` 时，React将通过调用 `render()` 重新渲染。您的 `render()` 函数内部是什么？ `setState()`。你看到结果了吗？一个无限循环。
+为什么会这样？每次调用 `setState()` 时，React 将通过调用 `render()` 重新渲染。您的 `render()` 函数内部是什么？ `setState()`。你看到结果了吗？一个无限循环。
 
 只需将 `setState()` 调用移到 `render()` 函数之外即可。
 
-如果在组件挂载后必须初始化状态（也许是从API端点提取数据），请在 `componentDidMoun()` 中进行。
+如果在组件挂载后必须初始化状态（也许是从 API 端点提取数据），请在 `componentDidMoun()` 中进行。
 
 如果可以在组件挂载之前初始化状态，也可以使用构造函数来完成。
 
@@ -219,7 +222,7 @@ handleCounterIncrement = () => {
   const { counter } = this.state;
   console.log(`before update: ${counter}`);
   this.setState({ counter: counter + 1 }, () => {
-  	console.log(`after update: ${this.state.counter}`);
+    console.log(`after update: ${this.state.counter}`);
   });
 };
 ```
@@ -228,8 +231,7 @@ handleCounterIncrement = () => {
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202004/5-Things-react-error/7.jpeg)
 
-
-****
+---
 
 原文：https://medium.com/better-programming/5-things-novice-react-developers-do-wrong-9d97bd6dae95
 

@@ -1,10 +1,12 @@
 ---
 title: 只需使用VS Code的REST客户端插件即可进行API调用
 date: 2020-11-23 23:32:24
+img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/vs-codes-rest-client/banner.jpeg
 categories:
   - 工具
 tags:
   - VS Code
+summary: 为什么要离开 IDE 去测试新的 API？现在你不必这样做了。
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/vs-codes-rest-client/banner.jpeg)

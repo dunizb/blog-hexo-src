@@ -1,6 +1,7 @@
 ---
 title: 高效的编码：我的VS Code设置
 date: 2020-03-16 22:31:08
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/vscode-setting/1.png
 categories:
   - 工具
 tags:

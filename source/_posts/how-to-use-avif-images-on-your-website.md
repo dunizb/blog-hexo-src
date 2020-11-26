@@ -1,8 +1,10 @@
 ---
 title: 什么是AVIF？如何在你的网站上使用AV1图像格式的图像
 date: 2020-11-22 18:17:52
+img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/use-avif-images/banner.png
 categories:
   - 技术
+summary: 谈谈它的功能和好处，以及为什么你应该开始使用 AVIF。我还将向你展示在你的网站上包含 AVIF 图像的安全方法。
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/use-avif-images/banner.png)

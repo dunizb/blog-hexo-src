@@ -1,11 +1,13 @@
 ---
 title: 小技巧|给Mac添加右键菜单「使用 VSCode 打开」的方法
 date: 2020-11-20 22:26:05
+img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/Open-With-VSCode/banner.jpeg
 categories:
   - 工具
 tags:
   - macOS
   - 小技巧
+summary: 我介绍两种方法来实现一个用右键通过 VSCode 打开文件和文件夹的方法，第一个是使用原生方式，第二种是借助第三方软件。
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/Open-With-VSCode/banner.jpeg)

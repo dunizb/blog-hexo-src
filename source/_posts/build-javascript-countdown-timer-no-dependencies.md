@@ -1,6 +1,7 @@
 ---
 title: 实战|仅用18行JavaScript构建一个倒数计时器
 date: 2020-09-16 11:11:31
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/build-javascript-countdown-timer/1.png
 categories:
   - 技术
 tags:
@@ -65,7 +66,8 @@ const deadline = "December 31 2015 23:59:59 GMT+0200";
 
 ```javascript
 function getTimeRemaining(endtime) {
-  const total = Date.parse(endtime) - Date.parse(new Date());
+  const total =
+    Date.parse(endtime) - Date.parse(new Date());
   const seconds = Math.floor((total / 1000) % 60);
   const minutes = Math.floor((total / 1000 / 60) % 60);
   const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
@@ -302,7 +304,7 @@ const schedule = [
 ];
 ```
 
-`Schedule ` 数组中的每个元素代表一个开始日期和一个结束日期。如上所述，它可以包含时间和时区，但我在这里使用了普通的日期，以保持代码的可读性。
+`Schedule` 数组中的每个元素代表一个开始日期和一个结束日期。如上所述，它可以包含时间和时区，但我在这里使用了普通的日期，以保持代码的可读性。
 
 最后，当用户加载页面时，我们需要检查是否在指定的时间范围内。此代码应替换先前对 `initializeClock` 函数的调用：
 
@@ -332,7 +334,9 @@ schedule.forEach(([startDate, endDate]) => {
 ```javascript
 const timeInMinutes = 10;
 const currentTime = Date.parse(new Date());
-const deadline = new Date(currentTime + timeInMinutes * 60 * 1000);
+const deadline = new Date(
+  currentTime + timeInMinutes * 60 * 1000
+);
 ```
 
 这段代码以当前时间为基准，增加 10 分钟。这些值将转换为毫秒，因此可以将它们加在一起并变成新的截止日期。
@@ -358,7 +362,9 @@ let deadline;
 // 如果有一个名为myClock的cookie，则使用该值作为截止日期
 if (document.cookie && document.cookie.match("myClock")) {
   // 从Cookie获取截止日期值
-  deadline = document.cookie.match(/(^|;)myClock=([^;]+)/)[2];
+  deadline = document.cookie.match(
+    /(^|;)myClock=([^;]+)/
+  )[2];
 } else {
   // 否则，请设置从现在开始10分钟的截止日期，
   // 将其保存在具有该名称的cookie中
@@ -366,10 +372,15 @@ if (document.cookie && document.cookie.match("myClock")) {
   // 创建从现在开始10分钟的截止日期
   const timeInMinutes = 10;
   const currentTime = Date.parse(new Date());
-  deadline = new Date(currentTime + timeInMinutes * 60 * 1000);
+  deadline = new Date(
+    currentTime + timeInMinutes * 60 * 1000
+  );
 
   // 将截止日期存储在cookie中以供将来引用
-  document.cookie = "myClock=" + deadline + "; path=/; domain=.yourdomain.com";
+  document.cookie =
+    "myClock=" +
+    deadline +
+    "; path=/; domain=.yourdomain.com";
 }
 ```
 

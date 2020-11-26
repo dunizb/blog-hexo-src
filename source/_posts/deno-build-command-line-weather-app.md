@@ -1,6 +1,7 @@
 ---
 title: 在Deno中构建一个命令行天气预报程序
 date: 2020-08-21 22:47:15
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202008/deno-build-weather-app/2.png
 categories:
   - 技术
 tags:

@@ -1,6 +1,7 @@
 ---
 title: Windows Terminal完整指南
 date: 2020-11-11 20:30:25
+img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202009/windows-terminal/1.png
 categories:
   - 工具
 tags:

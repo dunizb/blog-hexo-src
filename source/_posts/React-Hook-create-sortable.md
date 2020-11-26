@@ -1,6 +1,7 @@
 ---
 title: 使用React Hook创建一个可排序表格组件
 date: 2020-03-23 00:36:55
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/React-Hook-create-sortable/1.gif
 categories:
   - 技术
 tags:
@@ -36,7 +37,7 @@ function ProductTable(props) {
         </tr>
       </thead>
       <tbody>
-        {products.map(product => (
+        {products.map((product) => (
           <tr key={product.id}>
             <td>{product.name}</td>
             <td>{product.price}</td>
@@ -92,7 +93,7 @@ function ProductTable(props) {
 
 ```javascript
 import React, { useState } from "react";
-const ProductsTable = props => {
+const ProductsTable = (props) => {
   const { products } = props;
   const [sortedField, setSortedField] = useState(null);
   return (
@@ -100,17 +101,26 @@ const ProductsTable = props => {
       <thead>
         <tr>
           <th>
-            <button type="button" onClick={() => setSortedField("name")}>
+            <button
+              type='button'
+              onClick={() => setSortedField("name")}
+            >
               名称
             </button>
           </th>
           <th>
-            <button type="button" onClick={() => setSortedField("price")}>
+            <button
+              type='button'
+              onClick={() => setSortedField("price")}
+            >
               价格
             </button>
           </th>
           <th>
-            <button type="button" onClick={() => setSortedField("stock")}>
+            <button
+              type='button'
+              onClick={() => setSortedField("stock")}
+            >
               库存数量
             </button>
           </th>
@@ -174,9 +184,12 @@ sortedProducts.sort((a, b) => {
 接下来，我们将创建一个新函数 `requestSort`，它将接受字段名称并相应地更新状态。
 
 ```javascript
-const requestSort = key => {
+const requestSort = (key) => {
   let direction = "ascending";
-  if (sortConfig.key === key && sortConfig.direction === "ascending") {
+  if (
+    sortConfig.key === key &&
+    sortConfig.direction === "ascending"
+  ) {
     direction = "descending";
   }
   setSortConfig({ key, direction });
@@ -191,17 +204,26 @@ return (
     <thead>
       <tr>
         <th>
-          <button type="button" onClick={() => requestSort("name")}>
+          <button
+            type='button'
+            onClick={() => requestSort("name")}
+          >
             Name
           </button>
         </th>
         <th>
-          <button type="button" onClick={() => requestSort("price")}>
+          <button
+            type='button'
+            onClick={() => requestSort("price")}
+          >
             Price
           </button>
         </th>
         <th>
-          <button type="button" onClick={() => requestSort("stock")}>
+          <button
+            type='button'
+            onClick={() => requestSort("stock")}
+          >
             In Stock
           </button>
         </th>
@@ -256,10 +278,14 @@ const useSortableData = (items, config = null) => {
     if (sortConfig !== null) {
       sortableItems.sort((a, b) => {
         if (a[sortConfig.key] < b[sortConfig.key]) {
-          return sortConfig.direction === "ascending" ? -1 : 1;
+          return sortConfig.direction === "ascending"
+            ? -1
+            : 1;
         }
         if (a[sortConfig.key] > b[sortConfig.key]) {
-          return sortConfig.direction === "ascending" ? 1 : -1;
+          return sortConfig.direction === "ascending"
+            ? 1
+            : -1;
         }
         return 0;
       });
@@ -267,9 +293,12 @@ const useSortableData = (items, config = null) => {
     return sortableItems;
   }, [items, sortConfig]);
 
-  const requestSort = key => {
+  const requestSort = (key) => {
     let direction = "ascending";
-    if (sortConfig.key === key && sortConfig.direction === "ascending") {
+    if (
+      sortConfig.key === key &&
+      sortConfig.direction === "ascending"
+    ) {
       direction = "descending";
     }
     setSortConfig({ key, direction });
@@ -284,7 +313,7 @@ const useSortableData = (items, config = null) => {
 我们的表代码现在看起来像这样：
 
 ```javascript
-const ProductsTable = props => {
+const ProductsTable = (props) => {
   const { products } = props;
   const { items, requestSort } = useSortableData(products);
   return <table>{/* ... */}</table>;
@@ -296,13 +325,19 @@ const ProductsTable = props => {
 缺少一小部分，一种指示表格如何排序的方法。为了表明这一点，在我们的设计中，我们还需要返回内部状态 `sortConfig`。让我们返回它，并使用它来生成样式以应用到我们的表格标题！
 
 ```javascript
-const ProductTable = props => {
-  const { items, requestSort, sortConfig } = useSortableData(props.products);
-  const getClassNamesFor = name => {
+const ProductTable = (props) => {
+  const {
+    items,
+    requestSort,
+    sortConfig,
+  } = useSortableData(props.products);
+  const getClassNamesFor = (name) => {
     if (!sortConfig) {
       return;
     }
-    return sortConfig.key === name ? sortConfig.direction : undefined;
+    return sortConfig.key === name
+      ? sortConfig.direction
+      : undefined;
   };
   return (
     <table>
@@ -311,7 +346,7 @@ const ProductTable = props => {
         <tr>
           <th>
             <button
-              type="button"
+              type='button'
               onClick={() => requestSort("name")}
               className={getClassNamesFor("name")}
             >

@@ -1,6 +1,7 @@
 ---
 title: 如何使用JavaScript访问设备摄像头（前后）
 date: 2020-06-08 22:24:58
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202006/cameras-with-javascript/banner.png
 categories:
   - 技术
 tags:
@@ -20,7 +21,10 @@ tags:
 第一步是检查浏览器是否支持此 API：
 
 ```javascript
-if ("mediaDevices" in navigator && "getUserMedia" in navigator.mediaDevices) {
+if (
+  "mediaDevices" in navigator &&
+  "getUserMedia" in navigator.mediaDevices
+) {
   // ok, 浏览器支持它
 }
 ```
@@ -32,7 +36,9 @@ if ("mediaDevices" in navigator && "getUserMedia" in navigator.mediaDevices) {
 要捕获由摄像机生成的视频流，我们使用 `mediaDevices` 对象的 `getUserMedia` 方法。这个方法接收一个对象，其中包含我们要请求的媒体类型（视频或音频）和一些要求。首先，我们可以通过 `{video: true}` 来获取摄像机的视频。
 
 ```javascript
-const videoStream = await navigator.mediaDevices.getUserMedia({ video: true });
+const videoStream = await navigator.mediaDevices.getUserMedia(
+  { video: true }
+);
 ```
 
 此调用将询问用户是否允许访问摄像机。如果用户拒绝，它将引发异常并且不返回流。因此，必须在 `try/catch` 块内完成处理这种情况。
@@ -67,7 +73,9 @@ const constraints = {
   },
 };
 
-const videoStream = await navigator.mediaDevices.getUserMedia(constraints);
+const videoStream = await navigator.mediaDevices.getUserMedia(
+  constraints
+);
 ```
 
 这样，流以正确的宽度和高度比例进入，如果它是处于纵向模式的手机，则需要进行尺寸反转。
@@ -81,7 +89,9 @@ const videoStream = await navigator.mediaDevices.getUserMedia(constraints);
 ```javascript
 // 页面中有一个 <video autoplay id="video"></video> 标签
 const video = document.querySelector("#video");
-const videoStream = await navigator.mediaDevices.getUserMedia(constraints);
+const videoStream = await navigator.mediaDevices.getUserMedia(
+  constraints
+);
 video.srcObject = videoStream;
 ```
 

@@ -111,6 +111,5 @@ p {
 
 ---
 
-> 参考原文：https://kevq.uk/how-to-add-css-dark-mode-to-a-website/
->
+> 参考原文：[https://kevq.uk/how-to-add-css-dark-mode-to-a-website/](https://kevq.uk/how-to-add-css-dark-mode-to-a-website/)
 > 翻译：本博客

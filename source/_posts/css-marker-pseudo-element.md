@@ -1,6 +1,7 @@
 ---
 title: 使用CSS ::marker的自定义项目符号
 date: 2020-11-22 15:51:55
+img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/css-marker-pseudo-element/banner1.png
 categories:
   - 技术
 tags:

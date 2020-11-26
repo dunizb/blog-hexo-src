@@ -1,6 +1,7 @@
 ---
 title: 使用Typescript和ES模块发布Node模块
 date: 2020-05-26 14:08:11
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202005/typescript-es-modules/0.jpeg
 categories:
   - 技术
 tags:

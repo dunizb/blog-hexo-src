@@ -1,25 +1,31 @@
 ---
 title: 【实战】在Koa.js中实现文件上传的接口
 date: 2019-03-07 12:47:31
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/7.jpg
 categories:
-- 技术
+  - 技术
 tags:
-- 前端
-- Node
-- Koa.js
+  - 前端
+  - Node
+  - Koa.js
 ---
 
-文件上传是一个基本的功能，每个系统几乎都会有，比如上传图片、上传Excel等。那么在Node Koa应用中如何实现一个支持文件上传的接口呢？本文从环境准备开始、最后分别用 [Postman](https://www.getpostman.com/) 和一个HTML页面来测试。
+文件上传是一个基本的功能，每个系统几乎都会有，比如上传图片、上传 Excel 等。那么在 Node Koa 应用中如何实现一个支持文件上传的接口呢？本文从环境准备开始、最后分别用 [Postman](https://www.getpostman.com/) 和一个 HTML 页面来测试。
+
 <!-- more -->
 
 ![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/koa-updalod/banner.png)
 
 ## 环境准备
-首先当然是要初始化一个Koa项目了，安装 Koa、koa-router 即可。
+
+首先当然是要初始化一个 Koa 项目了，安装 Koa、koa-router 即可。
+
 ```
 npm install koa koa-router
 ```
+
 设置图片上传目录，把图片上传到指定的目录中，在 app 路径下新建 public 文件夹，目录结构如下：
+
 ```
 koa-upload/
 --app
@@ -29,19 +35,20 @@ koa-upload/
 --package.json
 ```
 
-编写 index.js 
-```javascript
-const koa = require('koa')
-const app = new koa()
+编写 index.js
 
-router.post('/upload', ctx => {
-    ctx.body = 'koa upload demo'
-})
+```javascript
+const koa = require("koa");
+const app = new koa();
+
+router.post("/upload", (ctx) => {
+  ctx.body = "koa upload demo";
+});
 app.use(router.routes());
 
 app.listen(3000, () => {
-    console.log('启动成功')
-    console.log('http://localhost:3000')
+  console.log("启动成功");
+  console.log("http://localhost:3000");
 });
 ```
 
@@ -49,12 +56,14 @@ app.listen(3000, () => {
 
 ## 使用 koa-body 中间件获取上传的文件
 
-[koa-body](https://www.npmjs.com/package/koa-body) 支持文件、json、form格式的请求体，安装 koa-body
+[koa-body](https://www.npmjs.com/package/koa-body) 支持文件、json、form 格式的请求体，安装 koa-body
+
 ```
 npm install koa-body
 ```
 
 设置 koaBody 配置参数，index.js
+
 ```javascript
 const koa = require('koa')
 const koaBody = require('koa-body')
@@ -75,18 +84,19 @@ app.use(koaBody({
 ```
 
 接下来完善 `/upload` 路由，获取文件，然后直接返回文件路径
+
 ```javascript
-router.post('/upload', ctx => {
-    const file = ctx.request.files.file
-    ctx.body = { path: file.path }
-})
+router.post("/upload", (ctx) => {
+  const file = ctx.request.files.file;
+  ctx.body = { path: file.path };
+});
 ```
 
 这样我们其实已经可以进行文件上传，并把文件上传到 `public/uploads` 中了，我们用 Postman 来测试一下。
 
 ## 使用 Postman 测试
 
-打开 Postman，输入 `http://localhost:3001/upload`，选择 `POST` 方法，并且选择文件用 Body 来传输，并且选择 `form-data` 格式，然后在 KEY 中选择 file类型。
+打开 Postman，输入 `http://localhost:3001/upload`，选择 `POST` 方法，并且选择文件用 Body 来传输，并且选择 `form-data` 格式，然后在 KEY 中选择 file 类型。
 
 ![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/koa-updalod/1.png)
 
@@ -94,32 +104,33 @@ router.post('/upload', ctx => {
 
 ## 使用 koa-static 中间件生成图片链接
 
-直接返回图片的本地路径在实际上是没什么用的，我们应该返回一个http链接的图片地址，点击地址就可以查看图片。
+直接返回图片的本地路径在实际上是没什么用的，我们应该返回一个 http 链接的图片地址，点击地址就可以查看图片。
 
-借助 [koa-static](https://www.npmjs.com/package/koa-static) 中间件可以帮助我们生成一个静态服务，它指定一个文件夹，文件夹下所有的文件都可以通过 http服务来访问。
+借助 [koa-static](https://www.npmjs.com/package/koa-static) 中间件可以帮助我们生成一个静态服务，它指定一个文件夹，文件夹下所有的文件都可以通过 http 服务来访问。
 
 安装：`npm install koa-static` 并注册到 app 上，我们把他注册在 koaBody 中间件的前面，把 public 设置为静态文件目录。
+
 ```javascript
 const koaStatic = require('koa-static')
 ... ...
 app.use(koaStatic(path.join(__dirname, 'public')))
 ```
 
-启动程序，这样 public 下的文件就可以使用HTTP服务来大开了，我们可以打开之前上传的图片：`http://localhost:3001/uploads/upload_65c1d26e5a47870cf4011aad1243fce0.png`，可以在浏览器中直接显示了。
+启动程序，这样 public 下的文件就可以使用 HTTP 服务来大开了，我们可以打开之前上传的图片：`http://localhost:3001/uploads/upload_65c1d26e5a47870cf4011aad1243fce0.png`，可以在浏览器中直接显示了。
 
 然后我们改造一下 upload 路由的实现，让它生成图片链接返回给客户端
 
 ```javascript
-router.post('/upload', ctx => {
-    const file = ctx.request.files.file
-    const basename = path.basename(file.path)
-    ctx.body = { "url": `${ctx.origin}/uploads/${basename}` }
-})
+router.post("/upload", (ctx) => {
+  const file = ctx.request.files.file;
+  const basename = path.basename(file.path);
+  ctx.body = { url: `${ctx.origin}/uploads/${basename}` };
+});
 ```
 
 `basename` 可以拿到文件的文件名和扩展名，`ctx.origin` 拿到服务器的域名，即诸如 localhost:3001，但我们不能写死。
 
-再用 Postman 测试一下，即可看到返回的 图片URL了，点击可以直接打开。
+再用 Postman 测试一下，即可看到返回的 图片 URL 了，点击可以直接打开。
 
 ![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/koa-updalod/2.png)
 
@@ -130,15 +141,19 @@ router.post('/upload', ctx => {
 在 public 中新建 `upload.html` 文件作为测试页面。
 
 ```html
-<form action="/upload" method="POST" enctype="multipart/form-data">
-    <input type="file" name="file">
-    <button type="submit">上传</button>
+<form
+  action="/upload"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <input type="file" name="file" />
+  <button type="submit">上传</button>
 </form>
 ```
 
 这是传统的表单提交，我们实际工作中这样的代码可能已经不常见了，`action` 就是我们的提交到的接口，`enctype="multipart/form-data"` 就是指定上传文件格式。input 的 name 属性一定要等于`file`，因为我们接受的字段名是 file。
 
-然后我们用HTTP服务打开这个页面：`http://localhost:3001/upload.html`，因为我们整个 public 目录已经是一个静态HTTP服务目录了，里面的所有文件都可以通过HTTP访问。
+然后我们用 HTTP 服务打开这个页面：`http://localhost:3001/upload.html`，因为我们整个 public 目录已经是一个静态 HTTP 服务目录了，里面的所有文件都可以通过 HTTP 访问。
 
 ![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/koa-updalod/3.png)
 
@@ -146,11 +161,10 @@ router.post('/upload', ctx => {
 
 ![](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/koa-updalod/4.png)
 
-
 全文完。[完整源码](https://github.com/dunizb/CodeTest/tree/master/Node/koa-upload-demo)
 
+---
 
-*************
 关注公众号，第一时间接收最新文章。如果对你有一点点帮助，可以点喜欢点赞点收藏，还可以小额打赏作者，以鼓励作者写出更多更好的文章。
 
 ![关注公众号](https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/关注名片-大礼包_横版二维码_2020-01-01-0.jpg)

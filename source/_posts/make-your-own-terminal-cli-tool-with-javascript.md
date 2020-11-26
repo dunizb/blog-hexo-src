@@ -1,6 +1,7 @@
 ---
 title: 【实战】从零开始使用JavaScript制作自己的命令行(CLI工具)
 date: 2020-05-05 13:30:03
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202005/7581033c-3e38-4f07-2b0b-bb1fe0b57cf6.jpg
 categories:
   - 技术
 tags:
@@ -174,7 +175,10 @@ const answerCallback = (answer) => {
     rl.close();
   } else {
     console.log("你是快乐还是悲伤？");
-    rl.question("你今天好吗(快乐，悲伤)？ ", answerCallback);
+    rl.question(
+      "你今天好吗(快乐，悲伤)？ ",
+      answerCallback
+    );
   }
 };
 

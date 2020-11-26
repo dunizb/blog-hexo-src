@@ -1,6 +1,7 @@
 ---
 title: 如何使用CSS Paint API动态创建与分辨率无关的可变背景
 date: 2020-07-08 20:44:41
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202007/create-dynamic-backgrounds/1.gif
 categories:
   - 技术
 tags:
@@ -26,7 +27,10 @@ tags:
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>🎨 CSS Paint API</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -121,18 +125,18 @@ paint(context, canvas, properties) {
 
 ```css
 .pattern {
-     width: 250px;
-     height: 250px;
-     border: 1px solid #000;
+  width: 250px;
+  height: 250px;
+  border: 1px solid #000;
 
-     background-image: paint(pattern);
-+    --pattern-color: #FFCC00;
-+    --pattern-size: 23;
-+    --pattern-spacing: 0;
-+    --pattern-shadow-blur: 10;
-+    --pattern-shadow-x: 10;
-+    --pattern-shadow-y: 1;
- }
+  background-image: paint(pattern);
+  +--pattern-color: #ffcc00;
+  +--pattern-size: 23;
+  +--pattern-spacing: 0;
+  +--pattern-shadow-blur: 10;
+  +--pattern-shadow-x: 10;
+  +--pattern-shadow-y: 1;
+}
 ```
 
 你可以通过在 CSS 属性前加上 `—` 来定义自定义 CSS 属性。这些属性可以被 `var()` 函数使用。但在我们的案例中，我们将在我们的 paint worklet 中使用它。
@@ -229,7 +233,8 @@ paint(context, canvas, properties) {
 ```javascript
 for (let x = 0; x < canvas.height / props.size; x++) {
   for (let y = 0; y < canvas.width / props.size; y++) {
-    const bgColor = (x + y) % 2 === 0 ? "#FFF" : props.color;
+    const bgColor =
+      (x + y) % 2 === 0 ? "#FFF" : props.color;
 
     context.shadowColor = "#212121";
     context.shadowBlur = props.shadow.blur;

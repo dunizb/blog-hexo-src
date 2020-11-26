@@ -1,6 +1,7 @@
 ---
-title: 译|如何设计一个JavaScript插件系统
+title: 【译】如何设计一个JavaScript插件系统
 date: 2020-08-30 12:24:28
+cover: true
 categories:
   - 技术
 tags:
@@ -73,7 +74,7 @@ const betaCalc = {
 // 定义插件
 const squaredPlugin = {
   name: "squared",
-  exec: function () {
+  exec: function() {
     this.setValue(this.currentValue * this.currentValue);
   },
 };
@@ -122,13 +123,15 @@ const betaCalc = {
 
   core: {
     plus: (currentVal, addend) => currentVal + addend,
-    minus: (currentVal, subtrahend) => currentVal - subtrahend,
+    minus: (currentVal, subtrahend) =>
+      currentVal - subtrahend,
   },
 
   plugins: {},
 
   press(buttonName, newVal) {
-    const func = this.core[buttonName] || this.plugins[buttonName];
+    const func =
+      this.core[buttonName] || this.plugins[buttonName];
     this.setValue(func(this.currentValue, newVal));
   },
 
@@ -141,7 +144,7 @@ const betaCalc = {
 // 我们得插件，平方插件
 const squaredPlugin = {
   name: "squared",
-  exec: function (currentValue) {
+  exec: function(currentValue) {
     return currentValue * currentValue;
   },
 };

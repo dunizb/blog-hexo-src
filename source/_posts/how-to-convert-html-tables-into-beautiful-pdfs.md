@@ -1,6 +1,7 @@
 ---
 title: 如何将HTML表格转换成精美的PDF
 date: 2020-11-18 19:56:30
+img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/convert-html-tables-pdfs/banner.png
 categories:
   - 技术
 tags:
@@ -10,8 +11,6 @@ tags:
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/convert-html-tables-pdfs/banner.png)
-
-包含表格、图表和图形的 Web 应用程序通常包含将数据导出为 PDF 的选项。你有没有想过，作为一个用户，当你点击那个按钮时，幕后发生了什么？
 
 作为开发人员，如何让 PDF 输出看起来更专业？大多数免费的在线 PDF 导出器实际上只是将 HTML 内容转换为 PDF，而不进行任何额外的格式化，这会使数据难以阅读。如果你也能添加诸如页眉和页脚、页码或重复的表列标题等内容呢？像这样的小点缀，对把一份看起来很业余的文件变成一份优雅的文件有很大的帮助。
 
@@ -114,23 +113,39 @@ document
 ```javascript
 function downloadPDFWithPDFMake() {
   var tableHeaderText = [
-    ...document.querySelectorAll("#styledTable thead tr th"),
-  ].map((thElement) => ({ text: thElement.textContent, style: "tableHeader" }));
+    ...document.querySelectorAll(
+      "#styledTable thead tr th"
+    ),
+  ].map((thElement) => ({
+    text: thElement.textContent,
+    style: "tableHeader",
+  }));
 
   var tableRowCells = [
-    ...document.querySelectorAll("#styledTable tbody tr td"),
-  ].map((tdElement) => ({ text: tdElement.textContent, style: "tableData" }));
-  var tableDataAsRows = tableRowCells.reduce((rows, cellData, index) => {
-    if (index % 4 === 0) {
-      rows.push([]);
-    }
+    ...document.querySelectorAll(
+      "#styledTable tbody tr td"
+    ),
+  ].map((tdElement) => ({
+    text: tdElement.textContent,
+    style: "tableData",
+  }));
+  var tableDataAsRows = tableRowCells.reduce(
+    (rows, cellData, index) => {
+      if (index % 4 === 0) {
+        rows.push([]);
+      }
 
-    rows[rows.length - 1].push(cellData);
-    return rows;
-  }, []);
+      rows[rows.length - 1].push(cellData);
+      return rows;
+    },
+    []
+  );
 
   var docDefinition = {
-    header: { text: "MLB World Series Winners", alignment: "center" },
+    header: {
+      text: "MLB World Series Winners",
+      alignment: "center",
+    },
     footer: function(currentPage, pageCount) {
       return {
         text: `Page ${currentPage} of ${pageCount}`,
@@ -167,7 +182,9 @@ function downloadPDFWithPDFMake() {
       },
     },
   };
-  pdfMake.createPdf(docDefinition).download("MLB World Series Winners");
+  pdfMake
+    .createPdf(docDefinition)
+    .download("MLB World Series Winners");
 }
 
 document
@@ -201,7 +218,8 @@ function downloadPDFWithDocRaptor() {
     test: true, // test documents are free, but watermarked
     type: "pdf",
     name: "MLB World Series Winners",
-    document_content: document.querySelector("html").innerHTML,
+    document_content: document.querySelector("html")
+      .innerHTML,
   });
 }
 

@@ -1,6 +1,7 @@
 ---
 title: React.js和Vue.js的语法并列比较
 date: 2020-05-02 13:02:05
+img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/vuevsreact.png
 categories:
   - 技术
 tags:
@@ -9,7 +10,7 @@ tags:
   - React
 ---
 
-React.js和Vue.js都是很好的框架。而且Next.js和Nuxt.js甚至将它们带入了一个新的高度，这有助于我们以更少的配置和更好的可维护性来创建应用程序。但是，如果你必须经常在框架之间切换，在深入探讨另一个框架之后，你可能会轻易忘记另一个框架中的语法。在本文中，我总结了这些框架的基本语法和方案，然后并排列出。我希望这可以帮助我们尽快掌握语法，不过限于篇幅，这篇文章只**比较React.js和Vue.js**，下一篇再谈Next.js个Nuxt.js。
+React.js 和 Vue.js 都是很好的框架。而且 Next.js 和 Nuxt.js 甚至将它们带入了一个新的高度，这有助于我们以更少的配置和更好的可维护性来创建应用程序。但是，如果你必须经常在框架之间切换，在深入探讨另一个框架之后，你可能会轻易忘记另一个框架中的语法。在本文中，我总结了这些框架的基本语法和方案，然后并排列出。我希望这可以帮助我们尽快掌握语法，不过限于篇幅，这篇文章只**比较 React.js 和 Vue.js**，下一篇再谈 Next.js 个 Nuxt.js。
 
 <!-- more -->
 
@@ -326,18 +327,18 @@ function MyReactComponent() {
 </script>
 ```
 
-## 双向绑定 (仅Vue.js)
+## 双向绑定 (仅 Vue.js)
 
 ### React.js
 
-React没有双向绑定，因此我们需要自己处理数据流
+React 没有双向绑定，因此我们需要自己处理数据流
 
 ```javascript
 function MyReactComponent() {
   const [content, setContent] = useState("");
   return (
     <input
-      type="text"
+      type='text'
       value={content}
       onChange={(e) => setContent(e.target.value)}
     />
@@ -364,7 +365,7 @@ function MyReactComponent() {
 
 ### React.js
 
-React.js没有计算属性，但我们可以通过react hook轻松实现
+React.js 没有计算属性，但我们可以通过 react hook 轻松实现
 
 ```javascript
 function DisplayName({ firstName, lastName }) {
@@ -391,7 +392,7 @@ function DisplayName({ firstName, lastName }) {
       lastName: String,
     },
     computed: {
-      displayName: function () {
+      displayName: function() {
         return `${this.firstName} ${this.lastName}`;
       },
     },
@@ -405,7 +406,7 @@ function DisplayName({ firstName, lastName }) {
 
 ### React.js
 
-React.js没有 `watch` 属性，但是我们可以通过react hook轻松实现
+React.js 没有 `watch` 属性，但是我们可以通过 react hook 轻松实现
 
 ```javascript
 function MyReactComponent() {
@@ -445,7 +446,7 @@ function MyReactComponent() {
       },
     },
     watch: {
-      count: function (newCount, oldCount) {
+      count: function(newCount, oldCount) {
         localStorage.setItem("my_count", newCount);
       },
     },
@@ -482,13 +483,17 @@ Vue.js
 <MyVueComponent>Hello World</MyVueComponent>
 ```
 
-## 渲染HTML
+## 渲染 HTML
 
 React.js
 
 ```javascript
 function MyReactComponent() {
-  return <div dangerouslySetInnerHTML={{ __html: "<pre>...</pre>" }} />;
+  return (
+    <div
+      dangerouslySetInnerHTML={{ __html: "<pre>...</pre>" }}
+    />
+  );
 }
 ```
 
@@ -519,7 +524,11 @@ function MyReactComponent() {
   return (
     <div>
       {isLoading && <span>Loading...</span>}
-      {isLoading ? <div>is loading</div> : <div>is loaded</div>}
+      {isLoading ? (
+        <div>is loading</div>
+      ) : (
+        <div>is loaded</div>
+      )}
     </div>
   );
 }
@@ -648,7 +657,9 @@ Vue.js(slot)
 <Modal isOpen>
   <template v-slot="slotProps">
     <div>...</div>
-    <button @click="slotProps.toggleModal(false)">Close</button>
+    <button @click="slotProps.toggleModal(false)">
+      Close
+    </button>
   </template>
 </Modal>
 ```
@@ -772,7 +783,7 @@ class AutofocusInput extends React.Component {
     return (
       <input
         ref={this.ref}
-        type="text"
+        type='text'
         value={this.state.content}
         onChange={this.setContent}
       />
@@ -795,7 +806,7 @@ function AutofocusInput() {
   return (
     <input
       ref={ref}
-      type="text"
+      type='text'
       value={content}
       onChange={(e) => setContent(e.target.value)}
     />
@@ -868,10 +879,10 @@ useCallback
 
 ```javascript
 function MyItem({ item, handleDelete }) {
-  const handleClick = useCallback(() => handleDelete(item), [
-    item,
-    handleDelete,
-  ]);
+  const handleClick = useCallback(
+    () => handleDelete(item),
+    [item, handleDelete]
+  );
   return <button onClick={handleClick}>{item.name}</button>;
 }
 ```

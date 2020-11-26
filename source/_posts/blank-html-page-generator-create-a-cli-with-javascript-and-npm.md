@@ -1,6 +1,7 @@
 ---
 title: HTML页面生成器：使用JavaScript和Node创建CLI
 date: 2020-05-06 13:27:06
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202005/d5c5446dc2f813cd69bece27345d4ee8.jpg
 categories:
   - 技术
 tags:
@@ -184,14 +185,22 @@ const args = process.argv;
 const FILE_NAME_OPTION = "--file-name";
 const HTML_TITLE_OPTION = "--html-title";
 
-const fileNameOptionIndex = args.findIndex((arg) => arg === FILE_NAME_OPTION);
-const htmlTitleOptionIndex = args.findIndex((arg) => arg === HTML_TITLE_OPTION);
+const fileNameOptionIndex = args.findIndex(
+  (arg) => arg === FILE_NAME_OPTION
+);
+const htmlTitleOptionIndex = args.findIndex(
+  (arg) => arg === HTML_TITLE_OPTION
+);
 
 const fileNameOption =
   fileNameOptionIndex > -1 && args[fileNameOptionIndex + 1];
-const titleOption = htmlTitleOptionIndex > -1 && args[htmlTitleOptionIndex + 1];
+const titleOption =
+  htmlTitleOptionIndex > -1 &&
+  args[htmlTitleOptionIndex + 1];
 
-let fileName = fileNameOption ? `${fileNameOption}.html` : "index.html";
+let fileName = fileNameOption
+  ? `${fileNameOption}.html`
+  : "index.html";
 let title = titleOption || "Title";
 ```
 
@@ -216,14 +225,14 @@ html-generator-cli --file-name hello --html-title "CLI helloworld！"
 要从控制台读取用户输入，我们需要 Node（自版本 7）提供的模块 `readline`。你可以使用以下代码在终端中对其进行测试：
 
 ```javascript
-const readline = require('readline');
+const readline = require("readline");
 
 const interface = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
-interface.question('你叫什么名字？', answer => {
+interface.question("你叫什么名字？", (answer) => {
   console.log(`Hello ${answer}`);
   interface.close();
 });
@@ -238,29 +247,33 @@ interface.question('你叫什么名字？', answer => {
 ```javascript
 #!/usr/bin/env node
 
-const fs = require('fs');
-const readline = require('readline');
+const fs = require("fs");
+const readline = require("readline");
 
-let fileName = 'index.html';
-let title = 'Title';
+let fileName = "index.html";
+let title = "Title";
 
 const interface = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
-interface.question(`File name (${fileName}): `, answer => {
-  if (answer && answer.length) {
-    fileName = `${answer}.html`;
-  }
-
-  interface.question(`HTML title (${title}): `, answer => {
+interface.question(
+  `File name (${fileName}): `,
+  (answer) => {
     if (answer && answer.length) {
-      title = answer;
+      fileName = `${answer}.html`;
     }
-    interface.close();
 
-    const html = `<!DOCTYPE html>
+    interface.question(
+      `HTML title (${title}): `,
+      (answer) => {
+        if (answer && answer.length) {
+          title = answer;
+        }
+        interface.close();
+
+        const html = `<!DOCTYPE html>
       <html>
         <head>
           <meta charset="utf-8">
@@ -270,13 +283,15 @@ interface.question(`File name (${fileName}): `, answer => {
         </body>
       </html>`;
 
-    fs.writeFile(fileName, html, error => {
-      if (error) {
-        console.log(error);
+        fs.writeFile(fileName, html, (error) => {
+          if (error) {
+            console.log(error);
+          }
+        });
       }
-    });
-  });
-});
+    );
+  }
+);
 ```
 
 如果你在终端中运行它，将会询问两个问题。

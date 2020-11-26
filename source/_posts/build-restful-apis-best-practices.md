@@ -6,6 +6,7 @@ categories:
 tags:
   - 全栈开发
   - 翻译
+summary: 探讨在构建 RESTful API 时应考虑的 13 种最佳实践。
 ---
 
 Facebook、GitHub、Google 以及其他许多巨头都需要一种服务和消费数据的方式。在当今的开发环境中，RESTful API 仍然是服务和消费数据的最佳选择之一。

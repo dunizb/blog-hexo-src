@@ -1,6 +1,7 @@
 ---
 title: 译|通过Node和Redis进行API速率限制
 date: 2020-09-16 11:04:22
+img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/api-rate-limiting-with-node-and-redis/banner.jpeg
 categories:
   - 技术
 tags:
@@ -75,7 +76,9 @@ const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => res.send("Hello World!"));
 app.listen(port, () =>
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(
+    `Example app listening at http://localhost:${port}`
+  )
 );
 ```
 
@@ -95,7 +98,9 @@ app.post("/", async (req, res) => {
   // 检查率限制
   let overLimit = await isOverLimit(req.ip);
   if (overLimit) {
-    res.status(429).send("Too many requests - try again later");
+    res
+      .status(429)
+      .send("Too many requests - try again later");
     return;
   }
   // 允许访问资源

@@ -1,23 +1,21 @@
 ---
 title: Fetch API速查表：9个最常见的API请求
 date: 2020-11-24 21:40:46
+img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/fetch-api-cheatsheet/banner.jpg
 categories:
   - 技术
 tags:
   - JavaScript
+summary: 在本文中，我将列出 9 个最常见的 Fetch API 请求，在你忘记 API 的时候可以翻出来查看。
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/fetch-api-cheatsheet/banner.jpg)
 
 在之前的文章[《Fetch 还是 Axios——哪个更适合 HTTP 请求？》](https://blog.zhangbing.site/2020/11/19/fetch-or-axios-which-is-better-for-http-requests/)中我对比了 Axios，在小型项目的情况下，使用 Fetch API 只需要几个简单的 API 调用，Fet 是一个很不错的解决方案。
 
-对于 Fetch API 我相信你已经用过它们很多次了，但是你是否还记得语法？如果能避免在旧项目中寻找半年前使用过的特定请求的语法，岂不更好？
-
 在本文中，我将列出 9 个最常见的 Fetch API 请求，在你忘记 API 的时候可以翻出来查看。​
 
 <!-- more -->
-
-我相信你已经用过它们很多次了。但是，如果能避免在旧项目中寻找半年前使用过的特定请求的语法，岂不更好？
 
 ## 为什么要使用 Fetch API？
 

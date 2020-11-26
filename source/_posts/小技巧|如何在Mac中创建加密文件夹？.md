@@ -1,6 +1,7 @@
 ---
 title: 小技巧|如何在Mac中创建加密文件夹？
 date: 2018-08-04 22:19:52
+img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/12.jpg
 categories:
   - 其它
 tags:
