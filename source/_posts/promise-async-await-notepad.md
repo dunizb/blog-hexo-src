@@ -7,9 +7,9 @@ tags:
   - JavaScript
 ---
 
-![](https://imgkr2.cn-bj.ufileos.com/bc6a15f0-7b86-4270-ad80-4040b23a43e5.jpg?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=VKpL6dFuJ1BkiII163%252FkSrPO3N8%253D&Expires=1606140974)
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/201811/promise-async-await-notepad/banner.jpg)
 
-以前学习的笔记，觉得还不错，希望对大家有所帮助吧，比较长，可以结合右侧目录查看和定位。
+**以前学习写的笔记，感觉还不错，现在发出来，希望对你有帮助。文章比较长，可以结合目录进行阅读，如果文章对你有所启发和帮助，可以『一键三连』。哦，对了，我已经脱发了...😭😭**
 
 <!-- more -->
 
@@ -103,13 +103,13 @@ error 对象的结构
 ### 2.2 Promise 的状态改变
 
 Promise 的状态改变只有这 2 种：
-![Promise的状态改变](https://imgkr2.cn-bj.ufileos.com/ee5a40a0-6a0a-4829-aad7-0a9d0f0a78f2.png?UCloudPublicKey=TOKEN_8d8b72be-579a-4e83-bfd0-5f6ce1546f13&Signature=bS3%252BarH3D%252B2%252BfB6R4gfOAOfGuaQ%253D&Expires=1606140205)
+![Promise的状态改变](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/201811/promise-async-await-notepad/1.png)
 
 且一个 Promise 对象只能改变一次，无论变成成功还是失败，都会有一个结果数据，成功的结果数据一般称为 `value`，失败的结果数据一般称为 `reason`。
 
 ### 2.3 Promise 基本流程
 
-![Promise基本流程](https://i.loli.net/2019/10/31/pAQl2N9OfotuTFd.png)
+![Promise基本流程](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/201811/promise-async-await-notepad/2.png)
 
 ### 2.4 Promise 的基本使用
 
@@ -500,7 +500,7 @@ new Promise((resolve, reject) => {
 
 Promise 的异常传透示意图
 
-![Promise的异常传透](https://i.loli.net/2019/11/01/KTUveAE3WdF4fnB.png)
+![Promise的异常传透](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/201811/promise-async-await-notepad/3.png)
 
 #### 4.2.7 中断 promise 链
 
