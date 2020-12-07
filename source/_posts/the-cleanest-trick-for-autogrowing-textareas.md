@@ -109,6 +109,8 @@ content: attr(data-replicated-value) " ";
 
 如果你不想使用伪元素，嘿嘿，我没意见，只要注意跳动的行为即可。
 
+**完整示例和代码**：[https://codepen.io/chriscoyier/pen/XWKEVLy](https://codepen.io/chriscoyier/pen/XWKEVLy)
+
 ---
 
 原文：[https://blog.zhangbing.site/2020/12/02/the-cleanest-trick-for-autogrowing-textareas/](https://blog.zhangbing.site/2020/12/02/the-cleanest-trick-for-autogrowing-textareas/)  
