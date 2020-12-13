@@ -10,11 +10,11 @@ tags:
 
 发现一个开源项目，可以让你用一个 JSON 文件创建一个网站。
 
+<!-- more -->
+
 > [Github：https://github.com/jsonsite/jsonsite](https://github.com/jsonsite/jsonsite)
 
 做一个 fork，添加你的 URL，然后咣当一声，一个好看的网站就用 JSON 文件做出来了。而且所有的网站都是由 Vercel 托管的，他们有惊人的正常运行时间和 CDN。
-
-<!-- more -->
 
 听起来不错，但是如何运作？
 
