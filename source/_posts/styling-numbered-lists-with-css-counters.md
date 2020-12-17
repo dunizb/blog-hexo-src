@@ -8,8 +8,6 @@ tags:
   - CSS
 ---
 
-# 使用 CSS 计数器花式玩转列表编号
-
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202006/styling-numbered/banner.png)
 
 在网页设计中，以有组织的方式表示数据非常重要，这样用户可以轻松地了解网站或内容的结构。最简单的方法是使用有序列表。
