@@ -5,8 +5,7 @@ img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/5.jpg
 categories:
   - 技术
 tags:
-  - 前端
-  - 小程序
+  - 小程序开发
 ---
 
 微信创造了 WXS ，除了提高性能，还有什么原因？
