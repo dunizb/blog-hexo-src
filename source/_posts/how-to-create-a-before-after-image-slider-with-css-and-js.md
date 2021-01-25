@@ -29,9 +29,6 @@ tags:
 ## 结果演示
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/before-after-image-slider/9.gif)
-
-Codepen demo: https://codepen.io/josephwong2004/pen/NWRGxdR
-
 ## 逐步指南
 
 ### 步骤 1.了解概念
