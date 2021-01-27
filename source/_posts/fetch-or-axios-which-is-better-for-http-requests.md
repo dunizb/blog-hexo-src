@@ -2,7 +2,6 @@
 title: Fetch还是Axios——哪个更适合HTTP请求？
 date: 2020-11-19 21:55:27
 img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/fetch-or-axios/banner.png
-cover: true
 categories:
   - 技术
 tags:

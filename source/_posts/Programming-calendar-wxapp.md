@@ -1,11 +1,12 @@
 ---
-title: 编程日历小程序
+title: 一个周末用云开发做了一个编程日历小程序
 date: 2021-01-25 20:26:57
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/shareImg.jpg
+cover: true
 categories:
   - 工具
 tags:
-  - 小程序
+  - 小程序开发
 ---
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/1.png)
