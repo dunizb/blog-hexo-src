@@ -11,6 +11,8 @@ tags:
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/1.png)
 
+## 介绍
+
 编程日历小程序基于开源日历书《了不起的程序员 2021》制作而成，365 天，每天为你呈现一个 IT 界的重大事件及人物。
 
 <!-- more -->
@@ -23,3 +25,9 @@ tags:
 | :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
 | ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/2.jpg) | ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/3.jpg) |
 | ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/4.jpg) | ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/5.jpg) |
+
+## 为什么要做这个小程序？
+
+买了这本《了不起的程序员 2021》，很厚，纸质书嘛，现在已经很少看了，加上这是一本日历书，希望是每天都打开看。可实际上的情况是，要么忘记看今天的内容，要么一口气看了好几天的内容，然后剩下几天又不看了。
+
+所以，这个小程序，你每天只能看当天的内容，只能往回看，加上小程序用完几走，使用方便，不会有压力感，还可以分享你觉得好的内容。
