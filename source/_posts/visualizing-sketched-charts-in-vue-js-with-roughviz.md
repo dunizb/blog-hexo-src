@@ -7,6 +7,7 @@ categories:
 tags:
   - 开源推荐
   - Vue.js
+summary: "roughViz 是一个基于 D3.js 和 Rough.js 的 JavaScript 库。该库旨在帮助构建看起来像草图或手绘图的图表，如下例所示"
 ---
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/roughViz/banner.png)

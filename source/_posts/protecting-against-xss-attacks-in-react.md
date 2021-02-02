@@ -6,6 +6,7 @@ categories:
   - 技术
 tags:
   - React
+summary: "在本文中，我们将查看几个用 React 编写的代码示例，这样您也可以保护您的站点和用户"
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/XSS-Attacks-in-React/banner.jpeg)
@@ -101,5 +102,4 @@ tags:
 
 ---
 
-> 原文：[https://levelup.gitconnected.com/](https://levelup.gitconnected.com/protecting-against-xss-attacks-in-react-52442d9fff4c)
-> 作者：Tyler Hawkins
+本文翻译自：[levelup.gitconnected.com](https://levelup.gitconnected.com/protecting-against-xss-attacks-in-react-52442d9fff4c)，作者：Tyler Hawkins

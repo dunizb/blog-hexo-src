@@ -5,6 +5,7 @@ categories:
   - 技术
 tags:
   - JavaScript
+summary: "以前学习写的笔记，感觉还不错，现在发出来，希望对你有帮助。"
 ---
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/201811/promise-async-await-notepad/banner.jpg)

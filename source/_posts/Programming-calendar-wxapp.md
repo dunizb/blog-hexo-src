@@ -1,15 +1,17 @@
 ---
-title: 小程序云开发和生成海报实践：编程日历小程序
+title: 编程日历小程序，对小程序云开发和生成海报的实践
 date: 2021-01-25 20:26:57
-img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/shareImg.jpg
+img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/banner.png
 cover: true
+top: true
 categories:
   - 工具
 tags:
   - 小程序开发
+summary: "编程日历小程序的产生和开发过程"
 ---
 
-![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/1.png)
+![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/banner.png)
 
 ## 1、起源
 
@@ -588,11 +590,15 @@ Page({
 
 **以上就是我开发海报功能的逻辑和代码，仅供参考吧，如果你有相关经验欢迎讨论交流，留下你的真知灼见吧。**
 
-## 编程日历小程序页面截图
+## 4、编程日历小程序页面截图
 
 最后，分几张小程序的页面截图
 
 |                                            预览                                             |                                            预览                                             |
 | :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-| ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/2.jpg) | ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/3.jpg) |
-| ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/4.jpg) | ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/5.jpg) |
+| ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/2.png) | ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/3.png) |
+| ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/4.png) | ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/5.png) |
+
+## 5、最后，交个朋友
+
+**鉴于对产品和设计不擅长，在此诚邀 UI、产品小伙伴，一起租一个团队，有机会一起做一些产品，让我们的想法能落地，生根发芽。**

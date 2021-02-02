@@ -7,6 +7,7 @@ categories:
 tags:
   - 开源推荐
   - CSS
+summary: "是什么让 AnimXYZ 如此之好，它是可组合的，这意味着你可以组合和混合不同的动画来创建自己的高度可定制的 CSS 动画，而无需编写一个单一的关键帧。"
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202101/AnimXYZ/banner.png)

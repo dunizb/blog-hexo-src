@@ -6,6 +6,7 @@ categories:
   - 技术
 tags:
   - 前端
+summary: "影子 DOM（Shadow DOM）为我们提供了范围限定的样式封装，并提供了一种让我们随意选择进入（尽可能少）外界的方法。"
 ---
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202102/shadow-dom-web-component/banner.png)

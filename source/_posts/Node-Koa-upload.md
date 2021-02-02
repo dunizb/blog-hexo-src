@@ -8,6 +8,7 @@ tags:
   - 前端
   - Node
   - Koa.js
+summary: "本文从环境准备开始、最后分别用 Postman 和一个 HTML 页面来测试"
 ---
 
 文件上传是一个基本的功能，每个系统几乎都会有，比如上传图片、上传 Excel 等。那么在 Node Koa 应用中如何实现一个支持文件上传的接口呢？本文从环境准备开始、最后分别用 [Postman](https://www.getpostman.com/) 和一个 HTML 页面来测试。

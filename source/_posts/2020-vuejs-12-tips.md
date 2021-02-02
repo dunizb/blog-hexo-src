@@ -2,11 +2,13 @@
 title: 2020年的12个Vue.js开发技巧和窍门
 date: 2020-04-14 15:20:37
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/vue-12-tip/1.jpeg
+top: true
 categories:
   - 技术
 tags:
   - 前端
   - Vue.js
+summary: "十个很酷的提示和技巧，你可能尚未意识到这些技巧和窍门，以帮助你成为更好的 Vue 开发人员"
 ---
 
 我真的很喜欢使用 Vue.js，每次使用框架时，我都会喜欢深入研究其功能和特性。通过这篇文章，我向你介绍了十个很酷的提示和技巧，你可能尚未意识到这些技巧和窍门，以帮助你成为更好的 Vue 开发人员。

@@ -9,6 +9,7 @@ tags:
   - Node
   - JavaScript
   - 实战
+summary: "在本文中，我们练习了一种制作简单的 CLI 工具（要求用户输入）的方法"
 ---
 
 我们每天都使用 CLI 程序（例如 Terminal，cmd，Powershell 等）进行软件开发。你使用的每个工具本质上都是其他软件工程师的产品，我们也可以制作自己的 CLI 工具。

@@ -8,11 +8,14 @@ tags:
   - WebAPI
   - CSS
   - 翻译
+summary: "我们不需要写一条 JavaScript 语句就能获得所有的性能"
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/page-rendering-speed-only-css/banner.jpeg)
 
 用户喜欢快速的网络应用，他们希望页面加载速度快，功能流畅。如果在滚动时有破损的动画或滞后，用户很有可能会离开你的网站。作为一名开发者，你可以做很多事情来改善用户体验。本文将重点介绍 4 个可以用来提高页面渲染速度的 CSS 技巧。
+
+<!-- more -->
 
 ## 1. Content-visibility
 
@@ -176,4 +179,4 @@ tags:
 ---
 
 原文：[https://blog.zhangbing.site/2020/12/28/improve-page-rendering-speed-using-only-css/](https://blog.zhangbing.site/2020/12/28/improve-page-rendering-speed-using-only-css/)  
-来源：[https://blog.bitsrc.io](https://blog.bitsrc.io/improve-page-rendering-speed-using-only-css-a61667a16b2)
+翻译自：[blog.bitsrc.io](https://blog.bitsrc.io/improve-page-rendering-speed-using-only-css-a61667a16b2)

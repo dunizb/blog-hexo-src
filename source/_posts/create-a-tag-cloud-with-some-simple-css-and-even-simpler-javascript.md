@@ -8,6 +8,7 @@ tags:
   - 实战
   - CSS
   - JavaScript
+summary: "制作标签云有多困难？一点也不难。让我们来看看！"
 ---
 
 > 翻译自：[css-tricks.com](https://css-tricks.com/create-a-tag-cloud-with-some-simple-css-and-even-simpler-javascript/)，作者：Mark Conroy

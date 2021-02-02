@@ -3,11 +3,13 @@ title: 实战：使用CSS和JS创建“前后”图像比较效果
 date: 2021-01-04 21:54:17
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/before-after-image-slider/banner.gif
 cover: true
+top: true
 categories:
   - 技术
 tags:
   - JavaScript
   - 实战
+summary: "使用 html range input创建前后图像比较效果的分步教程。"
 ---
 
 ![https://coding.zhangbing.site/view.html?url=./list/slider-before-after-image.html](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/before-after-image-slider/banner.gif)
@@ -29,6 +31,7 @@ tags:
 ## 结果演示
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/before-after-image-slider/9.gif)
+
 ## 逐步指南
 
 ### 步骤 1.了解概念
