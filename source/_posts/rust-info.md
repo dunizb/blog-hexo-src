@@ -1,6 +1,7 @@
 ---
 title: 针对JavaScript开发人员的Rust简介
 date: 2021-02-16 16:03:28
+img: https://content.markdowner.net/pub/QXzdL1-deep42B
 categories:
   - 技术
 tags:
