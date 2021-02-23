@@ -6,7 +6,7 @@ categories:
   - 技术
 tags:
   - indexedDB
-summary: "IndexedDB 是大型 NoSQL 存储系统。它使你几乎可以将任何内容存储在用户的浏览器中。除了通常的搜索，获取和放置操作外，IndexedDB 还支持事务。"
+summary: "深入研究 IndexedDB API 及其在实践中的用法。"
 ---
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202102/indexeddb/banner.jpeg)
