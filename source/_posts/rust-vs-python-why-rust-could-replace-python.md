@@ -8,7 +8,7 @@ tags:
   - Rust
   - Python
   - 翻译
-summary: "在本指南中，我们将比较 Rust 和 Python 编程语言。我们将讨论每种情况下的适用用例，回顾使用 Rust 与 Python 的优缺点，并说明为什么 Rust 可能会取代 Python。"
+summary: "比较 Rust 和 Python，讨论每种情况下的适用用例，回顾使用 Rust 与 Python 的优缺点，并说明为什么 Rust 可能会取代 Python。"
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202102/rust-vs-python/banner.png)
