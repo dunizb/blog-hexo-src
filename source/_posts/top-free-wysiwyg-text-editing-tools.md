@@ -2,10 +2,9 @@
 title: 13个顶级免费所见即所得文本编辑器工具
 img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202102/top-free-text-editor/1.jpeg
 categories:
-  - 工具
+  - 翻译
 tags:
   - 开源推荐
-  - 翻译
 summary: "13个顶级编辑器推荐"
 ---
 

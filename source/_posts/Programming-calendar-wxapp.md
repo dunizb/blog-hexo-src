@@ -5,7 +5,7 @@ img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-
 cover: true
 top: true
 categories:
-  - 工具
+  - 技术
 tags:
   - 小程序开发
 summary: "编程日历小程序的产生和开发过程"

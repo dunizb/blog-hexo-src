@@ -3,11 +3,10 @@ title: Rust与Python：为什么Rust可以取代Python
 date: 2021-02-23 22:48:13
 img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202102/rust-vs-python/banner.png
 categories:
-  - 技术
+  - 翻译
 tags:
   - Rust
   - Python
-  - 翻译
 summary: "比较 Rust 和 Python，讨论每种情况下的适用用例，回顾使用 Rust 与 Python 的优缺点，并说明为什么 Rust 可能会取代 Python。"
 ---
 
