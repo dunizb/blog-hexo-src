@@ -10,11 +10,11 @@ tags:
 summary: "客户机实际上访问代理函数(或对象)，代理函数对请求进行一些处理，然后将请求传递给目标"
 ---
 
-![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202103/http-requests-proxy-pattern/banner.png)
-
 > 翻译自[levelup.gitconnected.com](https://levelup.gitconnected.com/improve-both-app-performance-and-code-quality-combining-http-requests-by-proxy-pattern-2cce132d60e)，作者：bitfish
 
 在前端项目中，我们的网页通常需要向服务器发送多个 HTTP 请求。
+
+<!-- more -->
 
 假设我们的产品具有一项功能，即每当用户单击 `li` 标记时，客户端都会向服务器发送一个 HTTP 请求。
 

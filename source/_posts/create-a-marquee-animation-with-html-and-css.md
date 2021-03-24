@@ -10,6 +10,8 @@ summary: "有一些图片，在页面上无限循环地水平移动"
 
 有一天，我访问了一个网站，它有一个很酷的功能，我想在我的个人网站上实现。有一些图片，在页面上无限循环地水平移动。我心想，如何才能重新实现这个功能呢？
 
+<!-- more -->
+
 我在谷歌上搜索了一下，找了图像转盘、图像滑块、水平图像动画，但是没有找到我想要的东西。后来，我终于看到了一个词，Marquee。这正是我所需要的！我惊讶地发现，居然有一个叫 `marquee` 的 HTML 标签，可以实现我所需要的功能，唯一的问题是，这个标签已经过时了。
 
 ![https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202101/Marquee-Animation/1.png)

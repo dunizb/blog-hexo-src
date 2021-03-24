@@ -6,14 +6,14 @@ categories:
   - 翻译
 tags:
   - Vue.js
-summary: "MJML 是一种现代的电子邮件工具，使开发人员可以在所有设备和邮件客户端上创建美观、响应迅速的出色电子邮件。这种标记语言是为了减少编写响应式电子邮件的痛苦而设计的"
+summary: "MJML是一种现代的电子邮件工具，使开发人员可以在所有设备和邮件客户端上创建美观、响应迅速的出色电子邮件"
 ---
-
-![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202103/mjml/banner.png)
 
 > 翻译自[blog.logrocket.com](https://blog.logrocket.com/creating-responsive-emails-using-mjml/)，作者：Ogundipe Samuel
 
 MJML 是一种现代的电子邮件工具，使开发人员可以在所有设备和邮件客户端上创建美观、响应迅速的出色电子邮件。这种标记语言是为了减少编写响应式电子邮件的痛苦而设计的。
+
+<!-- more -->
 
 它的语义语法使其易于使用。它还具有功能丰富的标准组件，可缩短开发时间。在本教程中，我们将使用 MJML 构建漂亮的响应式邮件，并在多个邮件客户端上进行测试。
 
