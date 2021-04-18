@@ -3,10 +3,9 @@ title: 如何使用CSS Paint API动态创建与分辨率无关的可变背景
 date: 2020-07-08 20:44:41
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202007/create-dynamic-backgrounds/1.gif
 categories:
-  - 技术
+  - HTML5$CSS3
 tags:
-  - 前端
-  - CSS
+  - CSS3
   - 实战
 ---
 

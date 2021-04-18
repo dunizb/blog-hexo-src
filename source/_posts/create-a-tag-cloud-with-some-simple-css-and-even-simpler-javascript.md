@@ -3,10 +3,9 @@ title: 用一些简单的CSS和JavaScript创建一个标签云
 date: 2021-02-02 14:51:31
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202102/Tag-Cloud/2.gif
 categories:
-  - 技术
+  - HTML5$CSS3
 tags:
-  - 实战
-  - CSS
+  - CSS3
   - JavaScript
 summary: "制作标签云有多困难？一点也不难。让我们来看看！"
 ---

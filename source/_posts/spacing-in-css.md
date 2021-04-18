@@ -3,10 +3,9 @@ title: 译|CSS中的间距，前端开发中各种设置间距的优点缺点及
 date: 2020-05-08 14:35:33
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202005/spacing-in-css/banner.png
 categories:
-  - 技术
+  - HTML5$CSS3
 tags:
-  - 前端
-  - CSS
+  - CSS3
   - 翻译
 ---
 

@@ -4,7 +4,7 @@ date: 2021-04-14 19:31:24
 categories:
   - HTML5&CSS3
 tags:
-  - CSS
+  - CSS3
 summary: ":is()和:where()都是伪类函数，可以帮助缩短和停止创建选择器时的重复"
 ---
 

@@ -3,11 +3,10 @@ title: 【译】Web中的图像技术总结，前端开发中各种图片引入�
 date: 2020-04-24 13:31:45
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/image-techniques/11.png
 categories:
-  - 技术
+  - HTML5$CSS3
 tags:
-  - 前端
-  - HTML
-  - CSS
+  - HTML5
+  - CSS3
   - 翻译
 ---
 

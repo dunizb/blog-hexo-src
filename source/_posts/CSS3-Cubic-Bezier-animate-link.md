@@ -3,9 +3,9 @@ title: CSS3贝塞尔曲线实战：创建链接悬停动画效果
 date: 2020-11-19 13:55:14
 img: https://content.taskhub.work/pub/83mpbo-wzpkDQM
 categories:
-  - 技术
+  - HTML5$CSS3
 tags:
-  - CSS
+  - CSS3
   - 实战
 ---
 

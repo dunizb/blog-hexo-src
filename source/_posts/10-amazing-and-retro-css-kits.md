@@ -3,11 +3,10 @@ title: 开源推荐|10个惊人的复古CSS套件
 date: 2020-12-14 00:00:37
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/10-amazing-css-kits/3.png
 categories:
-  - 技术
+  - HTML5$CSS3
 tags:
   - 开源推荐
-  - CSS
-  - 翻译
+  - CSS3
 ---
 
 是否想发现可在下一个项目中使用的非典型 CSS 设计？下面是我最喜欢的一些。

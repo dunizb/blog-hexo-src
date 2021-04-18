@@ -3,10 +3,9 @@ title: 译|你不知道的CSS国际化
 date: 2020-05-07 16:48:39
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/css-for-i18n/banner.jpg
 categories:
-  - 技术
+  - HTML5$CSS3
 tags:
-  - 前端
-  - CSS
+  - CSS3
   - 翻译
 ---
 

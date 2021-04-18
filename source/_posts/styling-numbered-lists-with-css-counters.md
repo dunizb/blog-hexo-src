@@ -3,9 +3,9 @@ title: 使用CSS计数器花式玩转列表编号
 date: 2020-12-15 16:37:22
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202006/styling-numbered/banner.png
 categories:
-  - 技术
+  - HTML5$CSS3
 tags:
-  - CSS
+  - CSS3
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202006/styling-numbered/banner.png)
