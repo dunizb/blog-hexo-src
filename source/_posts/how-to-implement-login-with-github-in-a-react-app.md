@@ -2,7 +2,7 @@
 title: 如何在React App中实现“使用GitHub登录”
 date: 2020-12-21 22:05:50
 categories:
-  - 技术
+  - JavaScript
 tags:
   - React
   - 翻译

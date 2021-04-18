@@ -3,8 +3,6 @@ title: Fetch API速查表：9个最常见的API请求
 date: 2020-11-24 21:40:46
 img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/fetch-api-cheatsheet/banner.jpg
 categories:
-  - 技术
-tags:
   - JavaScript
 summary: 在本文中，我将列出 9 个最常见的 Fetch API 请求，在你忘记 API 的时候可以翻出来查看。
 ---

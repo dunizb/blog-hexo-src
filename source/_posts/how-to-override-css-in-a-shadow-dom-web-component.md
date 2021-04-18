@@ -3,9 +3,9 @@ title: 如何在Shadow DOM/Web组件中覆盖CSS
 date: 2021-02-01 00:13:31
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202102/shadow-dom-web-component/banner.png
 categories:
-  - 技术
+  - HTML5&CSS3
 tags:
-  - 前端
+  - HTML5
 summary: "影子 DOM（Shadow DOM）为我们提供了范围限定的样式封装，并提供了一种让我们随意选择进入（尽可能少）外界的方法。"
 ---
 

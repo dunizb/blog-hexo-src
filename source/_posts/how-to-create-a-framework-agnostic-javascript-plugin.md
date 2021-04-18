@@ -5,7 +5,7 @@ img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/agnostic-javascri
 cover: true
 top: true
 categories:
-  - 技术
+  - JavaScript
 tags:
   - JavaScript
   - 实战

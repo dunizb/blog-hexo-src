@@ -3,7 +3,7 @@ title: 什么是WebAuthn：在Web上使用Touch ID和Windows Hello登录
 date: 2020-12-28 14:31:40
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/webauthn-logging/banner.png
 categories:
-  - 技术
+  - Web技术
 tags:
   - WebAPI
   - 翻译

@@ -3,8 +3,6 @@ title: Fetch还是Axios——哪个更适合HTTP请求？
 date: 2020-11-19 21:55:27
 img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/fetch-or-axios/banner.png
 categories:
-  - 技术
-tags:
   - JavaScript
 summary: 在本文中，我想比较这两种方法，并简要介绍一下基本知识和语法。除此之外，我还将比较在两种情况下以及在错误处理中将数据转换为 JSON 格式的过程。我还将讨论 HTTP 拦截和下载进度。
 ---

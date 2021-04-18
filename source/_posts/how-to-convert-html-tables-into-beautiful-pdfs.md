@@ -3,7 +3,7 @@ title: 如何将HTML表格转换成精美的PDF
 date: 2020-11-18 19:56:30
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/convert-html-tables-pdfs/banner.png
 categories:
-  - 技术
+  - Web技术
 tags:
   - JavaScript
   - 翻译

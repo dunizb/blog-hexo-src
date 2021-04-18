@@ -3,7 +3,7 @@ title: 【小技巧】在React中防范XSS攻击
 date: 2019-11-24 22:36:46
 img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/XSS-Attacks-in-React/banner.jpeg
 categories:
-  - 技术
+  - 前端框架&工具
 tags:
   - React
 summary: "在本文中，我们将查看几个用 React 编写的代码示例，这样您也可以保护您的站点和用户"

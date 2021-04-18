@@ -1,13 +1,12 @@
 ---
-title: JavaScript面向对象程序设计基础
+
+title: JavaScript 面向对象程序设计基础
 date: 2014-09-02 22:53:34
 categories:
-  - 技术
-tags:
-  - 前端
-  - JavaScript
-description: "JavaScript的简单数据类型包括数字、字符串、布尔值、null值和undefined值。其他所有的值都是对象。数字、字符串和布尔值“貌似”对象，因为它们拥有方法，但它们是不可变的。JavaScript中的对象是可变的键控集合（Keyed collections）。在JavaScript中，数组时对象，函数是对象，正在表达式是对象，当然，对象自然也是对象。"
----## 一、对象
+
+- JavaScript
+  summary: "JavaScript 的简单数据类型包括数字、字符串、布尔值、null 值和 undefined 值。其他所有的值都是对象。数字、字符串和布尔值“貌似”对象，因为它们拥有方法，但它们是不可变的。JavaScript 中的对象是可变的键控集合（Keyed collections）。在 JavaScript 中，数组时对象，函数是对象，正在表达式是对象，当然，对象自然也是对象。"
+  ---## 一、对象
 
 JavaScript 的简单数据类型包括数字、字符串、布尔值、null 值和 undefined 值。其他所有的值都是对象。数字、字符串和布尔值“貌似”对象，因为它们拥有方法，但它们是不可变的。JavaScript 中的对象是可变的键控集合（Keyed collections）。在 JavaScript 中，数组时对象，函数是对象，正在表达式是对象，当然，对象自然也是对象。
 

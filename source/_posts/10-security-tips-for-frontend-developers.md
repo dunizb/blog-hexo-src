@@ -3,9 +3,8 @@ title: 【译】前端开发人员的10个安全提示
 date: 2020-04-27 21:20:12
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202004/10-security-tips/1.png
 categories:
-  - 技术
+  - JavaScript
 tags:
-  - 前端
   - 翻译
 ---
 

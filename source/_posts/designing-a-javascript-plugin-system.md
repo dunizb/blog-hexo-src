@@ -3,9 +3,8 @@ title: 【译】如何设计一个JavaScript插件系统
 date: 2020-08-30 12:24:28
 cover: true
 categories:
-  - 技术
-tags:
   - JavaScript
+tags:
   - 翻译
 ---
 

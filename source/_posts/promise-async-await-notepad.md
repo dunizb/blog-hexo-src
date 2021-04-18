@@ -2,9 +2,9 @@
 title: Promise和Async/await的理解和使用
 date: 2018-11-22 22:21:38
 categories:
-  - 技术
-tags:
   - JavaScript
+tags:
+  - ES6
 summary: "以前学习写的笔记，感觉还不错，现在发出来，希望对你有帮助。"
 ---
 

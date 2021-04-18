@@ -1,11 +1,8 @@
 ---
-title: 小技巧·package.json中homepage属性的作用
+title: 小技巧|package.json中homepage属性的作用
 date: 2020-02-25 21:18:52
 categories:
-  - 技术
-tags:
-  - 前端
-  - 小技巧
+  - 前端框架&工具
 ---
 
 做前端开发的同学对 `package.json` 文件一定不陌生，但我们通常很少去关注它，最熟悉的莫过于几个最基本的属性<!-- more -->，如：

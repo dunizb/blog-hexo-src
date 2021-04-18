@@ -3,10 +3,8 @@ title: 如何使用JavaScript访问设备摄像头（前后）
 date: 2020-06-08 22:24:58
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202006/cameras-with-javascript/banner.png
 categories:
-  - 技术
-tags:
-  - 前端
   - JavaScript
+tags:
   - 实战
 ---
 

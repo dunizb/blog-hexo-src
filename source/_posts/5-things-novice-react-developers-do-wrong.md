@@ -3,9 +3,8 @@ title: 新手React开发人员做错的5件事
 date: 2020-05-03 23:36:28
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png
 categories:
-  - 技术
+  - 前端框架
 tags:
-  - 前端
   - React
 ---
 

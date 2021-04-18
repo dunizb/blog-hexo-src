@@ -3,9 +3,8 @@ title: 实战|这个炫酷的播放粒子效果，你也可以学会！使用Web
 date: 2020-04-04 20:12:55
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/Web-Animations-API/1.gif
 categories:
-  - 技术
+  - JavaScript
 tags:
-  - 前端
   - React
 ---
 

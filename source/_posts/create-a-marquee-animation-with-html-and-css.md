@@ -2,7 +2,7 @@
 title: 用HTML和CSS创建一个无缝滚动动画
 date: 2021-03-19 22:13:17
 categories:
-  - 技术
+  - HTML5&CSS3
 tags:
   - 实战
 summary: "有一些图片，在页面上无限循环地水平移动"

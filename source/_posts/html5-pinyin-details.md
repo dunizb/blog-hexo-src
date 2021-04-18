@@ -2,13 +2,13 @@
 title: HTML5：给汉字加拼音？收起展开组件？让我秀给你看
 date: 2020-04-07 14:44:19
 categories:
-  - 技术
+  - HTML5&CSS3
 tags:
-  - 前端
-  - HTML
+  - HTML5
 ---
 
 来看看 HTML 的历史和规范常识。HTML 规范是 W3C 与 WHATWG 合作共同产出的，HTML5 因此也不例外。其中：
+
 - W3C 指 World Wide Web Consortium
 - WHATWG 指 Web Hypertext Application Technology Working Group
 
@@ -16,7 +16,7 @@ tags:
 
 说好听了是“合作产出”，但其实更像是“HTML5 有两套规范”。但话说天下大势合久必分，分久必合，如今（就在前几天，2018.5.29）它们又表示将会开发单一版本的 HTML 规范。
 
-HTML5新增的标签和功能，常规的我相信大家都知道，这里就不啰嗦了，这里介绍两个大家可能不知道的功能，很实用！
+HTML5 新增的标签和功能，常规的我相信大家都知道，这里就不啰嗦了，这里介绍两个大家可能不知道的功能，很实用！
 
 ## 给汉字加拼音
 
@@ -64,16 +64,14 @@ HTML5新增的标签和功能，常规的我相信大家都知道，这里就不
 `meter` 用来度量给定范围（gauge）内的数据：
 
 ```html
-<meter value="3" min="0" max="10"></meter> 十分之三<br>
+<meter value="3" min="0" max="10"></meter> 十分之三<br />
 <meter value="0.6"></meter> 60%
 ```
 
-Chrome显示效果如下
+Chrome 显示效果如下
 
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/HTML5-pingyin/5.jpg)
 
 本文示例效果和完整代码已放在我的博客[小码](https://coding.zhangbing.site)页面。
 
-
 ![](http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/HTML5-pingyin/QQ20200405-141143%402x.png)
-

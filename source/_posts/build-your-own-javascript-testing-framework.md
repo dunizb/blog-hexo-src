@@ -3,9 +3,8 @@ title: 译|通过构建自己的JavaScript测试框架来了解JS测试
 date: 2020-09-01 10:49:08
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/build-your-own-javascript-testing-framework/banner.jpeg
 categories:
-  - 技术
-tags:
   - JavaScript
+tags:
   - 翻译
   - 实战
 ---

@@ -2,7 +2,7 @@
 title: 实现高性能延迟加载的最新API：Intersection Observer
 date: 2020-12-28 02:40:58
 categories:
-  - 技术
+  - JavaScript
 tags:
   - WebAPI
 ---

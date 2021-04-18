@@ -3,9 +3,8 @@ title: 实战|仅用18行JavaScript构建一个倒数计时器
 date: 2020-09-16 11:11:31
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202009/build-javascript-countdown-timer/1.png
 categories:
-  - 技术
-tags:
   - JavaScript
+tags:
   - 实战
   - 翻译
 ---

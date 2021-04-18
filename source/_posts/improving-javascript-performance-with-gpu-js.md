@@ -3,9 +3,8 @@ title: 使用GPU.js改善JavaScript性能
 date: 2020-11-30 23:06:06
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/performance-with-gpu-js/banner.png
 categories:
-  - 技术
-tags:
   - JavaScript
+tags:
   - 翻译
   - 开源推荐
 ---
@@ -118,10 +117,12 @@ const multiplyLargeValues = gpu
     let sum = 0;
     for (let i = 0; i < 600; i++) {
       sum +=
-        aaaaaaaaaaaaaaaa\[this.thread.yyyyyyyyyyyyyyyy\][
-          i
-        ] *
-        bbbbbbbbbbbbbbbb\[iiiiiiiiiiiiiiii\][this.thread.x];
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\[
+          this.thread.yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy\
+        ][i] *
+        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\[
+          iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii\
+        ][this.thread.x];
     }
     return sum;
   })

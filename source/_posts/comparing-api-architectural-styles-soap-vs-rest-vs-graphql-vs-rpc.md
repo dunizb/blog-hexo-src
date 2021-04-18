@@ -3,7 +3,7 @@ title: 译|API怎么选？比较SOAP、REST、GraphQL和RPC
 date: 2020-12-13 23:32:15
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/comparing-api-architectural/banner.jpg
 categories:
-  - 技术
+  - 服务端技术
 tags:
   - GraphQL
   - 翻译

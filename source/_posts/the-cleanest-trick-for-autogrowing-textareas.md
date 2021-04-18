@@ -3,7 +3,7 @@ title: 自动增长Textareas的最干净技巧
 date: 2020-12-02 17:03:04
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202011/autogrowing-textareas/2.png
 categories:
-  - 技术
+  - Web技术
 tags:
   - JavaScript
   - 翻译

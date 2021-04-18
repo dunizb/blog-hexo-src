@@ -3,11 +3,8 @@ title: 【实战】从零开始使用JavaScript制作自己的命令行(CLI工�
 date: 2020-05-05 13:30:03
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202005/7581033c-3e38-4f07-2b0b-bb1fe0b57cf6.jpg
 categories:
-  - 技术
+  - Node.js
 tags:
-  - 前端
-  - Node
-  - JavaScript
   - 实战
 summary: "在本文中，我们练习了一种制作简单的 CLI 工具（要求用户输入）的方法"
 ---

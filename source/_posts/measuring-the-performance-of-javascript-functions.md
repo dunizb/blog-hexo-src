@@ -3,10 +3,8 @@ title: 测量JavaScript函数的性能的简单方法及与其他方式对比
 date: 2020-05-17 20:42:51
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202005/performance-of-javascript/banner.jpg
 categories:
-  - 技术
-tags:
-  - 前端
   - JavaScript
+tags:
   - 翻译
 ---
 

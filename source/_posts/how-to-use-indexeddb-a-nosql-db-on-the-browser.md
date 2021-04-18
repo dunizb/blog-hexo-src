@@ -3,7 +3,7 @@ title: 如何使用IndexedDB —浏览器上的NoSQL数据库
 date: 2021-02-19 16:35:24
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202102/indexeddb/banner.jpeg
 categories:
-  - 技术
+  - Web技术
 tags:
   - indexedDB
 summary: "深入研究 IndexedDB API 及其在实践中的用法。"

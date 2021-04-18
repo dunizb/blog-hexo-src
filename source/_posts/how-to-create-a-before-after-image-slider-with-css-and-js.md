@@ -5,9 +5,8 @@ img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/before-after-ima
 cover: true
 top: true
 categories:
-  - 技术
-tags:
   - JavaScript
+tags:
   - 实战
 summary: "使用 html range input创建前后图像比较效果的分步教程。"
 ---
