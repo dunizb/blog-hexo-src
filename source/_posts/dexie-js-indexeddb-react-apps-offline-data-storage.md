@@ -3,7 +3,7 @@ title: 在React应用中使用Dexie.js进行离线数据存储
 img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202103/dexie-js-indexeddb-react/banner.png
 date: 2021-03-16 20:22:11
 categories:
-  - 翻译
+  - 前端框架&工具
 tags:
   - React
 summary: "了解 IndexedDB 的全部含义，以及如何使用 Dexie.js（用于 IndexedDB 的简约包装）处理 Web 应用程序中的离线数据存储"

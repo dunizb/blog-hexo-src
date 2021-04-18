@@ -2,9 +2,9 @@
 title: 新老手必备的34种JavaScript简写优化技术
 date: 2021-03-09 19:45:03
 categories:
-  - 翻译
-tags:
   - JavaScript
+tags:
+  - 翻译
 summary: "这些技术可以帮助您编写干净和优化的 JavaScript 代码"
 ---
 

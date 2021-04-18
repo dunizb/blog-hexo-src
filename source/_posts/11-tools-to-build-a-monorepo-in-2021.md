@@ -3,7 +3,7 @@ title: 2021年管理Monorepo代码库的11种出色工具
 date: 2020-12-26 00:03:43
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/monorepo/banner.png
 categories:
-  - 工具
+  - 前端框架&工具
 tags:
   - 翻译
 ---

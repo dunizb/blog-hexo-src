@@ -7,7 +7,6 @@ top: true
 categories:
   - JavaScript
 tags:
-  - JavaScript
   - 实战
   - 翻译
 summary: "使用普通 JavaScript 创建插件，让你有能力创建一个无论在哪个框架下都能使用"

@@ -3,7 +3,7 @@ title: 使用Redux Toolkit简化Redux
 date: 2021-03-24 15:54:44
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202103/redux-toolkit/banner.jpeg
 categories:
-  - 翻译
+  - 前端框架&工具
 tags:
   - React
 summary: "了解Redux Toolkit，这是用于高效Redux开发的经过验证的工具集。在本文中，你将看到为什么Redux Toolkit值得React社区更多的关注"

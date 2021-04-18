@@ -2,9 +2,9 @@
 title: 如何使用装饰器模式极大地增强fetch()
 date: 2021-03-05 21:34:59
 categories:
-  - 翻译
-tags:
   - JavaScript
+tags:
+  - 翻译
 summary: "fetch()很好，但你想要更好的！"
 ---
 

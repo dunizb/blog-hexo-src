@@ -3,7 +3,7 @@ title: 仅使用CSS就可以提高页面渲染速度的4个技巧
 date: 2020-12-28 15:13:42
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/page-rendering-speed-only-css/banner.jpeg
 categories:
-  - HTML5$CSS3
+  - HTML5&CSS3
 tags:
   - WebAPI
   - CSS3

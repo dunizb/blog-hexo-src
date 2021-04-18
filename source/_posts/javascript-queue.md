@@ -2,9 +2,8 @@
 title: 如何在JavaScript中实现队列数据结构
 date: 2021-03-28 21:17:25
 categories:
-  - 翻译
-tags:
   - JavaScript
+tags:
   - 数据结构
 summary: "在这篇文章中，我将描述队列数据结构，其具有的操作以及向您展示 JavaScript 中的队列实现"
 ---

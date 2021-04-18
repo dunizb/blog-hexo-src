@@ -3,7 +3,7 @@ title: 如何让HTML5数字输入仅接受整数？
 date: 2021-03-03 21:16:39
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202103/Inputs-Only-Accept-Integers/banner.jpeg
 categories:
-  - 翻译
+  - HTML5&CSS3
 tags:
   - HTML5
 summary: "这两年我看到很多关于这方面的文章和帖子，这的确是一个非常方便的东西。但是，太多的实现还是有漏洞，残缺不全的实现，等等。"

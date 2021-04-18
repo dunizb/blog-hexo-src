@@ -3,9 +3,9 @@ title: 译|面向对象编程是计算机科学的最大错误
 date: 2021-03-06 21:44:16
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202103/oop-will-make-you-suffer/banner.jpeg
 categories:
-  - 翻译
+  - 其它
 tags:
-  - 面向对象编程
+  - 翻译
 summary: "C++ 和 Java 可能是计算机科学中最严重的错误。"
 ---
 

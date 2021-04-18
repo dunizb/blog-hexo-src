@@ -3,9 +3,8 @@ title: 改善应用程序性能和代码质量：通过代理模式组合HTTP请
 date: 2021-03-12 22:30:25
 img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202103/http-requests-proxy-pattern/banner.png
 categories:
-  - 翻译
-tags:
   - JavaScript
+tags:
   - 设计模式
 summary: "客户机实际上访问代理函数(或对象)，代理函数对请求进行一些处理，然后将请求传递给目标"
 ---
