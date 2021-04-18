@@ -3,7 +3,7 @@ title: 使用Vue.js和MJML创建响应式电子邮件
 date: 2021-03-19 22:20:46
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202103/mjml/banner.png
 categories:
-  - 翻译
+  - 前端框架
 tags:
   - Vue.js
 summary: "MJML是一种现代的电子邮件工具，使开发人员可以在所有设备和邮件客户端上创建美观、响应迅速的出色电子邮件"

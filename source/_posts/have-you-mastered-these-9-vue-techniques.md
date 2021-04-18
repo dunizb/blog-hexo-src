@@ -2,10 +2,10 @@
 title: 这9种Vue技术你掌握了吗？不信你全知道
 date: 2020-08-13 14:45:09
 categories:
-  - 技术
+  - 前端框架
 tags:
-  - 前端
   - Vue.js
+summary: "那些必备的 Vue 技术"
 ---
 
 现在，Vue.js 已成为前端开发的热门框架。有很多工程师利用 Vue.js 的便利性和强大功能。但是，我们完成的某些解决方案可能未遵循最佳做法。好吧，让我们看一下那些必备的 Vue 技术。
@@ -36,7 +36,7 @@ tags:
         required: true,
       },
     },
-    render: function (createElement, context) {
+    render: function(createElement, context) {
       return createElement(
         "div",
         {
@@ -186,7 +186,10 @@ watch: {
 
 ```html
 <template>
-  <input type="text" @input="handleInput('hello', $event)" />
+  <input
+    type="text"
+    @input="handleInput('hello', $event)"
+  />
 </template>
 
 <script>
@@ -207,7 +210,10 @@ watch: {
 ```html
 <!-- Child -->
 <template>
-  <input type="text" @input="$emit('custom-event', 'hello')" />
+  <input
+    type="text"
+    @input="$emit('custom-event', 'hello')"
+  />
 </template>
 
 <!-- Parent -->
@@ -293,7 +299,11 @@ const router = new VueRouter({
 <my-checkbox v-model="val"></my-checkbox>
 
 <template>
-  <input type="checkbox" :value="value" @input="handleInputChange(value)" />
+  <input
+    type="checkbox"
+    :value="value"
+    @input="handleInputChange(value)"
+  />
 </template>
 
 <script>
@@ -404,7 +414,7 @@ PopupIns.$mount();
 
 document.body.append(PopupIns.$el);
 
-Vue.prototype.$popup = Vue.$popup = function () {
+Vue.prototype.$popup = Vue.$popup = function() {
   PopupIns.open();
 };
 ```

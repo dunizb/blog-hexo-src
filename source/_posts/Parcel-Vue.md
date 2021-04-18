@@ -3,9 +3,8 @@ title: 实战|Parcel构建一个基于Vue.js的相册应用
 date: 2018-05-08 15:20:40
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/13.jpg
 categories:
-  - 技术
+  - 前端框架
 tags:
-  - 前端
   - Vue.js
   - Parcel
 description: "零配置前端打包工具实战"

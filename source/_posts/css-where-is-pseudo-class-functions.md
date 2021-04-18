@@ -2,7 +2,7 @@
 title: CSS新增的:where和:is伪类函数是什么？
 date: 2021-04-14 19:31:24
 categories:
-  - 技术
+  - HTML5&CSS3
 tags:
   - CSS
 summary: ":is()和:where()都是伪类函数，可以帮助缩短和停止创建选择器时的重复"

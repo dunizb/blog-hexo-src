@@ -2,9 +2,7 @@
 title: HTML在锚点元素（链接）上定义了ping属性是干什么用的？
 date: 2021-04-16 20:40:24
 categories:
-  - 技术
-tags:
-  - HTML5
+  - HTML5&CSS3
 summary: "ping属性提供了一种实现“链接点击跟踪”的轻巧方式"
 ---
 

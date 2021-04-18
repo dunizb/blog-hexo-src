@@ -4,9 +4,8 @@ date: 2020-04-14 15:20:37
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/vue-12-tip/1.jpeg
 top: true
 categories:
-  - 技术
+  - 前端框架
 tags:
-  - 前端
   - Vue.js
 summary: "十个很酷的提示和技巧，你可能尚未意识到这些技巧和窍门，以帮助你成为更好的 Vue 开发人员"
 ---

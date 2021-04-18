@@ -5,9 +5,9 @@ img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-
 cover: true
 top: true
 categories:
-  - 技术
+  - 小程序
 tags:
-  - 小程序开发
+  - 微信小程序
 summary: "编程日历小程序的产生和开发过程"
 ---
 

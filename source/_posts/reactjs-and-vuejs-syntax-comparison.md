@@ -3,9 +3,8 @@ title: React.js和Vue.js的语法并列比较
 date: 2020-05-02 13:02:05
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/vuevsreact.png
 categories:
-  - 技术
+  - 前端框架
 tags:
-  - 前端
   - Vue.js
   - React
 summary: "这篇文章只**比较 React.js 和 Vue.js**，下一篇再谈 Next.js 个 Nuxt.js"
