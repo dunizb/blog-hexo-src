@@ -3,10 +3,8 @@ title: 【实战】在Koa.js中实现文件上传的接口
 date: 2019-03-07 12:47:31
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/7.jpg
 categories:
-  - 技术
+  - Node.js
 tags:
-  - 前端
-  - Node
   - Koa.js
 summary: "本文从环境准备开始、最后分别用 Postman 和一个 HTML 页面来测试"
 ---

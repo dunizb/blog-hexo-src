@@ -3,9 +3,8 @@ title: MongoDB + Mongoose与Node.js结合使用的后端开发的最佳实践
 date: 2020-12-07 22:56:59
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/MongoDB/banner.jpg
 categories:
-  - 技术
-tags:
   - Node.js
+tags:
   - MongoDB
 ---
 

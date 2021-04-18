@@ -3,9 +3,8 @@ title: 【图文教程】新手友好的MongoDB云数据库Atlas如何使用？
 date: 2019-11-10 21:16:53
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/atlas/banner.png
 categories:
-  - 技术
+  - Node.js
 tags:
-  - Node
   - MongoDB
 ---
 

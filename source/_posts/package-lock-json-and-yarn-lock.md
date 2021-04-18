@@ -3,10 +3,7 @@ title: package-lock.json和yarn.lock是您最好的朋友
 date: 2020-03-29 16:15:57
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/package-lock/1.jpeg
 categories:
-  - 技术
-tags:
-  - 前端
-  - Node
+  - Node.js
 ---
 
 为什么要保留它们以及何时要抛弃它们？

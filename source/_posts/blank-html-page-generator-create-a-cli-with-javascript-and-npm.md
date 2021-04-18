@@ -3,11 +3,8 @@ title: HTML页面生成器：使用JavaScript和Node创建CLI
 date: 2020-05-06 13:27:06
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202005/d5c5446dc2f813cd69bece27345d4ee8.jpg
 categories:
-  - 技术
+  - Node.js
 tags:
-  - 前端
-  - Node
-  - JavaScript
   - 实战
 ---
 
