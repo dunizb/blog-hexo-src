@@ -3,7 +3,7 @@ title: 使用React Hook创建一个可排序表格组件
 date: 2020-03-23 00:36:55
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202003/React-Hook-create-sortable/1.gif
 categories:
-  - 前端框架&工具&工具
+  - 前端框架&工具
 tags:
   - React
 ---

@@ -3,7 +3,7 @@ title: 微信小程序创造了 WXS，除了提高性能，还有什么原因？
 date: 2019-09-10 21:56:24
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/5.jpg
 categories:
-  - 程序
+  - 小程序
 tags:
   - 微信小程序
 ---

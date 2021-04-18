@@ -3,7 +3,7 @@ title: Vite使Vue CLI过时了吗？
 date: 2020-12-18 00:49:52
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/vite_vue_cli.jpg
 categories:
-  - 前端框架&工具&工具
+  - 前端框架&工具
 tags:
   - Vue.js
   - Vite
