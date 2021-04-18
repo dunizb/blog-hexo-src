@@ -3,7 +3,7 @@ title: 如何在Mac上安装Python 3 – Brew安装更新指南
 date: 2021-04-15 17:43:25
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202104/python-version-on-mac-update/banner.jpeg
 categories:
-  - 其他
+  - 其它
 tags:
   - Python
 summary: "MacOS 预先安装了 Python。但是它是 Python 版本 2.7，现已弃用（Python 开发者社区已弃用）"

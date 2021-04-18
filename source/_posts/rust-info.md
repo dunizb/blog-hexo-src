@@ -3,7 +3,7 @@ title: 针对JavaScript开发人员的Rust简介
 date: 2021-02-16 16:03:28
 img: https://content.markdowner.net/pub/QXzdL1-deep42B
 categories:
-  - 其他
+  - 其它
 tags:
   - Rust
 summary: "Rust 是 2010 年起源于 Mozilla Research 的一种编程语言。如今，所有大公司都在使用它。"
