@@ -2,7 +2,7 @@
 title: Vue.js新手教学|如何写一个Checklist组件
 date: 2017-11-18 23:06:45
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
   - 实战

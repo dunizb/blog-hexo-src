@@ -3,7 +3,7 @@ title: CSS :placeholder-shown 是什么？
 date: 2021-04-16 21:15:42
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202104/css-placeholder-shown/banner.png
 categories:
-  - HTMl5$CSS3
+  - HTML5$CSS3
 tags:
   - CSS3
 summary: "使用此伪类来设置当前显示占位符文本的输入的样式，换句话说，用户未在文本框中键入任何内容"

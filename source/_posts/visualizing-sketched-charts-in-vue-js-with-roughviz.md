@@ -3,7 +3,7 @@ title: 使用RoughViz可视化Vue.js中的草绘图表
 date: 2021-01-29 22:39:30
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/roughViz/banner.png
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - 开源推荐
   - Vue.js

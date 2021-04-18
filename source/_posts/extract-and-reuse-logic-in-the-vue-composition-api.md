@@ -3,7 +3,7 @@ title: 迎接Vue3.0|Vue3 Composition API中的提取和重用逻辑
 date: 2020-04-22 21:19:27
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202004/vue-composition-api-and/banner.jpg
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
 ---

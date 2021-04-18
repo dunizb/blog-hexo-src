@@ -3,7 +3,7 @@ title: 实战|Parcel构建一个基于Vue.js的相册应用
 date: 2018-05-08 15:20:40
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/13.jpg
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
   - Parcel

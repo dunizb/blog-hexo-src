@@ -3,7 +3,7 @@ title: 使用GitHub Pages和GitHub Actions部署React应用
 date: 2021-04-16 21:26:32
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202104/react-app-using-github-pages-and-github-actions/banner.png
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - React
   - Github

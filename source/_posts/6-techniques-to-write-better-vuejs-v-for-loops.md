@@ -2,7 +2,7 @@
 title: 在Vue.js中编写更好的v-for循环的6种技巧
 date: 2020-04-12 14:09:46
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
 ---

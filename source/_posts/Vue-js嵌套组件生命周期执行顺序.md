@@ -2,7 +2,7 @@
 title: Vue.js嵌套组件生命周期执行顺序
 date: 2018-12-05 16:06:55
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
 ---

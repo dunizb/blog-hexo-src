@@ -2,7 +2,7 @@
 title: 利用jQuery克隆对象实例
 date: 2014-12-15 13:56:24
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - jQuery
 summary: "当点击右边元素的X时，向左边DIV添加一个，同时右边被设为`disabled`。当点击左边被加入的元素时，删除该元素，同时右边被`disabled`的元素恢复。利用jQuery的对象克隆，轻轻松松一行代码实现。"

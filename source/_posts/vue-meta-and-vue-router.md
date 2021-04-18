@@ -2,7 +2,7 @@
 title: Vue.js项目中管理每个页面的头部标签的方法
 date: 2018-06-24 19:51:18
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
 summary: "如何为每个页面都设置不一样的 title 呢？下面介绍两种方法。"

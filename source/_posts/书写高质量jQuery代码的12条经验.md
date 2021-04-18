@@ -2,7 +2,7 @@
 title: 书写高质量jQuery代码的12条经验
 date: 2016-07-15 22:49:00
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - jQuery
   - 代码质量

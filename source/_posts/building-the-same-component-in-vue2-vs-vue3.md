@@ -2,7 +2,7 @@
 title: 迎接Vue3.0 | 在Vue2与Vue3中构建相同的组件
 date: 2020-04-18 17:04:44
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
 ---

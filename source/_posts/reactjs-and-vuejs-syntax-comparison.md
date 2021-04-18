@@ -3,7 +3,7 @@ title: React.js和Vue.js的语法并列比较
 date: 2020-05-02 13:02:05
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/vuevsreact.png
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
   - React

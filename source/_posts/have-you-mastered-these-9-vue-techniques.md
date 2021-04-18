@@ -2,7 +2,7 @@
 title: 这9种Vue技术你掌握了吗？不信你全知道
 date: 2020-08-13 14:45:09
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
 summary: "那些必备的 Vue 技术"

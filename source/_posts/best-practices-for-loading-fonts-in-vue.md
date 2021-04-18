@@ -3,7 +3,7 @@ title: 在Vue.js中加载字体的最佳做法
 date: 2021-04-07 00:28:55
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202104/best-practices-for-loading-fonts-in-vue/banner.png
 categories:
-  - 前端框架
+  - 前端框架&工具
 tags:
   - Vue.js
 summary: "探讨在 Vue 应用程序中加载字体的最佳实践"

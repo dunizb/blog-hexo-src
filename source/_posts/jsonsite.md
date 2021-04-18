@@ -3,7 +3,7 @@ title: 开源推荐|JSONsite：使用JSON文件创建SPA页面
 date: 2020-12-13 23:48:25
 img: https://weixin-storage.oss-cn-shanghai.aliyuncs.com/202012/jsonsite/1.gif
 categories:
-  - 前端框架&工具
+  - 前端框架&工具&工具
 tags:
   - 开源推荐
 ---
