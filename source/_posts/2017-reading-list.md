@@ -3,7 +3,7 @@ title: 年终卷|2017我读了哪些书
 date: 2018-01-03 21:22:20
 img: https://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogCover/15.jpeg
 categories:
-  - 读书与学习
+  - 学习笔记
 ---
 
 2017 年我都读过什么书？数了一下，2017 年我读了 26 本，2016 年是 18 本，而给 2018 年我定了 40 本。
