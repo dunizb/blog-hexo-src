@@ -2,8 +2,6 @@
 title: 编程日历小程序，对小程序云开发和生成分享海报的实践
 date: 2021-01-25 20:26:57
 img: http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/202101/Programming-calendar-wxapp/banner.png
-cover: true
-top: true
 categories:
   - 小程序
 tags:

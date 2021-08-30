@@ -1,7 +1,9 @@
 ---
 title: 我的Flutter应用在第一周赚了140美元，没有广告
 date: 2021-08-30 16:52:23
-img: https://i.loli.net/2021/08/30/CwhD9UZHAv3K5ri.jpg
+img: http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202108/my-flutter-app-made-us-140/1.png
+cover: true
+top: true
 categories:
   - 独立开发者
 summary: "国外独立开发者案例，一个自学成才的程序员。"
