@@ -7,6 +7,7 @@ categories:
 tags:
   - TypeScript
   - Node.js
+summary: "Prisma是 Node.js 和 TypeScript 的下一代 ORM。经过两年多的开发，我们很高兴分享所有 Prisma 工具已准备好投入生产！"
 ---
 
 ![](http://weixin-storage.oss-cn-shanghai.aliyuncs.com/202105/prisma-the-complete-orm/banner.png)
